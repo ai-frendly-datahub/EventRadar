@@ -1,5 +1,8 @@
 # EventRadar - 이벤트 정보 레이더
 
+**🌐 Live Report**: https://ai-frendly-datahub.github.io/EventRadar/
+
+
 RSS 피드와 웹 크롤링을 통해 다양한 이벤트 정보를 수집하고, 카테고리별 분류 및 트렌드 분석을 수행합니다.
 
 ## 프로젝트 목표
