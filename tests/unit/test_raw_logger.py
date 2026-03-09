@@ -4,14 +4,14 @@ import json
 from datetime import datetime, timezone
 from importlib import import_module
 from pathlib import Path
-from typing import Protocol, cast
+from typing import Optional, Protocol, cast
 
 
 class _Article(Protocol):
     title: str
     link: str
     summary: str
-    published: datetime | None
+    published: Optional[datetime]
     source: str
     category: str
     matched_entities: dict[str, list[str]]
@@ -24,7 +24,7 @@ class _ArticleCtor(Protocol):
         title: str,
         link: str,
         summary: str,
-        published: datetime | None,
+        published: Optional[datetime],
         source: str,
         category: str,
         matched_entities: dict[str, list[str]],
