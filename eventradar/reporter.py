@@ -9,6 +9,7 @@ from typing import Protocol, cast
 from jinja2 import Template
 
 from .models import Article, CategoryConfig
+from .calendar_heatmap import build_calendar_heatmap
 
 
 class _TemplateRenderer(Protocol):
@@ -28,31 +29,39 @@ def generate_report(
 
     articles_list = list(articles)
     entity_counts = _count_entities(articles_list)
-    
+
     # Convert Article objects to dicts for JSON serialization (for JavaScript charts)
     articles_json = []
     for article in articles_list:
         article_data = {
-            'title': article.title,
-            'link': article.link,
-            'source': article.source,
-            'published': article.published.isoformat() if article.published else None,
-            'published_at': article.published.isoformat() if article.published else None,
-            'summary': article.summary,
-            'matched_entities': article.matched_entities or {}
+            "title": article.title,
+            "link": article.link,
+            "source": article.source,
+            "published": article.published.isoformat() if article.published else None,
+            "published_at": article.published.isoformat() if article.published else None,
+            "summary": article.summary,
+            "matched_entities": article.matched_entities or {},
+            "collected_at": article.collected_at.isoformat()  # type: ignore[attr-defined]
+            if hasattr(article, "collected_at") and article.collected_at  # type: ignore[attr-defined]
+            else None,
         }
         articles_json.append(article_data)
 
+    heatmap_data = _build_time_heatmap(articles_list)
+    calendar_heatmap_html = build_calendar_heatmap(articles_list, days_back=90)
+    
     template = cast(_TemplateRenderer, Template(_REPORT_TEMPLATE))
     rendered = template.render(
-            category=category,
-            articles=articles_list,  # Keep original for template rendering
-            articles_json=articles_json,  # JSON-serializable version for charts
-            generated_at=datetime.now(timezone.utc),
-            stats=stats,
-            entity_counts=entity_counts,
-            errors=errors or [],
-        )
+        category=category,
+        articles=articles_list,  # Keep original for template rendering
+        articles_json=articles_json,  # JSON-serializable version for charts
+        generated_at=datetime.now(timezone.utc),
+        stats=stats,
+        entity_counts=entity_counts,
+        errors=errors or [],
+        heatmap_data=heatmap_data,
+        calendar_heatmap_html=calendar_heatmap_html,
+    )
     _ = output_path.write_text(rendered, encoding="utf-8")
     return output_path
 
@@ -63,6 +72,32 @@ def _count_entities(articles: Iterable[Article]) -> Counter[str]:
         for entity_name, keywords in (article.matched_entities or {}).items():
             counter[entity_name] += len(keywords)
     return counter
+
+def _build_time_heatmap(articles: Iterable[Article]) -> dict[str, object]:
+    """Build 7x24 time pattern heatmap from article published timestamps.
+    
+    Returns dict with 'days', 'hours', 'z' for Plotly heatmap.
+    Days: [Mon, Tue, ..., Sun], Hours: [0-23], z: 7x24 matrix of counts.
+    """
+    # Initialize 7x24 matrix (7 days x 24 hours)
+    matrix = [[0 for _ in range(24)] for _ in range(7)]
+    
+    for article in articles:
+        if not article.published:
+            continue
+        dt = article.published
+        day_of_week = dt.weekday()  # 0=Mon, 6=Sun
+        hour = dt.hour
+        matrix[day_of_week][hour] += 1
+    
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    hours = [str(h).zfill(2) for h in range(24)]
+    
+    return {
+        "days": days,
+        "hours": hours,
+        "z": matrix,
+    }
 
 
 _REPORT_TEMPLATE = """<!doctype html>
@@ -702,27 +737,134 @@ _REPORT_TEMPLATE = """<!doctype html>
             </div>
           </article>
 
-          <article class="panel" aria-label="Notes">
+           <article class="panel" aria-label="Notes">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Reading Notes</p>
+                 <p class="panel-sub">Fast scan guidance</p>
+               </div>
+               <div class="pill" aria-hidden="true">tips</div>
+             </header>
+             <div class="panel-bd">
+               <p class="muted" style="margin:0; line-height:1.6; font-size:13px">
+                 Use the entity chart to spot concentration, the timeline to detect bursts, and the source mix to
+                 gauge coverage bias. The article list keeps metadata compact for quick triage.
+               </p>
+               <div style="margin-top:12px; display:flex; flex-wrap:wrap; gap:8px">
+                 <span class="chip brand"><strong>Teal</strong> momentum</span>
+                 <span class="chip"><strong>Amber</strong> signal</span>
+                 <span class="chip"><strong>Mono</strong> data</span>
+               </div>
+             </div>
+           </article>
+         </div>
+
+         <div class="grid" style="margin-top:14px">
+           <article class="panel" aria-label="Data freshness">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Data Freshness</p>
+                 <p class="panel-sub">Collection lag in hours</p>
+               </div>
+               <div class="pill" aria-hidden="true">diagnostic</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap" role="img" aria-label="Bar chart showing collection lag distribution">
+                 <canvas id="chartFreshness"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see freshness data.</p>
+               </noscript>
+             </div>
+           </article>
+
+           <article class="panel" aria-label="Entity extraction rate">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Entity Extraction Rate</p>
+                 <p class="panel-sub">Percentage with matched entities</p>
+               </div>
+               <div class="pill" aria-hidden="true">diagnostic</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap" role="img" aria-label="Doughnut chart showing entity extraction rate">
+                 <canvas id="chartEntityRate"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see extraction rate.</p>
+               </noscript>
+             </div>
+           </article>
+         </div>
+
+         <div class="grid" style="margin-top:14px">
+           <article class="panel" aria-label="Source health">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Source Health</p>
+                 <p class="panel-sub">Article count by source (sorted)</p>
+               </div>
+               <div class="pill" aria-hidden="true">diagnostic</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap tall" role="img" aria-label="Horizontal bar chart showing source health">
+                 <canvas id="chartSourceHealth"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see source health.</p>
+               </noscript>
+             </div>
+           </article>
+         </div>
+       </section>
+
+
+        <div class="grid" style="margin-top:14px">
+          <article class="panel" aria-label="Time pattern heatmap">
             <header class="panel-hd">
               <div>
-                <p class="panel-title">Reading Notes</p>
-                <p class="panel-sub">Fast scan guidance</p>
+                <p class="panel-title">Time Pattern Heatmap</p>
+                <p class="panel-sub">Article distribution by day and hour (UTC)</p>
               </div>
-              <div class="pill" aria-hidden="true">tips</div>
+              <div class="pill" aria-hidden="true">heatmap</div>
             </header>
             <div class="panel-bd">
-              <p class="muted" style="margin:0; line-height:1.6; font-size:13px">
-                Use the entity chart to spot concentration, the timeline to detect bursts, and the source mix to
-                gauge coverage bias. The article list keeps metadata compact for quick triage.
-              </p>
-              <div style="margin-top:12px; display:flex; flex-wrap:wrap; gap:8px">
-                <span class="chip brand"><strong>Teal</strong> momentum</span>
-                <span class="chip"><strong>Amber</strong> signal</span>
-                <span class="chip"><strong>Mono</strong> data</span>
+              <div id="heatmapContainer" style="width:100%; height:380px;" role="img" aria-label="7x24 heatmap showing article distribution by day and hour">
               </div>
+              <noscript>
+                <p class="muted small">Heatmap requires JavaScript. Enable JS to see time pattern distribution.</p>
+              </noscript>
             </div>
           </article>
         </div>
+
+      <section id="calendar" class="section" aria-label="Calendar heatmap">
+        <div class="section-hd">
+          <h2>Event Calendar</h2>
+          <div class="right">
+            <span class="kbd">Plotly</span>
+            <span class="kbd">GitHub style</span>
+            <span class="kbd">90 days</span>
+          </div>
+        </div>
+
+        <article class="panel" aria-label="Calendar heatmap">
+          <header class="panel-hd">
+            <div>
+              <p class="panel-title">Event Distribution Calendar</p>
+              <p class="panel-sub">Week-of-year × day-of-week heatmap (last 90 days)</p>
+            </div>
+            <div class="pill" aria-hidden="true">heatmap</div>
+          </header>
+          <div class="panel-bd">
+            <div class="chart-wrap" role="img" aria-label="Calendar heatmap showing event distribution">
+              {{ calendar_heatmap_html|safe }}
+            </div>
+            <noscript>
+              <p class="muted small">Calendar heatmap requires JavaScript. Enable JS to see event distribution.</p>
+            </noscript>
+          </div>
+        </article>
       </section>
 
       <section id="entities" class="section" aria-label="Entity table">
@@ -841,6 +983,7 @@ _REPORT_TEMPLATE = """<!doctype html>
       <script id="entities-data" type="application/json">{{ entity_counts|tojson if entity_counts else '{}' }}</script>
 
       <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
       <script>
         (function () {
           const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -881,7 +1024,7 @@ _REPORT_TEMPLATE = """<!doctype html>
             const direct = new Date(s);
             if (!isNaN(direct.getTime())) return direct;
 
-            const m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+            const m = s.match(/^(\\d{4})-(\\d{2})-(\\d{2})/);
             if (m) {
               const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
               if (!isNaN(d.getTime())) return d;
@@ -942,7 +1085,50 @@ _REPORT_TEMPLATE = """<!doctype html>
             return out;
           }
 
-          function chartDefaults() {
+          function buildFreshness(items) {
+            const lagBuckets = { "0-1h": 0, "1-6h": 0, "6-24h": 0, "1-3d": 0, "3-7d": 0, "7d+": 0 };
+            const now = new Date();
+            for (const a of items) {
+              const pubStr = a && (a.published_at || a.published);
+              const collStr = a && a.collected_at;
+              if (!pubStr || !collStr) continue;
+              const pubDate = new Date(String(pubStr));
+              const collDate = new Date(String(collStr));
+              if (isNaN(pubDate.getTime()) || isNaN(collDate.getTime())) continue;
+              const lagMs = collDate.getTime() - pubDate.getTime();
+              const lagHours = lagMs / (1000 * 60 * 60);
+              if (lagHours < 1) lagBuckets["0-1h"]++;
+              else if (lagHours < 6) lagBuckets["1-6h"]++;
+              else if (lagHours < 24) lagBuckets["6-24h"]++;
+              else if (lagHours < 72) lagBuckets["1-3d"]++;
+              else if (lagHours < 168) lagBuckets["3-7d"]++;
+              else lagBuckets["7d+"]++;
+            }
+            return { labels: Object.keys(lagBuckets), values: Object.values(lagBuckets) };
+          }
+
+          function buildEntityRate(items) {
+            let withEntities = 0, withoutEntities = 0;
+            for (const a of items) {
+              const ents = a && a.matched_entities;
+              if (ents && Object.keys(ents).length > 0) withEntities++;
+              else withoutEntities++;
+            }
+            return { with: withEntities, without: withoutEntities };
+          }
+
+          function buildSourceHealth(items) {
+            const map = new Map();
+            for (const a of items) {
+              const s = (a && a.source) ? String(a.source) : "unknown";
+              const key = s.trim() || "unknown";
+              map.set(key, (map.get(key) || 0) + 1);
+            }
+            const pairs = Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
+            return { labels: pairs.map(p => p[0]), values: pairs.map(p => p[1]) };
+          }
+
+                    function chartDefaults() {
             return {
               color: "rgba(233,238,251,.78)",
               borderColor: "rgba(150,190,255,.14)",
@@ -1098,8 +1284,195 @@ _REPORT_TEMPLATE = """<!doctype html>
               }
             });
           }
-        })();
-      </script>
+           }
+           });
+           }
+
+           // Chart 1: Data Freshness (collection lag in hours)
+           const freshnessData = buildFreshness(articles);
+           const freshnessCanvas = document.getElementById("chartFreshness");
+           if (freshnessCanvas && freshnessData.labels.length) {
+             new Chart(freshnessCanvas.getContext("2d"), {
+               type: "bar",
+               data: {
+                 labels: freshnessData.labels,
+                 datasets: [{
+                   label: "articles",
+                   data: freshnessData.values,
+                   backgroundColor: "rgba(120,162,255,.35)",
+                   borderColor: "rgba(120,162,255,.72)",
+                   borderWidth: 1.2,
+                   borderRadius: 10,
+                   maxBarThickness: 44
+                 }]
+               },
+               options: {
+                 plugins: {
+                   legend: { display: false },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1,
+                     titleColor: "rgba(233,238,251,.92)",
+                     bodyColor: "rgba(233,238,251,.84)"
+                   }
+                 },
+                 scales: {
+                   x: {
+                     grid: { display: false },
+                     ticks: { color: "rgba(233,238,251,.68)" }
+                   },
+                   y: {
+                     beginAtZero: true,
+                     grid: { color: "rgba(150,190,255,.10)" },
+                     ticks: { color: "rgba(233,238,251,.64)" }
+                   }
+                 }
+               }
+             });
+           }
+
+           // Chart 2: Entity Extraction Rate (doughnut with center text)
+           const entityRateData = buildEntityRate(articles);
+           const entityRateCanvas = document.getElementById("chartEntityRate");
+           if (entityRateCanvas) {
+             const total = entityRateData.with + entityRateData.without;
+             const pct = total > 0 ? Math.round((entityRateData.with / total) * 100) : 0;
+             const plugin = {
+               id: "textCenter",
+               beforeDatasetsDraw(c) {
+                 const { width, height } = c.chartArea;
+                 const x = c.chartArea.left + width / 2;
+                 const y = c.chartArea.top + height / 2;
+                 c.ctx.save();
+                 c.ctx.font = "bold 24px sans-serif";
+                 c.ctx.fillStyle = "rgba(233,238,251,.8)";
+                 c.ctx.textAlign = "center";
+                 c.ctx.textBaseline = "middle";
+                 c.ctx.fillText(pct + "%", x, y);
+                 c.ctx.restore();
+               }
+             };
+             new Chart(entityRateCanvas.getContext("2d"), {
+               type: "doughnut",
+               data: {
+                 labels: ["With entities", "Without entities"],
+                 datasets: [{
+                   data: [entityRateData.with, entityRateData.without],
+                   backgroundColor: ["rgba(95,222,132,.35)", "rgba(255,91,110,.35)"],
+                   borderColor: ["rgba(95,222,132,.80)", "rgba(255,91,110,.80)"],
+                   borderWidth: 1.2
+                 }]
+               },
+               options: {
+                 cutout: "62%",
+                 plugins: {
+                   legend: { position: "bottom", labels: { color: "rgba(233,238,251,.72)", padding: 14 } },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1
+                   }
+                 }
+               },
+               plugins: [plugin]
+             });
+           }
+
+           // Chart 3: Source Health (horizontal bar, sorted descending)
+           const sourceHealthData = buildSourceHealth(articles);
+           const sourceHealthCanvas = document.getElementById("chartSourceHealth");
+           if (sourceHealthCanvas && sourceHealthData.labels.length) {
+             const colors = palette(sourceHealthData.labels.length);
+             new Chart(sourceHealthCanvas.getContext("2d"), {
+               type: "bar",
+               data: {
+                 labels: sourceHealthData.labels,
+                 datasets: [{
+                   label: "articles",
+                   data: sourceHealthData.values,
+                   backgroundColor: colors.map(c => c.replace(")", ", .24)").replace("rgba", "rgba")),
+                   borderColor: colors.map(c => c.replace(")", ", .80)").replace("rgba", "rgba")),
+                   borderWidth: 1.2,
+                   borderRadius: 8
+                 }]
+               },
+               options: {
+                 indexAxis: "y",
+                 plugins: {
+                   legend: { display: false },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1
+                   }
+                 },
+                 scales: {
+                   x: {
+                     beginAtZero: true,
+                     grid: { color: "rgba(150,190,255,.10)" },
+                     ticks: { color: "rgba(233,238,251,.64)" }
+                   },
+                   y: {
+                     grid: { display: false },
+                     ticks: { color: "rgba(233,238,251,.68)" }
+                   }
+                 }
+               }
+             });
+           }
+
+          // Heatmap: 7x24 time pattern
+          const heatmapData = {{ heatmap_data|tojson }};
+          const heatmapContainer = document.getElementById("heatmapContainer");
+          if (heatmapContainer && heatmapData && heatmapData.z && heatmapData.z.length) {
+            const plotlyData = [{
+              z: heatmapData.z,
+              x: heatmapData.hours,
+              y: heatmapData.days,
+              type: "heatmap",
+              colorscale: "YlOrRd",
+              hovertemplate: "<b>%{y}</b><br>Hour: %{x}:00<br>Articles: %{z}<extra></extra>",
+              colorbar: {
+                title: "Count",
+                thickness: 16,
+                len: 0.7,
+                tickcolor: "rgba(233,238,251,.72)",
+                tickfont: { color: "rgba(233,238,251,.72)", size: 11 }
+              }
+            }];
+            
+            const plotlyLayout = {
+              title: "",
+              xaxis: {
+                title: "Hour (UTC)",
+                side: "bottom",
+                tickcolor: "rgba(150,190,255,.14)",
+                tickfont: { color: "rgba(233,238,251,.68)", size: 11 },
+                gridcolor: "rgba(150,190,255,.10)"
+              },
+              yaxis: {
+                title: "Day of Week",
+                tickcolor: "rgba(150,190,255,.14)",
+                tickfont: { color: "rgba(233,238,251,.68)", size: 11 },
+                gridcolor: "rgba(150,190,255,.10)"
+              },
+              plot_bgcolor: "rgba(10,16,30,.20)",
+              paper_bgcolor: "transparent",
+              margin: { l: 100, r: 80, t: 20, b: 60 },
+              font: { family: "Pretendard Variable, system-ui, sans-serif", color: "rgba(233,238,251,.72)" },
+              hovermode: "closest"
+            };
+            
+            const plotlyConfig = {
+              responsive: true,
+              displayModeBar: false,
+              staticPlot: false
+            };
+            
+            Plotly.newPlot(heatmapContainer, plotlyData, plotlyLayout, plotlyConfig);
+          }
+        </script>
     </main>
   </body>
 </html>
@@ -1109,24 +1482,24 @@ _REPORT_TEMPLATE = """<!doctype html>
 def generate_index_html(report_dir: Path) -> Path:
     """Generate an index.html that lists all available report files."""
     report_dir.mkdir(parents=True, exist_ok=True)
-    
+
     html_files = sorted(
         [f for f in report_dir.glob("*.html") if f.name != "index.html"],
         key=lambda p: p.name,
     )
-    
+
     reports = []
     for html_file in html_files:
         name = html_file.stem
         display_name = name.replace("_report", "").replace("_", " ").title()
         reports.append({"filename": html_file.name, "display_name": display_name})
-    
+
     template = cast(_TemplateRenderer, Template(_INDEX_TEMPLATE))
     rendered = template.render(
         reports=reports,
         generated_at=datetime.now(timezone.utc),
     )
-    
+
     index_path = report_dir / "index.html"
     _ = index_path.write_text(rendered, encoding="utf-8")
     return index_path
