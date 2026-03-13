@@ -1,16 +1,15 @@
 from __future__ import annotations
 
-import re
 import shutil
 from collections import Counter
 from collections.abc import Iterable
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from .models import Article, CategoryConfig
 from .calendar_heatmap import build_calendar_heatmap
+from .models import Article, CategoryConfig
 
 
 _TEMPLATE_DIR = Path(__file__).parent / "templates"
@@ -30,6 +29,7 @@ def _copy_static_assets(report_dir: Path) -> None:
         if dst.exists():
             shutil.rmtree(dst)
         _ = shutil.copytree(str(src), str(dst))
+
 
 def generate_report(
     *,
@@ -64,13 +64,13 @@ def generate_report(
 
     heatmap_data = _build_time_heatmap(articles_list)
     calendar_heatmap_html = build_calendar_heatmap(articles_list, days_back=90)
-    
+
     template = _get_jinja_env().get_template("report.html")
     rendered = template.render(
         category=category,
         articles=articles_list,  # Keep original for template rendering
         articles_json=articles_json,  # JSON-serializable version for charts
-        generated_at=datetime.now(timezone.utc),
+        generated_at=datetime.now(UTC),
         stats=stats,
         entity_counts=entity_counts,
         errors=errors or [],
@@ -79,7 +79,7 @@ def generate_report(
     )
     _ = output_path.write_text(rendered, encoding="utf-8")
 
-    now_ts = datetime.now(timezone.utc)
+    now_ts = datetime.now(UTC)
     date_stamp = now_ts.strftime("%Y%m%d")
     dated_name = f"{category.category_name}_{date_stamp}.html"
     dated_path = output_path.parent / dated_name
@@ -97,15 +97,16 @@ def _count_entities(articles: Iterable[Article]) -> Counter[str]:
             counter[entity_name] += len(keywords)
     return counter
 
+
 def _build_time_heatmap(articles: Iterable[Article]) -> dict[str, object]:
     """Build 7x24 time pattern heatmap from article published timestamps.
-    
+
     Returns dict with 'days', 'hours', 'z' for Plotly heatmap.
     Days: [Mon, Tue, ..., Sun], Hours: [0-23], z: 7x24 matrix of counts.
     """
     # Initialize 7x24 matrix (7 days x 24 hours)
     matrix = [[0 for _ in range(24)] for _ in range(7)]
-    
+
     for article in articles:
         if not article.published:
             continue
@@ -113,10 +114,10 @@ def _build_time_heatmap(articles: Iterable[Article]) -> dict[str, object]:
         day_of_week = dt.weekday()  # 0=Mon, 6=Sun
         hour = dt.hour
         matrix[day_of_week][hour] += 1
-    
+
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     hours = [str(h).zfill(2) for h in range(24)]
-    
+
     return {
         "days": days,
         "hours": hours,
@@ -142,11 +143,9 @@ def generate_index_html(report_dir: Path) -> Path:
     template = _get_jinja_env().get_template("index.html")
     rendered = template.render(
         reports=reports,
-        generated_at=datetime.now(timezone.utc),
+        generated_at=datetime.now(UTC),
     )
 
     index_path = report_dir / "index.html"
     _ = index_path.write_text(rendered, encoding="utf-8")
     return index_path
-
-

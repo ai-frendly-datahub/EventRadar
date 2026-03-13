@@ -7,10 +7,11 @@ across weeks and days of week for the last 90 days.
 from __future__ import annotations
 
 from collections import defaultdict
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import TYPE_CHECKING
 
 import plotly.graph_objects as go
+
 
 if TYPE_CHECKING:
     from collections.abc import Iterable
@@ -34,7 +35,7 @@ def build_calendar_heatmap(
     articles_list = list(articles)
 
     # Calculate date range
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     start_date = now - timedelta(days=days_back)
 
     # Build week x day matrix
@@ -48,7 +49,7 @@ def build_calendar_heatmap(
         pub_date = article.published
         # Ensure timezone-aware comparison
         if pub_date.tzinfo is None:
-            pub_date = pub_date.replace(tzinfo=timezone.utc)
+            pub_date = pub_date.replace(tzinfo=UTC)
 
         if pub_date < start_date:
             continue

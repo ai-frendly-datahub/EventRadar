@@ -26,9 +26,10 @@ sources:
   - name: "Exhibit City News"
     type: "rss"
     url: "https://www.exhibitcitynews.com/feed/"
-  - name: "Trade Show Executive"
-    type: "rss"
-    url: "https://www.tradeshowexecutive.com/feed/"
+  # - name: "Trade Show Executive"
+  #   type: "rss"
+  #   url: "https://www.tradeshowexecutive.com/feed/"
+  # Disabled: Source unavailable
   - name: "Smart Meetings"
     type: "rss"
     url: "https://www.smartmeetings.com/feed"

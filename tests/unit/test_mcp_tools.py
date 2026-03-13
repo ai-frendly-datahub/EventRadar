@@ -7,6 +7,7 @@ from pathlib import Path
 
 import duckdb
 
+
 SearchIndex = import_module("eventradar.search_index").SearchIndex
 tools = import_module("eventradar.mcp_server.tools")
 
