@@ -7,19 +7,7 @@ from typing import Protocol, cast
 
 import yaml
 
-
-load_settings = cast(object, import_module("eventradar.config_loader").load_settings)
-
-
-class _Settings(Protocol):
-    search_db_path: Path
-
-
-class _LoadSettings(Protocol):
-    def __call__(self, config_path: Path | None = None) -> _Settings: ...
-
-
-load_settings_fn = cast(_LoadSettings, load_settings)
+from eventradar.config_loader import load_settings
 
 
 class _SearchResult(Protocol):
@@ -45,7 +33,7 @@ class _SearchIndexCtor(Protocol):
     def __call__(self, db_path: Path) -> _SearchIndex: ...
 
 
-SearchIndex = cast(_SearchIndexCtor, import_module("eventradar.search_index").SearchIndex)
+SearchIndex = cast(_SearchIndexCtor, import_module("radar.search_index").SearchIndex)
 
 
 def test_index_creation_creates_tables_fts_and_triggers(tmp_path: Path) -> None:
@@ -189,7 +177,7 @@ def test_search_ranking_places_more_relevant_document_first(tmp_path: Path) -> N
 
 
 def test_load_settings_reads_search_db_path_and_default() -> None:
-    settings = load_settings_fn()
+    settings = load_settings()
     project_root = Path(__file__).resolve().parents[2]
 
     assert settings.search_db_path == (project_root / "data" / "search_index.db").resolve()
@@ -212,6 +200,6 @@ def test_load_settings_reads_custom_search_db_path(tmp_path: Path) -> None:
         encoding="utf-8",
     )
 
-    settings = load_settings_fn(config_path)
+    settings = load_settings(config_path)
 
     assert settings.search_db_path == custom_path

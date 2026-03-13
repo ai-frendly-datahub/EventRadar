@@ -2,14 +2,11 @@ from __future__ import annotations
 
 import json
 from datetime import UTC, datetime, timedelta
-from importlib import import_module
 from pathlib import Path
 
 import duckdb
 
-
-SearchIndex = import_module("eventradar.search_index").SearchIndex
-tools = import_module("eventradar.mcp_server.tools")
+from eventradar.search_index import SearchIndex
 
 
 def _init_articles_table(db_path: Path) -> None:
@@ -67,11 +64,13 @@ def _seed_article(
 
 
 def test_handle_search(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
+    from mcp_server.tools import handle_search
+
+    db_path = tmp_path / "radar.duckdb"
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
     recent_link = "https://example.com/recent"
     old_link = "https://example.com/old"
 
@@ -94,7 +93,7 @@ def test_handle_search(tmp_path: Path) -> None:
         idx.upsert(recent_link, "Recent coffee demand", "Demand is rising")
         idx.upsert(old_link, "Old coffee demand", "Demand was low")
 
-    output = tools.handle_search(
+    output = handle_search(
         search_db_path=search_db_path,
         db_path=db_path,
         query="last 7 days coffee",
@@ -106,9 +105,11 @@ def test_handle_search(tmp_path: Path) -> None:
 
 
 def test_handle_recent_updates(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
+    from mcp_server.tools import handle_recent_updates
+
+    db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
 
     _seed_article(
         db_path=db_path,
@@ -125,35 +126,41 @@ def test_handle_recent_updates(tmp_path: Path) -> None:
         collected_at=now - timedelta(days=2),
     )
 
-    output = tools.handle_recent_updates(db_path=db_path, days=1, limit=10)
+    output = handle_recent_updates(db_path=db_path, days=1, limit=10)
 
     assert "Most recent" in output
     assert "Older" not in output
 
 
 def test_handle_sql_select(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
+    from mcp_server.tools import handle_sql
+
+    db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
 
-    output = tools.handle_sql(db_path=db_path, query="SELECT COUNT(*) AS total FROM articles")
+    output = handle_sql(db_path=db_path, query="SELECT COUNT(*) AS total FROM articles")
 
     assert "total" in output
     assert "0" in output
 
 
 def test_handle_sql_blocked(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
+    from mcp_server.tools import handle_sql
+
+    db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
 
-    output = tools.handle_sql(db_path=db_path, query="DROP TABLE articles")
+    output = handle_sql(db_path=db_path, query="DROP TABLE articles")
 
     assert "Only SELECT/WITH/EXPLAIN queries are allowed" in output
 
 
 def test_handle_top_trends(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
+    from mcp_server.tools import handle_top_trends
+
+    db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
 
     _seed_article(
         db_path=db_path,
@@ -172,7 +179,7 @@ def test_handle_top_trends(tmp_path: Path) -> None:
         entities={"Region": ["brazil"]},
     )
 
-    output = tools.handle_top_trends(db_path=db_path, days=7, limit=10)
+    output = handle_top_trends(db_path=db_path, days=7, limit=10)
 
     assert "Region" in output
     assert "3" in output
@@ -180,31 +187,9 @@ def test_handle_top_trends(tmp_path: Path) -> None:
     assert "1" in output
 
 
-def test_handle_event_impact(tmp_path: Path) -> None:
-    db_path = tmp_path / "eventradar.duckdb"
-    _init_articles_table(db_path)
-    now = datetime.now(tz=UTC)
+def test_handle_price_watch_stub() -> None:
+    from mcp_server.tools import handle_price_watch
 
-    _seed_article(
-        db_path=db_path,
-        article_id=1,
-        title="Launch event",
-        link="https://example.com/launch",
-        collected_at=now - timedelta(days=1),
-        entities={"Launch": ["launch", "unveil"], "Conference": ["summit"]},
-    )
-    _seed_article(
-        db_path=db_path,
-        article_id=2,
-        title="Festival update",
-        link="https://example.com/festival",
-        collected_at=now - timedelta(days=1),
-        entities={"Launch": ["announce"], "Festival": ["festival"]},
-    )
+    output = handle_price_watch(threshold=10.0)
 
-    output = tools.handle_event_impact(db_path=db_path, days=7, limit=10)
-
-    assert "Event impact analysis (last 7 days):" in output
-    assert "Launch: 3 mentions in 2 article(s)" in output
-    assert "Conference: 1 mentions in 1 article(s)" in output
-    assert "Festival: 1 mentions in 1 article(s)" in output
+    assert "Not available in template project" in output
