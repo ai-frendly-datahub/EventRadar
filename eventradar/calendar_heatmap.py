@@ -81,11 +81,11 @@ def build_calendar_heatmap(
             y=days,
             colorscale="YlGn",
             hovertemplate="Week %{x}<br>%{y}<br>Events: %{z}<extra></extra>",
-            colorbar=dict(
-                title="Event<br>Count",
-                thickness=15,
-                len=0.7,
-            ),
+            colorbar={
+                "title": "Event<br>Count",
+                "thickness": 15,
+                "len": 0.7,
+            },
         )
     )
 
@@ -95,15 +95,15 @@ def build_calendar_heatmap(
         yaxis_title="Day of Week",
         width=1000,
         height=300,
-        margin=dict(l=80, r=80, t=60, b=60),
+        margin={"l": 80, "r": 80, "t": 60, "b": 60},
         plot_bgcolor="rgba(240, 240, 240, 0.5)",
         paper_bgcolor="rgba(255, 255, 255, 0.95)",
-        font=dict(family="system-ui, sans-serif", size=12),
-        xaxis=dict(
-            tickmode="linear",
-            tick0=1,
-            dtick=4,
-        ),
+        font={"family": "system-ui, sans-serif", "size": 12},
+        xaxis={
+            "tickmode": "linear",
+            "tick0": 1,
+            "dtick": 4,
+        },
     )
 
     # Return HTML without full document structure (for embedding)
