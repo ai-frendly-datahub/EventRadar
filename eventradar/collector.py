@@ -14,6 +14,7 @@ from urllib.parse import urlparse
 import feedparser
 import requests
 import structlog
+from bs4 import BeautifulSoup
 from pybreaker import CircuitBreakerError
 from radar_core import AdaptiveThrottler, CrawlHealthStore
 from requests.adapters import HTTPAdapter
@@ -279,9 +280,23 @@ def _collect_single(
 
     try:
         feed = feedparser.parse(response.content)
-        items: list[Article] = []
+    except Exception as exc:
+        raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
 
-        for entry in feed.entries[:limit]:
+    if not feed.entries:
+        logger.warning("feed_empty", source=source.name, url=source.url)
+        return []
+
+    items: list[Article] = []
+    entry_errors: int = 0
+
+    for idx, entry in enumerate(feed.entries[:limit]):
+        try:
+            # CSS selector validation: check expected elements exist
+            if not _validate_feed_entry(entry, source.name):
+                entry_errors += 1
+                continue
+
             published = _extract_datetime(entry)
             summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
             if not summary:
@@ -301,7 +316,8 @@ def _collect_single(
                 logger.debug("skipped_article", source=source.name, reason="empty_title_or_link")
                 continue
 
-            article_summary = html.unescape(summary.strip()) if summary else ""
+            # Strip HTML from summary using explicit parser
+            article_summary = _strip_html(summary) if summary else ""
 
             items.append(
                 Article(
@@ -313,10 +329,26 @@ def _collect_single(
                     category=category,
                 )
             )
+        except Exception as exc:
+            entry_errors += 1
+            logger.warning(
+                "feed_entry_parse_error",
+                source=source.name,
+                entry_index=idx,
+                error=f"{type(exc).__name__}: {exc}",
+            )
+            continue
 
-        return items
-    except Exception as exc:
-        raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
+    if entry_errors > 0:
+        logger.info(
+            "feed_entry_errors_summary",
+            source=source.name,
+            total_entries=min(limit, len(feed.entries)),
+            failed=entry_errors,
+            collected=len(items),
+        )
+
+    return items
 
 
 def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
@@ -340,6 +372,27 @@ def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
             except Exception:
                 continue
     return None
+
+
+def _strip_html(raw: str) -> str:
+    """Strip HTML tags using BeautifulSoup with explicit html.parser."""
+    if not raw:
+        return ""
+    soup = BeautifulSoup(raw, "html.parser")
+    return soup.get_text(separator=" ", strip=True)
+
+
+def _validate_feed_entry(entry: Mapping[str, Any], source_name: str) -> bool:
+    """Validate that a feed entry has the minimum expected elements."""
+    title = entry.get("title")
+    link = entry.get("link")
+    if not title or not isinstance(title, str) or not title.strip():
+        logger.warning("feed_entry_missing_title", source=source_name)
+        return False
+    if not link or not isinstance(link, str) or not link.strip():
+        logger.warning("feed_entry_missing_link", source=source_name, title=title[:80])
+        return False
+    return True
 
 
 def _entry_text(entry: Mapping[str, Any], key: str) -> str:
