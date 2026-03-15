@@ -67,6 +67,17 @@ sources:
     type: "rss"
     url: "https://www.artsprofessional.co.uk/feed"
 
+  # --- JavaScript-rendered sources (Playwright) ---
+  - name: "서울시 문화행사"
+    type: "javascript"
+    url: "https://www.seoul.go.kr/realmnews/culture/calendar.do"
+  - name: "강서구 문화행사"
+    type: "javascript"
+    url: "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038"
+  - name: "인터파크 이벤트"
+    type: "javascript"
+    url: "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve"
+
 entities:
   - name: "Conference"
     display_name: "컨퍼런스/학회"
