@@ -67,6 +67,19 @@ sources:
     type: "rss"
     url: "https://www.artsprofessional.co.uk/feed"
 
+  # --- Korean News (Culture/Events) ---
+  - name: "연합뉴스 문화"
+    type: "rss"
+    url: "https://www.yna.co.kr/rss/culture.xml"
+  - name: "연합뉴스 연예"
+    type: "rss"
+    url: "https://www.yna.co.kr/rss/entertainment.xml"
+
+  # --- Community & Meetup ---
+  - name: "Meetup Blog"
+    type: "rss"
+    url: "https://www.meetup.com/blog/feed/"
+
   # --- JavaScript-rendered sources (Playwright) ---
   - name: "서울시 문화행사"
     type: "javascript"
