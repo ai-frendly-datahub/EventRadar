@@ -67,6 +67,53 @@ sources:
     type: "rss"
     url: "https://www.artsprofessional.co.uk/feed"
 
+  # --- Reddit RSS Feeds (Event Communities) ---
+  - name: "Reddit r/festivals"
+    type: "rss"
+    url: "https://www.reddit.com/r/festivals/.rss"
+  - name: "Reddit r/concerts"
+    type: "rss"
+    url: "https://www.reddit.com/r/concerts/.rss"
+  - name: "Reddit r/conferences"
+    type: "rss"
+    url: "https://www.reddit.com/r/conferences/.rss"
+  - name: "Reddit r/eventplanning"
+    type: "rss"
+    url: "https://www.reddit.com/r/eventplanning/.rss"
+
+  # --- Cultural/Government (US) ---
+  - name: "Smithsonian Events"
+    type: "rss"
+    url: "https://www.si.edu/rss/events.xml"
+  - name: "Library of Congress Events"
+    type: "rss"
+    url: "https://www.loc.gov/rss/events.xml"
+  - name: "Kennedy Center"
+    type: "rss"
+    url: "https://www.kennedy-center.org/rss/performances/"
+  - name: "NEA Arts News"
+    type: "rss"
+    url: "https://www.arts.gov/rss/news.xml"
+
+  # --- International Arts & Culture ---
+  - name: "EU Culture Programme"
+    type: "rss"
+    url: "https://culture.ec.europa.eu/rss"
+  - name: "Arts Council England"
+    type: "rss"
+    url: "https://www.artscouncil.org.uk/feed"
+  - name: "Japan Festival Database"
+    type: "rss"
+    url: "https://www.japan.travel/en/rss/events/"
+  - name: "Korea Tourism Events"
+    type: "rss"
+    url: "https://english.visitkorea.or.kr/rss/festivals.xml"
+
+  # --- Industry / Concert Tours ---
+  - name: "Bandsintown Blog"
+    type: "rss"
+    url: "https://blog.bandsintown.com/feed/"
+
   # --- Korean News (Culture/Events) ---
   - name: "연합뉴스 문화"
     type: "rss"
