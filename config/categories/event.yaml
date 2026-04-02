@@ -1,245 +1,379 @@
-category_name: "event"
-display_name: "행사/이벤트 레이더"
-
+category_name: event
+display_name: 행사/이벤트 레이더
 sources:
-  # --- Verified Working (from previous collection) ---
-  - name: "Exhibition News"
-    type: "rss"
-    url: "https://www.exhibitionnews.co.uk/feed/"
-  - name: "Event Marketer"
-    type: "rss"
-    url: "https://www.eventmarketer.com/feed/"
-  - name: "UFI Blog"
-    type: "rss"
-    url: "https://www.ufi.org/blog/feed/"
-  - name: "Museum Next"
-    type: "rss"
-    url: "https://www.museumnext.com/feed/"
-
-  # --- Event Industry Publications ---
-  - name: "PCMA Convene"
-    type: "rss"
-    url: "https://www.pcma.org/feed/"
-  - name: "Event Industry News"
-    type: "rss"
-    url: "https://www.eventindustrynews.com/feed"
-  - name: "Exhibit City News"
-    type: "rss"
-    url: "https://www.exhibitcitynews.com/feed/"
-  # - name: "Trade Show Executive"
-  #   type: "rss"
-  #   url: "https://www.tradeshowexecutive.com/feed/"
-  # Disabled: Source unavailable
-  - name: "Smart Meetings"
-    type: "rss"
-    url: "https://www.smartmeetings.com/feed"
-
-  # --- Live Events & Entertainment ---
-  - name: "IQ Magazine"
-    type: "rss"
-    url: "https://www.iq-mag.net/feed/"
-  - name: "Pollstar News"
-    type: "rss"
-    url: "https://news.pollstar.com/feed/"
-  - name: "Billboard"
-    type: "rss"
-    url: "https://www.billboard.com/feed/"
-  - name: "Brooklyn Vegan"
-    type: "rss"
-    url: "https://www.brooklynvegan.com/feed/"
-  - name: "Ticketmaster Blog"
-    type: "rss"
-    url: "https://blog.ticketmaster.com/feed/"
-
-  # --- Conference & Meeting ---
-  - name: "Skift Meetings"
-    type: "rss"
-    url: "https://meetings.skift.com/feed/"
-  - name: "IAEE Blog"
-    type: "rss"
-    url: "https://www.iaee.com/feed/"
-  - name: "Sched Blog"
-    type: "rss"
-    url: "https://sched.com/blog/feed/"
-
-  # --- Arts & Culture ---
-  - name: "Arts Professional"
-    type: "rss"
-    url: "https://www.artsprofessional.co.uk/feed"
-
-  # --- Reddit RSS Feeds (Event Communities) ---
-  - name: "Reddit r/festivals"
-    type: "rss"
-    url: "https://www.reddit.com/r/festivals/.rss"
-  - name: "Reddit r/concerts"
-    type: "rss"
-    url: "https://www.reddit.com/r/concerts/.rss"
-  - name: "Reddit r/conferences"
-    type: "rss"
-    url: "https://www.reddit.com/r/conferences/.rss"
-  - name: "Reddit r/eventplanning"
-    type: "rss"
-    url: "https://www.reddit.com/r/eventplanning/.rss"
-
-  # --- Cultural/Government (US) ---
-  - name: "Smithsonian Events"
-    type: "rss"
-    url: "https://www.si.edu/rss/events.xml"
-  - name: "Library of Congress Events"
-    type: "rss"
-    url: "https://www.loc.gov/rss/events.xml"
-  - name: "Kennedy Center"
-    type: "rss"
-    url: "https://www.kennedy-center.org/rss/performances/"
-  - name: "NEA Arts News"
-    type: "rss"
-    url: "https://www.arts.gov/rss/news.xml"
-
-  # --- International Arts & Culture ---
-  - name: "EU Culture Programme"
-    type: "rss"
-    url: "https://culture.ec.europa.eu/rss"
-  - name: "Arts Council England"
-    type: "rss"
-    url: "https://www.artscouncil.org.uk/feed"
-  - name: "Japan Festival Database"
-    type: "rss"
-    url: "https://www.japan.travel/en/rss/events/"
-  - name: "Korea Tourism Events"
-    type: "rss"
-    url: "https://english.visitkorea.or.kr/rss/festivals.xml"
-
-  # --- Industry / Concert Tours ---
-  - name: "Bandsintown Blog"
-    type: "rss"
-    url: "https://blog.bandsintown.com/feed/"
-
-  # --- Korean News (Culture/Events) ---
-  - name: "연합뉴스 문화"
-    type: "rss"
-    url: "https://www.yna.co.kr/rss/culture.xml"
-  - name: "연합뉴스 연예"
-    type: "rss"
-    url: "https://www.yna.co.kr/rss/entertainment.xml"
-
-  # --- Community & Meetup ---
-  - name: "Meetup Blog"
-    type: "rss"
-    url: "https://www.meetup.com/blog/feed/"
-
-  # --- JavaScript-rendered sources (Playwright) ---
-  - name: "서울시 문화행사"
-    type: "javascript"
-    url: "https://www.seoul.go.kr/realmnews/culture/calendar.do"
-  - name: "강서구 문화행사"
-    type: "javascript"
-    url: "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038"
-  - name: "인터파크 이벤트"
-    type: "javascript"
-    url: "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve"
-
+- name: Exhibition News
+  type: rss
+  url: https://www.exhibitionnews.co.uk/feed/
+- name: Event Marketer
+  type: rss
+  url: https://www.eventmarketer.com/feed/
+- name: UFI Blog
+  type: rss
+  url: https://www.ufi.org/blog/feed/
+- name: Museum Next
+  type: rss
+  url: https://www.museumnext.com/feed/
+- name: PCMA Convene
+  type: rss
+  url: https://www.pcma.org/feed/
+- name: Event Industry News
+  type: rss
+  url: https://www.eventindustrynews.com/feed
+- name: Exhibit City News
+  type: rss
+  url: https://www.exhibitcitynews.com/feed/
+- name: Smart Meetings
+  type: rss
+  url: https://www.smartmeetings.com/feed
+- name: IQ Magazine
+  type: rss
+  url: https://www.iq-mag.net/feed/
+- name: Pollstar News
+  type: rss
+  url: https://news.pollstar.com/feed/
+- name: Billboard
+  type: rss
+  url: https://www.billboard.com/feed/
+- name: Brooklyn Vegan
+  type: rss
+  url: https://www.brooklynvegan.com/feed/
+- name: Ticketmaster Blog
+  type: rss
+  url: https://blog.ticketmaster.com/feed/
+- name: Skift Meetings
+  type: rss
+  url: https://meetings.skift.com/feed/
+- name: IAEE Blog
+  type: rss
+  url: https://www.iaee.com/feed/
+- name: Sched Blog
+  type: rss
+  url: https://sched.com/blog/feed/
+- name: Arts Professional
+  type: rss
+  url: https://www.artsprofessional.co.uk/feed
+- name: Reddit r/festivals
+  type: reddit
+  url: https://www.reddit.com/r/festivals/
+- name: Reddit r/concerts
+  type: reddit
+  url: https://www.reddit.com/r/concerts/
+- name: Reddit r/conferences
+  type: reddit
+  url: https://www.reddit.com/r/conferences/
+- name: Reddit r/eventplanning
+  type: reddit
+  url: https://www.reddit.com/r/eventplanning/
+# NOTE: 2026-04-02 점검 - 403/404 오류로 비활성화
+# - name: Smithsonian Events
+#   type: rss
+#   url: https://www.si.edu/rss/events.xml
+# - name: Library of Congress Events
+#   type: rss
+#   url: https://www.loc.gov/rss/events.xml
+# - name: Kennedy Center
+#   type: rss
+#   url: https://www.kennedy-center.org/rss/performances/
+# - name: NEA Arts News
+#   type: rss
+#   url: https://www.arts.gov/rss/news.xml
+# - name: EU Culture Programme
+#   type: rss
+#   url: https://culture.ec.europa.eu/rss
+# - name: Arts Council England
+#   type: rss
+#   url: https://www.artscouncil.org.uk/feed
+# - name: Japan Festival Database
+#   type: rss
+#   url: https://www.japan.travel/en/rss/events/
+# - name: Korea Tourism Events
+#   type: rss
+#   url: https://english.visitkorea.or.kr/rss/festivals.xml
+- name: Bandsintown Blog
+  type: rss
+  url: https://blog.bandsintown.com/feed/
+- name: 연합뉴스 문화
+  type: rss
+  url: https://www.yna.co.kr/rss/culture.xml
+- name: 연합뉴스 연예
+  type: rss
+  url: https://www.yna.co.kr/rss/entertainment.xml
+- name: Meetup Blog
+  type: rss
+  url: https://www.meetup.com/blog/feed/
+- name: 서울시 문화행사
+  type: javascript
+  url: https://www.seoul.go.kr/realmnews/culture/calendar.do
+- name: 강서구 문화행사
+  type: javascript
+  url: https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038
+- name: 인터파크 이벤트
+  type: javascript
+  url: https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve
 entities:
-  - name: "Conference"
-    display_name: "컨퍼런스/학회"
-    keywords:
-      - "conference"
-      - "summit"
-      - "symposium"
-      - "forum"
-      - "congress"
-      - "convention"
-      - "keynote"
-      - "speaker"
-      - "panel"
-      - "plenary"
-      - "컨퍼런스"
-      - "서밋"
-      - "학회"
-      - "포럼"
-
-  - name: "Exhibition"
-    display_name: "전시/박람회"
-    keywords:
-      - "exhibition"
-      - "exhibit"
-      - "expo"
-      - "trade show"
-      - "trade fair"
-      - "booth"
-      - "exhibitor"
-      - "showfloor"
-      - "show floor"
-      - "pavilion"
-      - "museum"
-      - "gallery"
-      - "전시"
-      - "전시회"
-      - "박람회"
-      - "부스"
-      - "미술관"
-      - "박물관"
-
-  - name: "Festival"
-    display_name: "축제/페스티벌"
-    keywords:
-      - "festival"
-      - "carnival"
-      - "celebration"
-      - "parade"
-      - "축제"
-      - "페스티벌"
-      - "카니발"
-
-  - name: "Performance"
-    display_name: "공연/콘서트"
-    keywords:
-      - "concert"
-      - "performance"
-      - "theater"
-      - "theatre"
-      - "recital"
-      - "live music"
-      - "live show"
-      - "tour"
-      - "gig"
-      - "공연"
-      - "콘서트"
-      - "연극"
-      - "뮤지컬"
-      - "투어"
-
-  - name: "Meetup"
-    display_name: "모임/세미나"
-    keywords:
-      - "meetup"
-      - "workshop"
-      - "seminar"
-      - "webinar"
-      - "networking"
-      - "hackathon"
-      - "bootcamp"
-      - "세미나"
-      - "워크숍"
-      - "밋업"
-      - "해커톤"
-
-  - name: "Event"
-    display_name: "행사 일반"
-    keywords:
-      - "event"
-      - "venue"
-      - "attendee"
-      - "registration"
-      - "ticket"
-      - "gala"
-      - "ceremony"
-      - "awards"
-      - "opening"
-      - "reception"
-      - "sponsor"
-      - "행사"
-      - "개최"
-      - "참가"
-      - "등록"
-      - "입장"
-      - "개막"
+- name: Conference
+  display_name: 컨퍼런스/학회
+  keywords:
+  - conference
+  - summit
+  - symposium
+  - forum
+  - congress
+  - convention
+  - keynote
+  - speaker
+  - panel
+  - plenary
+  - 컨퍼런스
+  - 서밋
+  - 학회
+  - 포럼
+  - 총회
+  - 대회
+  - 세션
+  - 발표
+- name: Exhibition
+  display_name: 전시/박람회
+  keywords:
+  - exhibition
+  - exhibit
+  - expo
+  - trade show
+  - trade fair
+  - booth
+  - exhibitor
+  - showfloor
+  - show floor
+  - pavilion
+  - museum
+  - gallery
+  - 전시
+  - 전시회
+  - 박람회
+  - 부스
+  - 미술관
+  - 박물관
+  - 아트페어
+  - 비엔날레
+  - 특별전
+  - 기획전
+- name: Festival
+  display_name: 축제/페스티벌
+  keywords:
+  - festival
+  - carnival
+  - celebration
+  - parade
+  - 축제
+  - 페스티벌
+  - 카니발
+  - 퍼레이드
+  - 문화제
+  - 마켓
+  - 플리마켓
+  - 야시장
+  - 푸드페스타
+  - 음악제
+  - 영화제
+  - 문화축제
+  - 지역축제
+- name: Performance
+  display_name: 공연/콘서트
+  keywords:
+  - concert
+  - performance
+  - theater
+  - theatre
+  - recital
+  - live music
+  - live show
+  - tour
+  - gig
+  - 공연
+  - 콘서트
+  - 연극
+  - 뮤지컬
+  - 투어
+  - 오페라
+  - 발레
+  - 국악
+  - 클래식
+  - 재즈
+  - 라이브
+  - 쇼
+  - 무대
+  - 티켓
+  - 예매
+  - 앵콜
+  - sold out
+  - 매진
+- name: Meetup
+  display_name: 모임/세미나
+  keywords:
+  - meetup
+  - workshop
+  - seminar
+  - webinar
+  - networking
+  - hackathon
+  - bootcamp
+  - 세미나
+  - 워크숍
+  - 밋업
+  - 해커톤
+  - 온라인
+  - virtual
+  - zoom
+  - 라이브
+  - 스트리밍
+  - 강연
+  - 특강
+  - 토크쇼
+- name: Event
+  display_name: 행사 일반
+  keywords:
+  - event
+  - venue
+  - attendee
+  - registration
+  - ticket
+  - gala
+  - ceremony
+  - awards
+  - opening
+  - reception
+  - sponsor
+  - 행사
+  - 개최
+  - 참가
+  - 등록
+  - 입장
+  - 개막
+  - 폐막
+  - 시상식
+  - 축하
+  - 기념
+  - 런칭
+  - 오픈
+  - 프로모션
+  - 팝업
+  - 이벤트
+- name: Sports
+  display_name: 스포츠 행사
+  keywords:
+  - sports
+  - athletics
+  - competition
+  - match
+  - game
+  - tournament
+  - championship
+  - marathon
+  - race
+  - 스포츠
+  - 경기
+  - 대회
+  - 마라톤
+  - 레이스
+  - 선수권
+  - 올림픽
+  - 월드컵
+  - 리그
+- name: Entertainment
+  display_name: 엔터테인먼트
+  keywords:
+  - show
+  - entertainment
+  - live
+  - music
+  - band
+  - artist
+  - singer
+  - DJ
+  - party
+  - club
+  - night
+  - stage
+  - headline
+  - lineup
+  - perform
+  - play
+  - act
+  - set
+  - setlist
+  - album
+  - release
+  - announce
+  - tour date
+  - sold
+  - seats
+  - capacity
+  - venue
+  - arena
+  - stadium
+  - hall
+  - theater
+  - 공연장
+  - 가수
+  - 아이돌
+  - K-pop
+  - 팬미팅
+  - 팬사인회
+- name: EventGeneral
+  display_name: 행사/이벤트 일반
+  keywords:
+  # 핵심 이벤트 용어
+  - event
+  - events
+  - happening
+  - upcoming event
+  - special event
+  - annual event
+  - event schedule
+  - event calendar
+  # 참가/등록
+  - attend
+  - attending
+  - attendee
+  - attendees
+  - ticket
+  - tickets
+  - register
+  - registration
+  - sign up
+  - rsvp
+  - admission
+  - entry
+  # 장소/일정
+  - venue
+  - location
+  - event date
+  - event time
+  - schedule
+  - program
+  # 한국어 핵심 용어
+  - 행사
+  - 이벤트
+  - 일정
+  - 참가
+  - 참석
+  - 예약
+  - 티켓
+  - 등록
+  - 입장
+  - 프로그램
+  - 개최
+  - 진행
+  - 안내
+  - 모집
+  - 접수
+  # 이벤트 유형
+  - opening event
+  - closing event
+  - special event
+  - launch event
+  - networking event
+  - 개막
+  - 폐막
+  - 런칭
+  - 네트워킹
