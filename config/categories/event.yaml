@@ -104,12 +104,18 @@ sources:
 - name: 서울시 문화행사
   type: javascript
   url: https://www.seoul.go.kr/realmnews/culture/calendar.do
+  config:
+    wait_for: ".event_list"
 - name: 강서구 문화행사
   type: javascript
   url: https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038
+  config:
+    wait_for: ".board_list"
 - name: 인터파크 이벤트
   type: javascript
   url: https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve
+  config:
+    wait_for: ".list_item"
 entities:
 - name: Conference
   display_name: 컨퍼런스/학회
