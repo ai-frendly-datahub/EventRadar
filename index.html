@@ -1,53 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-visual-system="radar-unified-v2" data-visual-surface="index">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
   <title>Event Radar - Reports Index</title>
 
-  
+
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
 
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/themes/dark.css">
 
   <style>
-    
-    :root {
-      
-      --bg-primary: #0a0e17;
-      --bg-secondary: #111827;
-      --bg-card: rgba(20, 28, 44, 0.85);
-      --bg-card-hover: rgba(30, 40, 60, 0.95);
-      --bg-glass: rgba(10, 16, 30, 0.72);
 
-      
+    :root {
+
+      --bg-primary: #0b0b0f;
+      --bg-secondary: #121116;
+      --bg-card: rgba(28, 26, 34, 0.85);
+      --bg-card-hover: rgba(36, 33, 43, 0.95);
+      --bg-glass: rgba(24, 22, 29, 0.72);
+
+
       --text-primary: #e4e6eb;
       --text-secondary: #b0b3b8;
       --text-muted: #6b7280;
       --text-faint: rgba(233, 238, 251, 0.52);
 
-      
-      --accent-primary: #4a9eff;
-      --accent-secondary: #33d6c5;
+
+      --accent-primary: #33d6c5;
+      --accent-secondary: #f6c84c;
       --accent-highlight: #f6c84c;
       --accent-danger: #ff5b6e;
 
-      
-      --border-color: rgba(150, 190, 255, 0.14);
-      --border-highlight: rgba(150, 190, 255, 0.22);
-      --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.28);
-      --shadow-glow: 0 0 40px rgba(74, 158, 255, 0.12);
 
-      
+      --border-color: rgba(244, 244, 247, 0.14);
+      --border-highlight: rgba(244, 244, 247, 0.22);
+      --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.28);
+      --shadow-glow: 0 0 40px rgba(51, 214, 197, 0.12);
+
+
       --space-1: 0.25rem;
       --space-2: 0.5rem;
       --space-3: 0.75rem;
@@ -58,25 +58,25 @@
       --space-10: 2.5rem;
       --space-12: 3rem;
 
-      
+
       --radius-sm: 6px;
       --radius-md: 10px;
-      --radius-lg: 14px;
-      --radius-xl: 20px;
+      --radius-lg: 8px;
+      --radius-xl: 8px;
 
-      
+
       --font-sans: "Pretendard Variable", "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
       --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
-      
+
       --transition-fast: 0.15s ease-out;
       --transition-normal: 0.25s ease-out;
 
-      
+
       --max-width: 1280px;
     }
 
-    
+
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -93,9 +93,7 @@
       line-height: 1.6;
       color: var(--text-primary);
       background: var(--bg-primary);
-      background-image:
-        radial-gradient(ellipse at 20% 0%, rgba(74, 158, 255, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 100%, rgba(51, 214, 197, 0.06) 0%, transparent 50%);
+      background-image: linear-gradient(180deg, var(--bg-primary), var(--bg-secondary) 58%, #08080b);
       min-height: 100vh;
     }
 
@@ -109,14 +107,14 @@
       color: var(--accent-secondary);
     }
 
-    
+
     .page-container {
       max-width: var(--max-width);
       margin: 0 auto;
       padding: var(--space-6);
     }
 
-    
+
     .header {
       background: var(--bg-glass);
       backdrop-filter: blur(16px);
@@ -171,7 +169,7 @@
       letter-spacing: 0.05em;
     }
 
-    
+
     .widgets-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -185,7 +183,7 @@
       }
     }
 
-    
+
     .widget {
       background: var(--bg-card);
       backdrop-filter: blur(12px);
@@ -226,7 +224,7 @@
       min-height: 280px;
     }
 
-    
+
     .flatpickr-calendar {
       background: transparent !important;
       box-shadow: none !important;
@@ -258,13 +256,13 @@
       color: var(--bg-primary) !important;
     }
 
-    
+
     #trend-chart {
       width: 100%;
       height: 260px;
     }
 
-    
+
     .search-container {
       margin-bottom: var(--space-6);
     }
@@ -335,7 +333,7 @@
       font-weight: 600;
     }
 
-    
+
     .reports-section {
       margin-bottom: var(--space-6);
     }
@@ -371,7 +369,7 @@
       }
     }
 
-    
+
     .report-card {
       background: var(--bg-card);
       border: 1px solid var(--border-color);
@@ -454,7 +452,7 @@
       color: var(--accent-secondary);
     }
 
-    
+
     .empty-state {
       text-align: center;
       padding: var(--space-12);
@@ -471,7 +469,7 @@
       font-size: 1rem;
     }
 
-    
+
     .footer {
       text-align: center;
       padding: var(--space-6);
@@ -486,7 +484,7 @@
       color: var(--text-faint);
     }
 
-    
+
     .hidden {
       display: none !important;
     }
@@ -506,7 +504,7 @@
 </head>
 <body>
   <div class="page-container">
-    
+
     <header class="header">
       <h1 class="header__title">Event Radar</h1>
       <p class="header__subtitle">Track trends and insights from collected data</p>
@@ -516,32 +514,32 @@
           <span class="stat-value">3</span>
           <span class="stat-label">Total Reports</span>
         </div>
-        
+
         <div class="stat-item">
           <span class="stat-value">2026-04-14</span>
           <span class="stat-label">Latest Report</span>
         </div>
-        
-        
+
+
       </div>
     </header>
 
-    
+
     <div class="widgets-grid">
-      
+
       <div class="widget">
         <h2 class="widget__title">Select Date</h2>
         <div id="calendar-container"></div>
       </div>
 
-      
+
       <div class="widget">
         <h2 class="widget__title">Activity Trend</h2>
         <canvas id="trend-chart" aria-label="Report activity trend chart" role="img"></canvas>
       </div>
     </div>
 
-    
+
     <div class="search-container">
       <div class="search-input-wrapper">
         <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -567,21 +565,21 @@
       </div>
     </div>
 
-    
+
     <section class="reports-section">
       <div class="section-header">
         <h2 class="section-title">All Reports</h2>
       </div>
 
       <div id="reports-grid" class="reports-grid">
-        
-          
+
+
           <a href="event_20260414.html" class="report-card" data-date="2026-04-14" data-name="event - 2026-04-14" data-title="event - 2026-04-14" data-entities="">
             <div class="report-card__header">
               <span class="report-card__date">2026-04-14</span>
-              
+
               <span class="report-card__badge">Daily</span>
-              
+
             </div>
             <div class="report-card__meta">
               <span class="report-card__meta-item">
@@ -592,18 +590,18 @@
                 View Report
               </span>
             </div>
-            
+
             <div class="report-card__entities" data-summary-date="2026-04-14">
-              
+
             </div>
           </a>
-          
+
           <a href="event_20260316.html" class="report-card" data-date="2026-03-16" data-name="event - 2026-03-16" data-title="event - 2026-03-16" data-entities="">
             <div class="report-card__header">
               <span class="report-card__date">2026-03-16</span>
-              
+
               <span class="report-card__badge">Daily</span>
-              
+
             </div>
             <div class="report-card__meta">
               <span class="report-card__meta-item">
@@ -614,18 +612,18 @@
                 View Report
               </span>
             </div>
-            
+
             <div class="report-card__entities" data-summary-date="2026-03-16">
-              
+
             </div>
           </a>
-          
+
           <a href="event_report.html" class="report-card" data-date="" data-name="Event Report" data-title="Event Report" data-entities="">
             <div class="report-card__header">
               <span class="report-card__date">Event Report</span>
-              
+
               <span class="report-card__badge" style="background: rgba(246, 200, 76, 0.15); color: var(--accent-highlight);">Latest</span>
-              
+
             </div>
             <div class="report-card__meta">
               <span class="report-card__meta-item">
@@ -636,50 +634,51 @@
                 View Report
               </span>
             </div>
-            
+
             <div class="report-card__entities" data-summary-date="">
-              
+
             </div>
           </a>
-          
-        
+
+
       </div>
     </section>
 
-    
+
     <footer class="footer">
       <p>
         Generated by <strong>Event Radar</strong> &middot;
         <span class="footer__timestamp">
-          
-            
-              2026-04-14T11:55:58.172849+00:00
-            
-          
+
+
+              2026-04-14T12:20:11.889390+00:00
+
+
         </span>
       </p>
     </footer>
   </div>
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 
   <script>
-    
+
     const RADAR_DATA = {
       name: "Event Radar",
       reports: [{"date": "2026-04-14", "date_label": "2026-04-14", "display_name": "event - 2026-04-14", "filename": "event_20260414.html"}, {"date": "2026-03-16", "date_label": "2026-03-16", "display_name": "event - 2026-03-16", "filename": "event_20260316.html"}, {"date": "", "date_label": "", "display_name": "Event Report", "filename": "event_report.html"}],
-      summaries: [{"date": "2026-04-14", "category": "event", "article_count": 200, "source_count": 21, "matched_count": 121, "top_entities": [{"name": "EventGeneral", "count": 85}, {"name": "Entertainment", "count": 79}, {"name": "Performance", "count": 58}, {"name": "Event", "count": 51}, {"name": "Exhibition", "count": 31}, {"name": "Festival", "count": 27}, {"name": "Sports", "count": 14}, {"name": "Conference", "count": 12}, {"name": "Meetup", "count": 6}]}, {"date": "2026-04-13", "category": "event", "article_count": 200, "source_count": 19, "matched_count": 125, "top_entities": [{"name": "Entertainment", "count": 84}, {"name": "EventGeneral", "count": 74}, {"name": "Performance", "count": 48}, {"name": "Event", "count": 46}, {"name": "Festival", "count": 33}, {"name": "Exhibition", "count": 31}, {"name": "Sports", "count": 19}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-12", "category": "event", "article_count": 200, "source_count": 20, "matched_count": 119, "top_entities": [{"name": "Entertainment", "count": 90}, {"name": "EventGeneral", "count": 76}, {"name": "Event", "count": 50}, {"name": "Performance", "count": 47}, {"name": "Exhibition", "count": 34}, {"name": "Festival", "count": 31}, {"name": "Sports", "count": 17}, {"name": "Conference", "count": 5}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-11", "category": "event", "article_count": 200, "source_count": 23, "matched_count": 131, "top_entities": [{"name": "Entertainment", "count": 118}, {"name": "EventGeneral", "count": 98}, {"name": "Event", "count": 60}, {"name": "Performance", "count": 48}, {"name": "Exhibition", "count": 46}, {"name": "Festival", "count": 25}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-10", "category": "event", "article_count": 200, "source_count": 23, "matched_count": 132, "top_entities": [{"name": "Entertainment", "count": 135}, {"name": "EventGeneral", "count": 89}, {"name": "Event", "count": 60}, {"name": "Performance", "count": 55}, {"name": "Exhibition", "count": 36}, {"name": "Festival", "count": 26}, {"name": "Sports", "count": 12}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 5}]}, {"date": "2026-04-09", "category": "event", "article_count": 200, "source_count": 21, "matched_count": 133, "top_entities": [{"name": "Entertainment", "count": 110}, {"name": "EventGeneral", "count": 87}, {"name": "Event", "count": 51}, {"name": "Performance", "count": 50}, {"name": "Exhibition", "count": 33}, {"name": "Festival", "count": 23}, {"name": "Sports", "count": 15}, {"name": "Conference", "count": 12}, {"name": "Meetup", "count": 4}]}, {"date": "2026-04-08", "category": "event", "article_count": 200, "source_count": 20, "matched_count": 123, "top_entities": [{"name": "Entertainment", "count": 99}, {"name": "EventGeneral", "count": 72}, {"name": "Event", "count": 46}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 30}, {"name": "Festival", "count": 23}, {"name": "Sports", "count": 14}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-07", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 111, "top_entities": [{"name": "Entertainment", "count": 79}, {"name": "EventGeneral", "count": 67}, {"name": "Performance", "count": 45}, {"name": "Event", "count": 45}, {"name": "Festival", "count": 24}, {"name": "Exhibition", "count": 22}, {"name": "Sports", "count": 22}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 6}]}, {"date": "2026-04-06", "category": "event", "article_count": 200, "source_count": 14, "matched_count": 112, "top_entities": [{"name": "Entertainment", "count": 80}, {"name": "EventGeneral", "count": 64}, {"name": "Performance", "count": 44}, {"name": "Event", "count": 42}, {"name": "Sports", "count": 25}, {"name": "Exhibition", "count": 24}, {"name": "Festival", "count": 24}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 4}]}, {"date": "2026-04-05", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 114, "top_entities": [{"name": "Entertainment", "count": 75}, {"name": "EventGeneral", "count": 66}, {"name": "Performance", "count": 45}, {"name": "Event", "count": 42}, {"name": "Festival", "count": 28}, {"name": "Exhibition", "count": 21}, {"name": "Sports", "count": 17}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 5}]}, {"date": "2026-04-04", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 122, "top_entities": [{"name": "Entertainment", "count": 99}, {"name": "EventGeneral", "count": 72}, {"name": "Event", "count": 47}, {"name": "Performance", "count": 42}, {"name": "Exhibition", "count": 29}, {"name": "Festival", "count": 18}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 13}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-03", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 114, "top_entities": [{"name": "Entertainment", "count": 79}, {"name": "EventGeneral", "count": 70}, {"name": "Event", "count": 55}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 18}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-02", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 107, "top_entities": [{"name": "Entertainment", "count": 73}, {"name": "EventGeneral", "count": 48}, {"name": "Event", "count": 44}, {"name": "Performance", "count": 41}, {"name": "Festival", "count": 29}, {"name": "Exhibition", "count": 20}, {"name": "Sports", "count": 11}, {"name": "Conference", "count": 9}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-01", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 82, "top_entities": [{"name": "Performance", "count": 48}, {"name": "Event", "count": 40}, {"name": "Festival", "count": 25}, {"name": "Exhibition", "count": 19}, {"name": "Conference", "count": 4}]}, {"date": "2026-03-31", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 62, "top_entities": [{"name": "Event", "count": 28}, {"name": "Performance", "count": 27}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-30", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 70, "top_entities": [{"name": "Event", "count": 35}, {"name": "Performance", "count": 32}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 18}, {"name": "Conference", "count": 2}]}, {"date": "2026-03-29", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 80, "top_entities": [{"name": "Event", "count": 52}, {"name": "Performance", "count": 36}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 15}, {"name": "Conference", "count": 6}]}, {"date": "2026-03-28", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 99, "top_entities": [{"name": "Event", "count": 70}, {"name": "Performance", "count": 45}, {"name": "Exhibition", "count": 28}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 9}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-27", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 95, "top_entities": [{"name": "Event", "count": 65}, {"name": "Performance", "count": 38}, {"name": "Exhibition", "count": 27}, {"name": "Conference", "count": 11}, {"name": "Festival", "count": 9}, {"name": "Meetup", "count": 2}]}, {"date": "2026-03-26", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 86, "top_entities": [{"name": "Event", "count": 41}, {"name": "Performance", "count": 30}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 17}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-25", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 86, "top_entities": [{"name": "Event", "count": 41}, {"name": "Performance", "count": 40}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 21}, {"name": "Conference", "count": 7}]}, {"date": "2026-03-24", "category": "event", "article_count": 185, "source_count": 17, "matched_count": 93, "top_entities": [{"name": "Event", "count": 58}, {"name": "Exhibition", "count": 43}, {"name": "Performance", "count": 32}, {"name": "Festival", "count": 14}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 3}]}, {"date": "2026-03-23", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 74, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 28}, {"name": "Exhibition", "count": 22}, {"name": "Festival", "count": 10}, {"name": "Conference", "count": 3}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-22", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 79, "top_entities": [{"name": "Performance", "count": 48}, {"name": "Event", "count": 36}, {"name": "Exhibition", "count": 27}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 3}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-21", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 79, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 38}, {"name": "Exhibition", "count": 28}, {"name": "Festival", "count": 16}, {"name": "Conference", "count": 4}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-20", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 83, "top_entities": [{"name": "Event", "count": 49}, {"name": "Performance", "count": 44}, {"name": "Exhibition", "count": 27}, {"name": "Festival", "count": 14}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-19", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 94, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 46}, {"name": "Exhibition", "count": 31}, {"name": "Festival", "count": 16}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 2}]}, {"date": "2026-03-18", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 94, "top_entities": [{"name": "Performance", "count": 46}, {"name": "Event", "count": 46}, {"name": "Festival", "count": 24}, {"name": "Exhibition", "count": 23}, {"name": "Conference", "count": 6}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-17", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 87, "top_entities": [{"name": "Event", "count": 50}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 26}, {"name": "Festival", "count": 19}, {"name": "Conference", "count": 6}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-16", "category": "event", "article_count": 109, "source_count": 13, "matched_count": 58, "top_entities": [{"name": "Exhibition", "count": 32}, {"name": "Event", "count": 31}, {"name": "Performance", "count": 13}, {"name": "Conference", "count": 10}, {"name": "Festival", "count": 6}]}],
-      generatedAt: "2026-04-14T11:55:58.172849+00:00"
+      summaries: [{"date": "2026-04-14", "category": "event", "article_count": 200, "source_count": 21, "matched_count": 122, "top_entities": [{"name": "EventGeneral", "count": 84}, {"name": "Entertainment", "count": 82}, {"name": "Performance", "count": 58}, {"name": "Event", "count": 51}, {"name": "Exhibition", "count": 31}, {"name": "Festival", "count": 27}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 6}]}, {"date": "2026-04-13", "category": "event", "article_count": 200, "source_count": 19, "matched_count": 125, "top_entities": [{"name": "Entertainment", "count": 84}, {"name": "EventGeneral", "count": 74}, {"name": "Performance", "count": 48}, {"name": "Event", "count": 46}, {"name": "Festival", "count": 33}, {"name": "Exhibition", "count": 31}, {"name": "Sports", "count": 19}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-12", "category": "event", "article_count": 200, "source_count": 20, "matched_count": 119, "top_entities": [{"name": "Entertainment", "count": 90}, {"name": "EventGeneral", "count": 76}, {"name": "Event", "count": 50}, {"name": "Performance", "count": 47}, {"name": "Exhibition", "count": 34}, {"name": "Festival", "count": 31}, {"name": "Sports", "count": 17}, {"name": "Conference", "count": 5}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-11", "category": "event", "article_count": 200, "source_count": 23, "matched_count": 131, "top_entities": [{"name": "Entertainment", "count": 118}, {"name": "EventGeneral", "count": 98}, {"name": "Event", "count": 60}, {"name": "Performance", "count": 48}, {"name": "Exhibition", "count": 46}, {"name": "Festival", "count": 25}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-10", "category": "event", "article_count": 200, "source_count": 23, "matched_count": 132, "top_entities": [{"name": "Entertainment", "count": 135}, {"name": "EventGeneral", "count": 89}, {"name": "Event", "count": 60}, {"name": "Performance", "count": 55}, {"name": "Exhibition", "count": 36}, {"name": "Festival", "count": 26}, {"name": "Sports", "count": 12}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 5}]}, {"date": "2026-04-09", "category": "event", "article_count": 200, "source_count": 21, "matched_count": 133, "top_entities": [{"name": "Entertainment", "count": 110}, {"name": "EventGeneral", "count": 87}, {"name": "Event", "count": 51}, {"name": "Performance", "count": 50}, {"name": "Exhibition", "count": 33}, {"name": "Festival", "count": 23}, {"name": "Sports", "count": 15}, {"name": "Conference", "count": 12}, {"name": "Meetup", "count": 4}]}, {"date": "2026-04-08", "category": "event", "article_count": 200, "source_count": 20, "matched_count": 123, "top_entities": [{"name": "Entertainment", "count": 99}, {"name": "EventGeneral", "count": 72}, {"name": "Event", "count": 46}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 30}, {"name": "Festival", "count": 23}, {"name": "Sports", "count": 14}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-07", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 111, "top_entities": [{"name": "Entertainment", "count": 79}, {"name": "EventGeneral", "count": 67}, {"name": "Performance", "count": 45}, {"name": "Event", "count": 45}, {"name": "Festival", "count": 24}, {"name": "Exhibition", "count": 22}, {"name": "Sports", "count": 22}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 6}]}, {"date": "2026-04-06", "category": "event", "article_count": 200, "source_count": 14, "matched_count": 112, "top_entities": [{"name": "Entertainment", "count": 80}, {"name": "EventGeneral", "count": 64}, {"name": "Performance", "count": 44}, {"name": "Event", "count": 42}, {"name": "Sports", "count": 25}, {"name": "Exhibition", "count": 24}, {"name": "Festival", "count": 24}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 4}]}, {"date": "2026-04-05", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 114, "top_entities": [{"name": "Entertainment", "count": 75}, {"name": "EventGeneral", "count": 66}, {"name": "Performance", "count": 45}, {"name": "Event", "count": 42}, {"name": "Festival", "count": 28}, {"name": "Exhibition", "count": 21}, {"name": "Sports", "count": 17}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 5}]}, {"date": "2026-04-04", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 122, "top_entities": [{"name": "Entertainment", "count": 99}, {"name": "EventGeneral", "count": 72}, {"name": "Event", "count": 47}, {"name": "Performance", "count": 42}, {"name": "Exhibition", "count": 29}, {"name": "Festival", "count": 18}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 13}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-03", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 114, "top_entities": [{"name": "Entertainment", "count": 79}, {"name": "EventGeneral", "count": 70}, {"name": "Event", "count": 55}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 18}, {"name": "Sports", "count": 13}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 3}]}, {"date": "2026-04-02", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 107, "top_entities": [{"name": "Entertainment", "count": 73}, {"name": "EventGeneral", "count": 48}, {"name": "Event", "count": 44}, {"name": "Performance", "count": 41}, {"name": "Festival", "count": 29}, {"name": "Exhibition", "count": 20}, {"name": "Sports", "count": 11}, {"name": "Conference", "count": 9}, {"name": "Meetup", "count": 2}]}, {"date": "2026-04-01", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 82, "top_entities": [{"name": "Performance", "count": 48}, {"name": "Event", "count": 40}, {"name": "Festival", "count": 25}, {"name": "Exhibition", "count": 19}, {"name": "Conference", "count": 4}]}, {"date": "2026-03-31", "category": "event", "article_count": 200, "source_count": 18, "matched_count": 62, "top_entities": [{"name": "Event", "count": 28}, {"name": "Performance", "count": 27}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 8}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-30", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 70, "top_entities": [{"name": "Event", "count": 35}, {"name": "Performance", "count": 32}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 18}, {"name": "Conference", "count": 2}]}, {"date": "2026-03-29", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 80, "top_entities": [{"name": "Event", "count": 52}, {"name": "Performance", "count": 36}, {"name": "Exhibition", "count": 23}, {"name": "Festival", "count": 15}, {"name": "Conference", "count": 6}]}, {"date": "2026-03-28", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 99, "top_entities": [{"name": "Event", "count": 70}, {"name": "Performance", "count": 45}, {"name": "Exhibition", "count": 28}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 9}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-27", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 95, "top_entities": [{"name": "Event", "count": 65}, {"name": "Performance", "count": 38}, {"name": "Exhibition", "count": 27}, {"name": "Conference", "count": 11}, {"name": "Festival", "count": 9}, {"name": "Meetup", "count": 2}]}, {"date": "2026-03-26", "category": "event", "article_count": 200, "source_count": 17, "matched_count": 86, "top_entities": [{"name": "Event", "count": 41}, {"name": "Performance", "count": 30}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 17}, {"name": "Conference", "count": 10}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-25", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 86, "top_entities": [{"name": "Event", "count": 41}, {"name": "Performance", "count": 40}, {"name": "Exhibition", "count": 25}, {"name": "Festival", "count": 21}, {"name": "Conference", "count": 7}]}, {"date": "2026-03-24", "category": "event", "article_count": 185, "source_count": 17, "matched_count": 93, "top_entities": [{"name": "Event", "count": 58}, {"name": "Exhibition", "count": 43}, {"name": "Performance", "count": 32}, {"name": "Festival", "count": 14}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 3}]}, {"date": "2026-03-23", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 74, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 28}, {"name": "Exhibition", "count": 22}, {"name": "Festival", "count": 10}, {"name": "Conference", "count": 3}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-22", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 79, "top_entities": [{"name": "Performance", "count": 48}, {"name": "Event", "count": 36}, {"name": "Exhibition", "count": 27}, {"name": "Festival", "count": 12}, {"name": "Conference", "count": 3}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-21", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 79, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 38}, {"name": "Exhibition", "count": 28}, {"name": "Festival", "count": 16}, {"name": "Conference", "count": 4}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-20", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 83, "top_entities": [{"name": "Event", "count": 49}, {"name": "Performance", "count": 44}, {"name": "Exhibition", "count": 27}, {"name": "Festival", "count": 14}, {"name": "Conference", "count": 7}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-19", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 94, "top_entities": [{"name": "Performance", "count": 50}, {"name": "Event", "count": 46}, {"name": "Exhibition", "count": 31}, {"name": "Festival", "count": 16}, {"name": "Conference", "count": 11}, {"name": "Meetup", "count": 2}]}, {"date": "2026-03-18", "category": "event", "article_count": 200, "source_count": 15, "matched_count": 94, "top_entities": [{"name": "Performance", "count": 46}, {"name": "Event", "count": 46}, {"name": "Festival", "count": 24}, {"name": "Exhibition", "count": 23}, {"name": "Conference", "count": 6}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-17", "category": "event", "article_count": 200, "source_count": 16, "matched_count": 87, "top_entities": [{"name": "Event", "count": 50}, {"name": "Performance", "count": 43}, {"name": "Exhibition", "count": 26}, {"name": "Festival", "count": 19}, {"name": "Conference", "count": 6}, {"name": "Meetup", "count": 1}]}, {"date": "2026-03-16", "category": "event", "article_count": 109, "source_count": 13, "matched_count": 58, "top_entities": [{"name": "Exhibition", "count": 32}, {"name": "Event", "count": 31}, {"name": "Performance", "count": 13}, {"name": "Conference", "count": 10}, {"name": "Festival", "count": 6}]}],
+      generatedAt: "2026-04-14T12:20:11.889390+00:00"
     };
 
-    
+
     const availableDates = RADAR_DATA.reports
       .filter(r => r.date)
       .map(r => r.date);
 
-    
+
+    // TODO: Task 7
     (function initCalendar() {
       const calendarContainer = document.getElementById('calendar-container');
       if (!calendarContainer || typeof flatpickr === 'undefined') {
@@ -744,14 +743,15 @@
       });
     })();
 
-    
+
+    // TODO: Task 8
     (function initSearch() {
       const searchInput = document.getElementById('search-input');
       const searchClear = document.getElementById('search-clear');
       const searchResults = document.getElementById('search-results');
       const resultsCount = document.getElementById('results-count');
       const reportsGrid = document.getElementById('reports-grid');
-      
+
       if (!searchInput || !reportsGrid) return;
 
       // Build entity lookup map from summaries
@@ -786,13 +786,13 @@
           const title = (card.dataset.title || card.dataset.name || '').toLowerCase();
           const date = (card.dataset.date || '').toLowerCase();
           const entities = (card.dataset.entities || '').toLowerCase();
-          
+
           // Match against title, date, and entities
-          const matches = !normalizedQuery || 
-            title.includes(normalizedQuery) || 
+          const matches = !normalizedQuery ||
+            title.includes(normalizedQuery) ||
             date.includes(normalizedQuery) ||
             entities.includes(normalizedQuery);
-          
+
           card.style.display = matches ? '' : 'none';
           if (matches) visibleCount++;
         });
@@ -827,7 +827,7 @@
       const debouncedSearch = debounce(function(e) {
         const query = e.target.value;
         filterReports(query);
-        
+
         // Toggle clear button visibility
         if (searchClear) {
           searchClear.style.display = query ? 'flex' : 'none';
@@ -858,7 +858,7 @@
       });
     })();
 
-    
+
     // Build summary lookup map for tooltip entity display
     const chartSummaryByDate = new Map();
     if (RADAR_DATA.summaries && Array.isArray(RADAR_DATA.summaries)) {
@@ -1035,7 +1035,7 @@
       });
     }
 
-    
+
     function debounce(func, wait) {
       let timeout;
       return function executedFunction(...args) {
@@ -1048,7 +1048,7 @@
       };
     }
 
-    
+
     // Populate entity tags for each report card from summaries data
     function populateEntityTags() {
       if (!RADAR_DATA.summaries || RADAR_DATA.summaries.length === 0) return;
