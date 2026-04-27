@@ -53,6 +53,16 @@ def _to_optional_float(value: object) -> float | None:
     raise TypeError(f"Expected float-compatible value, got {type(value).__name__}")
 
 
+def _column_exists(
+    con: duckdb.DuckDBPyConnection,
+    *,
+    table_name: str,
+    column_name: str,
+) -> bool:
+    rows = con.execute(f"DESCRIBE {_quote_identifier(table_name)}").fetchall()
+    return any(str(row[0]) == column_name for row in rows)
+
+
 def _print_section(title: str) -> None:
     logger.info("quality_check_section", title=title)
 
@@ -252,10 +262,16 @@ def run_all_checks(
     check_missing_fields(con, table_name=table_name, null_conditions=null_conditions)
     check_duplicate_urls(con, table_name=table_name, url_column=url_column)
     check_text_lengths(con, table_name=table_name, text_columns=text_columns or [])
-    check_language_values(
-        con,
-        table_name=table_name,
-        language_column=language_column,
-        allowed_languages=allowed_languages,
-    )
-    check_dates(con, table_name=table_name, date_column=date_column)
+    if _column_exists(con, table_name=table_name, column_name=language_column):
+        check_language_values(
+            con,
+            table_name=table_name,
+            language_column=language_column,
+            allowed_languages=allowed_languages,
+        )
+    else:
+        logger.info("quality_check_skipped", reason=f"missing column: {language_column}")
+    if _column_exists(con, table_name=table_name, column_name=date_column):
+        check_dates(con, table_name=table_name, date_column=date_column)
+    else:
+        logger.info("quality_check_skipped", reason=f"missing column: {date_column}")

@@ -30,6 +30,8 @@ def _pass_through_manager() -> Mock:
 def test_parallel_collection_reduces_runtime() -> None:
     sources = _build_sources(5)
     manager = _pass_through_manager()
+    health_store = Mock()
+    health_store.is_disabled.return_value = False
 
     def delayed_collect(
         source: Source,
@@ -54,6 +56,7 @@ def test_parallel_collection_reduces_runtime() -> None:
     with (
         patch("radar.collector._collect_single", side_effect=delayed_collect),
         patch("radar.collector.get_circuit_breaker_manager", return_value=manager),
+        patch("radar.collector.CrawlHealthStore", return_value=health_store),
         patch.dict(os.environ, {"RADAR_MAX_WORKERS": "5"}, clear=False),
     ):
         start = time.monotonic()
@@ -145,6 +148,44 @@ def test_max_workers_one_preserves_sequential_order() -> None:
     assert [item.source for item in articles] == [source.name for source in sources]
 
 
+def test_bypass_crawl_health_collects_verified_source(tmp_path) -> None:
+    source = Source(
+        name="recovering_feed",
+        type="rss",
+        url="https://example.com/feed",
+        config={"bypass_crawl_health": True},
+    )
+    article = Article(
+        title="Recovered event",
+        link="https://example.com/recovered",
+        summary="ok",
+        published=None,
+        source=source.name,
+        category="event",
+    )
+    manager = _pass_through_manager()
+    health_store = Mock()
+    health_store.is_disabled.return_value = True
+
+    with (
+        patch("radar.collector._collect_single", return_value=[article]),
+        patch("radar.collector.get_circuit_breaker_manager", return_value=manager),
+        patch("radar.collector.CrawlHealthStore", return_value=health_store),
+    ):
+        articles, errors = collect_sources(
+            [source],
+            category="event",
+            min_interval_per_host=0.0,
+            max_workers=1,
+            health_db_path=str(tmp_path / "health.duckdb"),
+        )
+
+    assert errors == []
+    assert articles == [article]
+    health_store.is_disabled.assert_called_once_with(source.name)
+    health_store.close.assert_called_once()
+
+
 def test_rate_limiter_is_thread_safe() -> None:
     limiter = RateLimiter(min_interval=0.0)
     assert hasattr(limiter, "_lock")
@@ -207,3 +248,46 @@ def test_max_workers_is_capped_and_validated(env_value: str, expected_workers: i
         mock_executor.assert_not_called()
     else:
         mock_executor.assert_called_once_with(max_workers=expected_workers)
+
+
+def test_browser_collection_uses_request_timeout_as_milliseconds(tmp_path) -> None:
+    source = Source(
+        name="browser_source",
+        type="javascript",
+        url="https://example.com/events",
+        config={"wait_for": "main"},
+    )
+    captured: dict[str, object] = {}
+
+    def fake_collect_browser_sources(
+        sources: list[Source],
+        category: str,
+        *,
+        timeout: int,
+        health_db_path: str | None = None,
+    ) -> tuple[list[Article], list[str]]:
+        captured["sources"] = sources
+        captured["category"] = category
+        captured["timeout"] = timeout
+        captured["health_db_path"] = health_db_path
+        return [], []
+
+    health_db_path = str(tmp_path / "health.duckdb")
+    with patch(
+        "eventradar.browser_collector.collect_browser_sources",
+        side_effect=fake_collect_browser_sources,
+    ):
+        articles, errors = collect_sources(
+            [source],
+            category="event",
+            timeout=5,
+            min_interval_per_host=0.0,
+            health_db_path=health_db_path,
+        )
+
+    assert articles == []
+    assert errors == []
+    assert captured["sources"] == [source]
+    assert captured["category"] == "event"
+    assert captured["timeout"] == 5_000
+    assert captured["health_db_path"] == health_db_path

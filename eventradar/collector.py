@@ -191,8 +191,19 @@ def collect_sources(
     errors: list[str] = []
     manager = get_circuit_breaker_manager()
     workers = _resolve_max_workers(max_workers)
+    enabled_sources = [source for source in sources if source.enabled]
+    _js_types = {"javascript", "browser"}
+    rss_sources = [s for s in enabled_sources if s.type.lower() == "rss"]
+    js_sources = [s for s in enabled_sources if s.type.lower() in _js_types]
+    unsupported_sources = [
+        s for s in enabled_sources if s.type.lower() not in {"rss", *_js_types}
+    ]
+    errors.extend(
+        f"{source.name}: Unsupported source type '{source.type}'"
+        for source in unsupported_sources
+    )
     source_hosts: dict[str, str] = {
-        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in sources
+        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources
     }
     rate_limiters: dict[str, RateLimiter] = {
         host: RateLimiter(min_interval=min_interval_per_host) for host in set(source_hosts.values())
@@ -204,13 +215,12 @@ def collect_sources(
     _set_collection_controls(throttler, health_store)
     session = _create_session()
 
-    _js_types = {"javascript", "browser"}
-    rss_sources = [s for s in sources if s.type.lower() not in _js_types]
-    js_sources = [s for s in sources if s.type.lower() in _js_types]
-
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
-        if health_store.is_disabled(source.name):
+        bypass_crawl_health = source.config.get("bypass_crawl_health") is True
+        if health_store.is_disabled(source.name) and not bypass_crawl_health:
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
+        if bypass_crawl_health:
+            logger.info("crawl_health_bypass", source=source.name)
 
         host = source_hosts[source.name]
         rate_limiters[host].acquire()
@@ -256,7 +266,12 @@ def collect_sources(
             try:
                 from .browser_collector import collect_browser_sources
 
-                js_articles, js_errors = collect_browser_sources(js_sources, category)
+                js_articles, js_errors = collect_browser_sources(
+                    js_sources,
+                    category,
+                    timeout=max(1_000, timeout * 1_000),
+                    health_db_path=health_db_path,
+                )
                 articles.extend(js_articles)
                 errors.extend(js_errors)
             except ImportError:

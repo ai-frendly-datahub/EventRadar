@@ -1,5 +1,92 @@
 category_name: event
 display_name: 행사/이벤트 레이더
+data_quality:
+  priority: P1
+  primary_motion: intelligence
+  weakest_dimension: operational_depth
+  quality_outputs:
+    freshness_report: reports/event_quality.json
+    dated_freshness_report_pattern: reports/event_YYYYMMDD_quality.json
+    tracked_event_models:
+    - official_event_calendar
+    - ticket_availability
+    - venue_calendar
+    - exhibitor_sponsor_signal
+  event_models:
+    official_event_calendar:
+      date_fields:
+      - event_date
+      - event_start_date
+      - event_end_date
+      required_fields:
+      - event_title
+      - venue_id
+      - source_url
+    ticket_availability:
+      date_fields:
+      - ticket_open_date
+      - observed_at
+      required_fields:
+      - event_occurrence_id
+      - availability_status
+      - source_url
+    venue_calendar:
+      date_fields:
+      - event_date
+      - collected_at
+      required_fields:
+      - venue_id
+      - event_occurrence_id
+      - source_url
+    exhibitor_sponsor_signal:
+      date_fields:
+      - published_date
+      - collected_at
+      required_fields:
+      - event_occurrence_id
+      - organization_name
+      - signal_type
+  canonical_keys:
+    event_occurrence:
+    - event_title
+    - venue_id
+    - event_date
+    - city
+    - online_flag
+    venue:
+    - venue_name
+    - city
+    - country
+  freshness_sla:
+    official_event_calendar_days: 3
+    ticket_availability_hours: 24
+    venue_calendar_days: 3
+    exhibitor_sponsor_signal_days: 7
+  quality_gates:
+  - 행사일, 티켓 오픈일, 수집일을 별도 필드로 유지한다
+  - 동일 행사의 지역, 회차, 온라인 여부를 event_occurrence_id로 분리한다
+  - 미디어 소개 기사와 공식 등록/티켓 source를 분리한다
+  - 참가사/스폰서 신호는 리드 발굴용 보조 필드로만 병합한다
+  - 오류/서비스 지연 페이지는 리포트와 품질 이벤트에서 제외한다
+  - 일반 문화/연예 뉴스는 행사·공연·전시 신호가 있을 때만 리포트에 반영한다
+source_backlog:
+  operational_candidates:
+  - id: ticketmaster_discovery_api
+    name: Ticketmaster Discovery API
+    signal_type: ticket_availability
+    activation_gate: API key, quota, event id mapping, and ticket status field validation
+  - id: seoul_open_event_api
+    name: Seoul open culture event API
+    signal_type: official_event_calendar
+    activation_gate: data.go.kr/API access, venue id normalization, and date timezone validation
+  - id: venue_calendar_pages
+    name: Major venue calendar pages
+    signal_type: venue_calendar
+    activation_gate: parser stability, duplicate occurrence handling, and source URL evidence
+  - id: exhibitor_sponsor_lists
+    name: Expo exhibitor and sponsor lists
+    signal_type: exhibitor_sponsor_signal
+    activation_gate: ToS review, organization canonicalization, and event occurrence mapping
 sources:
 - name: Exhibition News
   type: rss
@@ -13,6 +100,11 @@ sources:
 - name: Museum Next
   type: rss
   url: https://www.museumnext.com/feed/
+  enabled: false
+  notes: "DISABLED 2026-04-23: live audit returned HTTP 403 for the homepage, /articles/, and RSS candidates. Keep as backlog until an accessible feed or approved browser path is confirmed."
+  config:
+    disabled_reason: access_forbidden_403
+    required_before_enable: [accessible_feed_or_browser_path, collection_smoke]
 - name: PCMA Convene
   type: rss
   url: https://www.pcma.org/feed/
@@ -22,6 +114,8 @@ sources:
 - name: Exhibit City News
   type: rss
   url: https://www.exhibitcitynews.com/feed/
+  config:
+    bypass_crawl_health: true
 - name: Smart Meetings
   type: rss
   url: https://www.smartmeetings.com/feed
@@ -40,6 +134,8 @@ sources:
 - name: Ticketmaster Blog
   type: rss
   url: https://blog.ticketmaster.com/feed/
+  config:
+    freshness_sla_days: 3
 - name: Skift Meetings
   type: rss
   url: https://meetings.skift.com/feed/
@@ -49,21 +145,31 @@ sources:
 - name: Sched Blog
   type: rss
   url: https://sched.com/blog/feed/
+  enabled: false
+  notes: "DISABLED 2026-04-23: feed is reachable but dormant for active quality tracking; latest RSS entry is 2025-08-28. Keep as backlog until the feed resumes current event-industry updates."
+  config:
+    disabled_reason: dormant_feed
+    required_before_enable: [current_rss_entries, source_cadence_review]
 - name: Arts Professional
   type: rss
   url: https://www.artsprofessional.co.uk/feed
+  enabled: false
+  notes: "DISABLED 2026-04-23: current feed is reachable but the latest item is a test page with an empty summary, causing validation failure; remaining recent entries are non-operational feedback/style-guide pages. Keep as backlog until current event-industry items resume."
+  config:
+    disabled_reason: current_feed_validation_failure
+    required_before_enable: [current_operational_entries, validation_smoke]
 - name: Reddit r/festivals
-  type: reddit
-  url: https://www.reddit.com/r/festivals/
+  type: rss
+  url: https://www.reddit.com/r/festivals/.rss
 - name: Reddit r/concerts
-  type: reddit
-  url: https://www.reddit.com/r/concerts/
+  type: rss
+  url: https://www.reddit.com/r/concerts/.rss
 - name: Reddit r/conferences
-  type: reddit
-  url: https://www.reddit.com/r/conferences/
+  type: rss
+  url: https://www.reddit.com/r/conferences/.rss
 - name: Reddit r/eventplanning
-  type: reddit
-  url: https://www.reddit.com/r/eventplanning/
+  type: rss
+  url: https://www.reddit.com/r/eventplanning/.rss
 # NOTE: 2026-04-02 점검 - 403/404 오류로 비활성화
 # - name: Smithsonian Events
 #   type: rss
@@ -101,97 +207,229 @@ sources:
 - name: Meetup Blog
   type: rss
   url: https://www.meetup.com/blog/feed/
+  enabled: false
+  notes: "DISABLED 2026-04-23: reachable product blog is low-cadence and not a current event-quality signal; latest RSS entry is 2025-12-18. Keep as backlog for strategic community/product context."
+  config:
+    disabled_reason: dormant_non_operational_blog
+    required_before_enable: [current_rss_entries, event_signal_review]
 - name: 서울시 문화행사
   type: javascript
   url: https://www.seoul.go.kr/realmnews/culture/calendar.do
+  trust_tier: T1_official
+  collection_tier: C2_js
+  content_type: official_event_calendar
+  producer_role: municipal_culture_authority
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  event_model: official_event_calendar
   config:
+    city: Seoul
+    country: KR
+    venue_id: seoul-city-culture
     wait_for: ".event_list"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
 - name: 강서구 문화행사
   type: javascript
   url: https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038
+  trust_tier: T1_official
+  collection_tier: C2_js
+  content_type: venue_calendar
+  producer_role: district_culture_center
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  event_model: venue_calendar
   config:
+    city: Seoul
+    country: KR
+    venue_id: gangseo-cultural-center
     wait_for: ".board_list"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
 - name: 인터파크 이벤트
   type: javascript
   url: https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve
+  trust_tier: T2_ticketing_platform
+  collection_tier: C2_js
+  content_type: ticket_availability
+  producer_role: ticketing_platform
+  info_purpose:
+  - ticket_availability
+  event_model: ticket_availability
   config:
     wait_for: ".list_item"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
 
 # === 한국 문화 이벤트 소스 ===
 - name: 문화체육관광부 문화일보
   type: rss
   url: https://www.mcst.go.kr/kor/rss/news.xml
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C1_rss
-  content_type: news
+  content_type: official_event_calendar
+  producer_role: national_culture_authority
+  info_purpose:
+  - official_event_calendar
+  event_model: official_event_calendar
+  notes: "DISABLED 2026-04-23: configured RSS URL now returns 404/connection resets and is a broad ministry news feed rather than a stable official event calendar. Keep disabled until a current official event-calendar endpoint is identified."
+  config:
+    disabled_reason: rss_endpoint_unavailable_404
+    required_before_enable: [stable_official_event_calendar_endpoint, parser_smoke]
 
 - name: 한국문화예술위원회
   type: javascript
   url: https://www.arko.or.kr/board/contents/list.do?boardNo=1
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: official_event_calendar
+  producer_role: arts_grant_authority
+  info_purpose:
+  - official_event_calendar
+  - exhibitor_sponsor_signal
+  event_model: official_event_calendar
+  notes: "DISABLED 2026-04-23: live Playwright smoke returned an empty title/body for boardNo=1. Keep as backlog until a stable public board/list URL is confirmed."
   config:
+    disabled_reason: empty_browser_response
+    required_before_enable: [stable_public_board_url, browser_smoke]
     wait_for: ".board_list"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
 
 - name: 국립중앙박물관 행사
   type: javascript
   url: https://www.museum.go.kr/site/main/eventsList
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: venue_calendar
+  producer_role: national_museum
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  event_model: venue_calendar
+  notes: "DISABLED 2026-04-23: live probe and Playwright navigation return a self-redirect loop on /site/main/eventsList. Keep coverage through Korea Tourism, MCST festival, SAC, Sejong Center, and MMCA until a stable official event-list URL is confirmed."
   config:
+    disabled_reason: official_event_page_redirect_loop
+    required_before_enable: [stable_official_event_url, browser_smoke]
+    city: Seoul
+    country: KR
+    venue_id: national-museum-of-korea
     wait_for: ".list_area"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
 
 - name: 국립현대미술관 전시
   type: javascript
-  url: https://www.mmca.go.kr/exhibitions/ongoing.do
+  url: https://www.mmca.go.kr/exhibitions/progressList.do
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: venue_calendar
+  producer_role: national_museum
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  event_model: venue_calendar
   config:
-    wait_for: ".exhibition_list"
+    city: Seoul
+    country: KR
+    venue_id: mmca
+    wait_for: body
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
 
 - name: 예술의전당 공연
   type: javascript
-  url: https://www.sac.or.kr/site/main/show/showList
+  url: https://www.sac.or.kr/site/main/home
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: venue_calendar
+  producer_role: national_performance_venue
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  - ticket_availability
+  event_model: venue_calendar
   config:
-    wait_for: ".show_list"
+    city: Seoul
+    country: KR
+    venue_id: seoul-arts-center
+    wait_for: body
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
+    link_selector: "a[href*='/site/main/show/show_view']"
 
 - name: 세종문화회관 공연
   type: javascript
-  url: https://www.sejongpac.or.kr/portal/performance/performanceList.do
+  url: https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: venue_calendar
+  producer_role: metropolitan_performance_venue
+  info_purpose:
+  - official_event_calendar
+  - venue_calendar
+  - ticket_availability
+  event_model: venue_calendar
   config:
-    wait_for: ".performance_list"
+    city: Seoul
+    country: KR
+    venue_id: sejong-center
+    wait_for: body
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
+    link_selector: "a[href*='/portal/performance/performance/performTicket.do']"
 
 - name: 한국관광공사 축제정보
   type: javascript
   url: https://korean.visitkorea.or.kr/kfes/list/list.do
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: official_event_calendar
+  producer_role: national_tourism_authority
+  info_purpose:
+  - official_event_calendar
+  event_model: official_event_calendar
+  notes: "DISABLED 2026-04-23: live Playwright smoke returns 대한민국 구석구석 service-delay page for the festival list. Keep coverage through 지역축제365 until a stable KTO festival URL/API is confirmed."
   config:
+    disabled_reason: service_delay_page
+    required_before_enable: [stable_kto_festival_url_or_api, browser_smoke]
     wait_for: ".festival_list"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
 
 - name: 지역축제365
   type: javascript
@@ -200,9 +438,17 @@ sources:
   country: KR
   trust_tier: T1_official
   collection_tier: C2_js
-  content_type: news
+  content_type: official_event_calendar
+  producer_role: national_culture_authority
+  info_purpose:
+  - official_event_calendar
+  event_model: official_event_calendar
   config:
     wait_for: ".board_list"
+    fallback_wait_for: body
+    bypass_crawl_health: true
+    timeout: 20000
+    navigation_retries: 3
 
 entities:
 - name: Conference
