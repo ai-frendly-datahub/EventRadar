@@ -151,6 +151,7 @@ def run(
         sources=category_cfg.sources,
     )
     storage.close()
+    quality_articles = _dedupe_articles([*classified, *recent_articles])
 
     stats = {
         "sources": len(category_cfg.sources),
@@ -161,7 +162,7 @@ def run(
 
     quality_report = build_quality_report(
         category=category_cfg,
-        articles=recent_articles,
+        articles=quality_articles,
         errors=errors,
         quality_config=quality_cfg,
     )

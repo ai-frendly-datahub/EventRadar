@@ -97,6 +97,10 @@ sources:
 - name: UFI Blog
   type: rss
   url: https://www.ufi.org/blog/feed/
+  notes: UFI publishes strategic event-industry articles on an irregular cadence;
+    keep as exhibitor/sponsor context with a two-week source freshness SLA.
+  config:
+    freshness_sla_days: 14
 - name: Museum Next
   type: rss
   url: https://www.museumnext.com/feed/
