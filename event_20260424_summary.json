@@ -1,70 +1,118 @@
 {
   "date": "2026-04-24",
   "category": "event",
-  "article_count": 200,
-  "source_count": 22,
-  "matched_count": 140,
+  "article_count": 361,
+  "source_count": 26,
+  "matched_count": 361,
   "top_entities": [
     {
-      "name": "Entertainment",
-      "count": 122
+      "name": "EventGeneral",
+      "count": 268
     },
     {
-      "name": "EventGeneral",
-      "count": 100
+      "name": "SourceSignal",
+      "count": 260
+    },
+    {
+      "name": "Entertainment",
+      "count": 232
     },
     {
       "name": "Event",
-      "count": 60
+      "count": 147
     },
     {
       "name": "Performance",
-      "count": 44
+      "count": 133
     },
     {
       "name": "Exhibition",
-      "count": 31
+      "count": 74
     },
     {
       "name": "Festival",
-      "count": 26
-    },
-    {
-      "name": "Sports",
-      "count": 16
+      "count": 65
     },
     {
       "name": "Conference",
-      "count": 14
+      "count": 47
+    },
+    {
+      "name": "Sports",
+      "count": 22
     },
     {
       "name": "Meetup",
-      "count": 3
+      "count": 21
     }
   ],
   "sources": {
-    "한국관광공사 축제정보": 1,
+    "지역축제365": 1,
     "세종문화회관 공연": 1,
-    "예술의전당 공연": 1,
+    "예술의전당 공연": 25,
     "국립현대미술관 전시": 1,
     "인터파크 이벤트": 1,
     "강서구 문화행사": 1,
     "서울시 문화행사": 1,
-    "Billboard": 20,
-    "연합뉴스 연예": 22,
-    "연합뉴스 문화": 60,
-    "Skift Meetings": 5,
-    "Brooklyn Vegan": 26,
-    "Event Marketer": 2,
-    "PCMA Convene": 5,
-    "Pollstar News": 20,
-    "Smart Meetings": 3,
-    "IQ Magazine": 13,
-    "Event Industry News": 10,
-    "IAEE Blog": 1,
-    "지역축제365": 1,
-    "Exhibition News": 4,
-    "Ticketmaster Blog": 1
+    "Reddit r/concerts": 28,
+    "Skift Meetings": 15,
+    "Pollstar News": 26,
+    "IQ Magazine": 21,
+    "Billboard": 10,
+    "Reddit r/festivals": 23,
+    "연합뉴스 문화": 33,
+    "Event Industry News": 19,
+    "연합뉴스 연예": 24,
+    "PCMA Convene": 15,
+    "Exhibit City News": 13,
+    "Event Marketer": 7,
+    "Brooklyn Vegan": 14,
+    "Smart Meetings": 13,
+    "IAEE Blog": 13,
+    "Exhibition News": 11,
+    "Reddit r/conferences": 24,
+    "Ticketmaster Blog": 12,
+    "UFI Blog": 9
   },
-  "generated_at": "2026-04-24T10:29:04.386072+09:00"
+  "generated_at": "2026-04-24T22:54:12.559468+09:00",
+  "ontology": {
+    "repo": "EventRadar",
+    "category": "event",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "event.exhibitor_sponsor_signal",
+      "event.official_event_calendar",
+      "event.ticket_availability",
+      "event.venue_calendar"
+    ],
+    "event_model_mappings": {
+      "official_event_calendar": "event.official_event_calendar",
+      "venue_calendar": "event.venue_calendar",
+      "ticket_availability": "event.ticket_availability",
+      "exhibitor_sponsor_signal": "event.exhibitor_sponsor_signal"
+    },
+    "entity_type_hints": [
+      "event.venue",
+      "evidence.url"
+    ],
+    "source_role_ids": [
+      "community_signal",
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "서울시 문화행사": "primary_evidence",
+      "국립현대미술관 전시": "operational_evidence",
+      "예술의전당 공연": "operational_evidence",
+      "Ticketmaster Blog": "operational_evidence",
+      "Exhibition News": "context_only",
+      "Reddit r/eventplanning": "community_signal"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "official_confirmation_required",
+      "cross_reference_required"
+    ]
+  }
 }

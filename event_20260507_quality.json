@@ -1,0 +1,2899 @@
+{
+  "category": "event",
+  "generated_at": "2026-05-07T02:08:47.853358+00:00",
+  "scope_note": "Official calendars, venue pages, ticket pages, and event-industry sources are tracked separately from broad culture/entertainment news. Generic error pages and broad rows without event-domain signals are excluded from reports.",
+  "summary": {
+    "total_sources": 36,
+    "enabled_sources": 28,
+    "tracked_sources": 17,
+    "fresh_sources": 17,
+    "stale_sources": 0,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 11,
+    "skipped_disabled_sources": 8,
+    "collection_error_count": 0,
+    "official_event_calendar_events": 1,
+    "ticket_availability_events": 26,
+    "venue_calendar_events": 3,
+    "exhibitor_sponsor_signal_events": 9,
+    "event_occurrence_present_count": 28,
+    "venue_id_present_count": 28,
+    "availability_status_present_count": 2,
+    "organization_signal_present_count": 0,
+    "event_required_field_gap_count": 53,
+    "daily_review_item_count": 36
+  },
+  "sources": [
+    {
+      "source": "Exhibition News",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T00:21:28+00:00",
+      "age_days": 1.07,
+      "latest_title": "AEV renames MASA group as Event Sector CTBIE",
+      "latest_url": "https://exhibitionnews.uk/aev-renames-masa-group-as-event-sector-ctbie/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Event Marketer",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T12:07:30+00:00",
+      "age_days": 0.58,
+      "latest_title": "How Nikon is Winning Over Creators with a ‘Try Before You Buy’ Experiential Strategy",
+      "latest_url": "https://www.eventmarketer.com/article/nikon-experiential-strategy-creators-try-before-buy/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "UFI Blog",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 14.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-05T22:36:07+00:00",
+      "age_days": 1.15,
+      "latest_title": "From AI Hype to Exhibition Value: Automation, Augmentation, Reconfiguration",
+      "latest_url": "https://www.ufi.org/from-ai-hype-to-exhibition-value-automation-augmentation-reconfiguration/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Museum Next",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "skipped_disabled",
+      "skip_reason": "access_forbidden_403",
+      "reenable_gate": [
+        "accessible_feed_or_browser_path",
+        "collection_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "PCMA Convene",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T05:45:47+00:00",
+      "age_days": 0.85,
+      "latest_title": "People on the Move",
+      "latest_url": "https://www.pcma.org/people-on-the-move-20260507/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Event Industry News",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T05:23:26+00:00",
+      "age_days": 0.86,
+      "latest_title": "Pointr and Eventbase Support AAOS 2026 with Seamless Event Navigation",
+      "latest_url": "https://www.eventindustrynews.com/news/pointr-and-eventbase-support-aaos-2026-with-seamless-event-navigation",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Exhibit City News",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-05T22:08:41+00:00",
+      "age_days": 1.17,
+      "latest_title": "Craig Hoffend Steps Down from Gielissen",
+      "latest_url": "https://exhibitcitynews.com/craig-hoffend-steps-down-from-gielissen/?utm_source=rss&utm_medium=rss&utm_campaign=craig-hoffend-steps-down-from-gielissen",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Smart Meetings",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T09:35:07+00:00",
+      "age_days": 0.69,
+      "latest_title": "GMID 2026 Highlights Why Meetings Matter More Than Ever",
+      "latest_url": "https://www.smartmeetings.com/event/180390/gmid-2026-highlights-why-meetings-matter-more-than-ever",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "IQ Magazine",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Pollstar News",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Billboard",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Brooklyn Vegan",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "ticket_availability",
+      "freshness_sla_days": 3.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-04T22:17:22+00:00",
+      "age_days": 2.16,
+      "latest_title": "Olivia Rodrigo Setlist: What to Expect at The Unraveled Tour",
+      "latest_url": "https://blog.ticketmaster.com/olivia-rodrigo-setlist/?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-setlist",
+      "latest_source_signal": [
+        "ticket_availability"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Skift Meetings",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T10:34:53+00:00",
+      "age_days": 0.65,
+      "latest_title": "Can a Small City Handle a Big Conference? Maastricht Puts Itself to the Test",
+      "latest_url": "https://meetings.skift.com/2026/05/06/esoc-2026-maastricht/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "IAEE Blog",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-06T05:00:28+00:00",
+      "age_days": 0.88,
+      "latest_title": "One Voice. One Industry. One Day.",
+      "latest_url": "https://www.iaee.com/2026/05/06/one-voice-one-industry-one-day/",
+      "latest_source_signal": [
+        "event_industry"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Sched Blog",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "skipped_disabled",
+      "skip_reason": "dormant_feed",
+      "reenable_gate": [
+        "current_rss_entries",
+        "source_cadence_review"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Arts Professional",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "skipped_disabled",
+      "skip_reason": "current_feed_validation_failure",
+      "reenable_gate": [
+        "current_operational_entries",
+        "validation_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Reddit r/festivals",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Reddit r/concerts",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Reddit r/conferences",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Reddit r/eventplanning",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Bandsintown Blog",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "연합뉴스 문화",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 2,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "연합뉴스 연예",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "Meetup Blog",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "exhibitor_sponsor_signal",
+      "freshness_sla_days": 7.0,
+      "status": "skipped_disabled",
+      "skip_reason": "dormant_non_operational_blog",
+      "reenable_gate": [
+        "current_rss_entries",
+        "event_signal_review"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "서울시 문화행사",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "official_event_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "municipal_culture_authority",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "tracked": true,
+      "event_model": "venue_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:07:08.346669+00:00",
+      "age_days": 0.0,
+      "latest_title": "문화참여 달력 | 서울특별시",
+      "latest_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "latest_source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "latest_event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-05-07:seoul",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "강서구 문화행사",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "venue_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "district_culture_center",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "tracked": true,
+      "event_model": "venue_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:07:32.159984+00:00",
+      "age_days": 0.0,
+      "latest_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "latest_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "latest_source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-05-07:seoul",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "인터파크 이벤트",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T2_ticketing_platform",
+      "content_type": "ticket_availability",
+      "collection_tier": "C2_js",
+      "producer_role": "ticketing_platform",
+      "info_purpose": [
+        "ticket_availability"
+      ],
+      "tracked": true,
+      "event_model": "ticket_availability",
+      "freshness_sla_days": 1.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:07:58.597453+00:00",
+      "age_days": 0.0,
+      "latest_title": "NOL 티켓 | 전시/행사",
+      "latest_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "latest_source_signal": [
+        "ticket_availability"
+      ],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [
+        "event_occurrence_id"
+      ],
+      "errors": []
+    },
+    {
+      "source": "문화체육관광부 문화일보",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "official_event_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "national_culture_authority",
+      "info_purpose": [
+        "official_event_calendar"
+      ],
+      "tracked": false,
+      "event_model": "official_event_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "skipped_disabled",
+      "skip_reason": "rss_endpoint_unavailable_404",
+      "reenable_gate": [
+        "stable_official_event_calendar_endpoint",
+        "parser_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "한국문화예술위원회",
+      "source_type": "javascript",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "official_event_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "arts_grant_authority",
+      "info_purpose": [
+        "official_event_calendar",
+        "exhibitor_sponsor_signal"
+      ],
+      "tracked": false,
+      "event_model": "official_event_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "skipped_disabled",
+      "skip_reason": "empty_browser_response",
+      "reenable_gate": [
+        "stable_public_board_url",
+        "browser_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "국립중앙박물관 행사",
+      "source_type": "javascript",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "venue_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "national_museum",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "tracked": false,
+      "event_model": "venue_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "skipped_disabled",
+      "skip_reason": "official_event_page_redirect_loop",
+      "reenable_gate": [
+        "stable_official_event_url",
+        "browser_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "국립현대미술관 전시",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "venue_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "national_museum",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "tracked": true,
+      "event_model": "venue_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:08:05.150244+00:00",
+      "age_days": 0.0,
+      "latest_title": "현재전시 < 전시 < 국립현대미술관",
+      "latest_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "latest_source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "latest_event_occurrence_id": "u-a3b315aa23f9:mmca:2026-05-07:seoul",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "예술의전당 공연",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "venue_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "national_performance_venue",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar",
+        "ticket_availability"
+      ],
+      "tracked": true,
+      "event_model": "ticket_availability",
+      "freshness_sla_days": 1.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 23,
+      "event_count": 23,
+      "latest_event_at": "2026-05-07T02:08:10.994185+00:00",
+      "age_days": 0.0,
+      "latest_title": "2026.05.06\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t선율 피아노 리사이틀",
+      "latest_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77928",
+      "latest_source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "latest_event_occurrence_id": "2026-05-06:seoul-arts-center:2026-05-07:seoul",
+      "latest_required_field_gaps": [
+        "availability_status"
+      ],
+      "errors": []
+    },
+    {
+      "source": "세종문화회관 공연",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "venue_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "metropolitan_performance_venue",
+      "info_purpose": [
+        "official_event_calendar",
+        "venue_calendar",
+        "ticket_availability"
+      ],
+      "tracked": true,
+      "event_model": "ticket_availability",
+      "freshness_sla_days": 1.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:08:16.477835+00:00",
+      "age_days": 0.0,
+      "latest_title": "공연일정(목록) | 공연 | 프로그램 |",
+      "latest_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
+      "latest_source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-05-07:seoul",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "한국관광공사 축제정보",
+      "source_type": "javascript",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "official_event_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "national_tourism_authority",
+      "info_purpose": [
+        "official_event_calendar"
+      ],
+      "tracked": false,
+      "event_model": "official_event_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "skipped_disabled",
+      "skip_reason": "service_delay_page",
+      "reenable_gate": [
+        "stable_kto_festival_url_or_api",
+        "browser_smoke"
+      ],
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_event_occurrence_id": "",
+      "latest_required_field_gaps": [],
+      "errors": []
+    },
+    {
+      "source": "지역축제365",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "official_event_calendar",
+      "collection_tier": "C2_js",
+      "producer_role": "national_culture_authority",
+      "info_purpose": [
+        "official_event_calendar"
+      ],
+      "tracked": true,
+      "event_model": "official_event_calendar",
+      "freshness_sla_days": 3.0,
+      "status": "fresh",
+      "skip_reason": "",
+      "reenable_gate": [],
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-07T02:08:41.125084+00:00",
+      "age_days": 0.0,
+      "latest_title": "지역축제 - 목록보기 | 문화체육관광부",
+      "latest_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
+      "latest_source_signal": [
+        "official_event_calendar"
+      ],
+      "latest_event_occurrence_id": "u-6f74edd1c031:365:2026-05-07",
+      "latest_required_field_gaps": [],
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "지역축제365",
+      "event_model": "official_event_calendar",
+      "title": "지역축제 - 목록보기 | 문화체육관광부",
+      "event_title": "지역축제 - 목록보기 | 문화체육관광부",
+      "url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
+      "source_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
+      "event_at": "2026-05-07T02:08:41.125084+00:00",
+      "event_date": "2026-05-07T02:08:41.125084+00:00",
+      "ticket_open_date": null,
+      "venue_id": "365",
+      "venue_name": "지역축제365",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "u-6f74edd1c031:365:2026-05-07",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "포럼",
+        "대회"
+      ],
+      "exhibition": [
+        "전시",
+        "부스",
+        "미술관",
+        "특별전"
+      ],
+      "festival": [
+        "축제",
+        "페스티벌",
+        "마켓",
+        "플리마켓",
+        "지역축제"
+      ],
+      "performance": [
+        "공연",
+        "콘서트",
+        "쇼"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "세종문화회관 공연",
+      "event_model": "ticket_availability",
+      "title": "공연일정(목록) | 공연 | 프로그램 |",
+      "event_title": "공연일정(목록) | 공연 | 프로그램 |",
+      "url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
+      "source_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
+      "event_at": "2026-05-07T02:08:16.477835+00:00",
+      "event_date": "2026-05-07T02:08:16.477835+00:00",
+      "ticket_open_date": "2026-05-07T02:08:16.477835+00:00",
+      "venue_id": "sejong-center",
+      "venue_name": "세종문화회관",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-05-07:seoul",
+      "availability_status": "on_sale",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "기획전"
+      ],
+      "festival": [],
+      "performance": [
+        "공연",
+        "연극",
+        "뮤지컬",
+        "오페라",
+        "발레",
+        "국악",
+        "클래식",
+        "예매"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.05.06\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t선율 피아노 리사이틀",
+      "event_title": "2026.05.06\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t선율 피아노 리사이틀",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77928",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77928",
+      "event_at": "2026-05-07T02:08:10.994185+00:00",
+      "event_date": "2026-05-07T02:08:10.994185+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994185+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-06:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(8월)",
+      "event_title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(8월)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79804",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79804",
+      "event_at": "2026-05-07T02:08:10.994165+00:00",
+      "event_date": "2026-05-07T02:08:10.994165+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994165+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-07-11-8:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(7월)",
+      "event_title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(7월)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79805",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79805",
+      "event_at": "2026-05-07T02:08:10.994140+00:00",
+      "event_date": "2026-05-07T02:08:10.994140+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994140+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-07-11-7:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t낭만주의 거장 <시벨리우스>",
+      "event_title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t낭만주의 거장 <시벨리우스>",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82254",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82254",
+      "event_at": "2026-05-07T02:08:10.994111+00:00",
+      "event_date": "2026-05-07T02:08:10.994111+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994111+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-12:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t고잉홈프로젝트: 1925 (feat. 피아노 손열음)",
+      "event_title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t고잉홈프로젝트: 1925 (feat. 피아노 손열음)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74895",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74895",
+      "event_at": "2026-05-07T02:08:10.994078+00:00",
+      "event_date": "2026-05-07T02:08:10.994078+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994078+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-12-1925-feat:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "서울서예박물관 \n                          \n                          \n                           난초의 향기는 바람을 타고 천 리를 가네\n                          \n                          \n                            06.06(토)~07.05(일)",
+      "event_title": "서울서예박물관 \n                          \n                          \n                           난초의 향기는 바람을 타고 천 리를 가네\n                          \n                          \n                            06.06(토)~07.05(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82012",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82012",
+      "event_at": "2026-05-07T02:08:10.994042+00:00",
+      "event_date": "2026-05-07T02:08:10.994042+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994042+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "06-06-07-05:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "박물관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           한경아르떼필하모닉 더클래식 2026 시리즈2\n                          \n                          \n                            05.08(금)\t19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           한경아르떼필하모닉 더클래식 2026 시리즈2\n                          \n                          \n                            05.08(금)\t19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=78842",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=78842",
+      "event_at": "2026-05-07T02:08:10.994028+00:00",
+      "event_date": "2026-05-07T02:08:10.994028+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994028+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2-05-08-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트",
+        "클래식"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           한화생명과 함께하는 예술의전당 11시 콘서트(5월)\n                          \n                          \n                            5.14(목) 11:00",
+      "event_title": "콘서트홀 \n                          \n                          \n                           한화생명과 함께하는 예술의전당 11시 콘서트(5월)\n                          \n                          \n                            5.14(목) 11:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79807",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79807",
+      "event_at": "2026-05-07T02:08:10.994010+00:00",
+      "event_date": "2026-05-07T02:08:10.994010+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.994010+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "11-5-5-14-11-00:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           IBK기업은행과 함께하는 예술의전당 토요콘서트 - 프리뷰 베토벤(5월)\n                          \n                          \n                            05.16(토) 17:00",
+      "event_title": "콘서트홀 \n                          \n                          \n                           IBK기업은행과 함께하는 예술의전당 토요콘서트 - 프리뷰 베토벤(5월)\n                          \n                          \n                            05.16(토) 17:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=80187",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80187",
+      "event_at": "2026-05-07T02:08:10.993989+00:00",
+      "event_date": "2026-05-07T02:08:10.993989+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993989+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-5-05-16-17-00:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "한가람디자인미술관 \n                          \n                          \n                           페르난도 보테로: 형태의 미학\n                          \n                          \n                            04.24(금)~08.30(일)",
+      "event_title": "한가람디자인미술관 \n                          \n                          \n                           페르난도 보테로: 형태의 미학\n                          \n                          \n                            04.24(금)~08.30(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
+      "event_at": "2026-05-07T02:08:10.993975+00:00",
+      "event_date": "2026-05-07T02:08:10.993975+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993975+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "04-24-08-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "미술관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제207회 정기연주회 <모차르트 c단조 대미사>\n                          \n                          \n                            05.13(수) 19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           국립합창단 제207회 정기연주회 <모차르트 c단조 대미사>\n                          \n                          \n                            05.13(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74796",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74796",
+      "event_at": "2026-05-07T02:08:10.993951+00:00",
+      "event_date": "2026-05-07T02:08:10.993951+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993951+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "207-c-05-13-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           베토벤 : 피아노 협주곡 3번 & 5번 ‘황제’\n                          \n                          \n                            05.20(수) 19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           베토벤 : 피아노 협주곡 3번 & 5번 ‘황제’\n                          \n                          \n                            05.20(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81136",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81136",
+      "event_at": "2026-05-07T02:08:10.993935+00:00",
+      "event_date": "2026-05-07T02:08:10.993935+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993935+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "3-5-05-20-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           미하엘 잔데를링 & 루체른 심포니\n                          \n                          \n                            07.01(수)\t19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           미하엘 잔데를링 & 루체른 심포니\n                          \n                          \n                            07.01(수)\t19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74897",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74897",
+      "event_at": "2026-05-07T02:08:10.993907+00:00",
+      "event_date": "2026-05-07T02:08:10.993907+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993907+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "07-01-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "콘서트홀 \n                          \n                          \n                           KT와 함께하는 예술의전당 마음을 담은 클래식(5월)\n                          \n                          \n                            05.22(금) 11:00",
+      "event_title": "콘서트홀 \n                          \n                          \n                           KT와 함께하는 예술의전당 마음을 담은 클래식(5월)\n                          \n                          \n                            05.22(금) 11:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74050",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74050",
+      "event_at": "2026-05-07T02:08:10.993872+00:00",
+      "event_date": "2026-05-07T02:08:10.993872+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993872+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "kt-5-05-22-11-00:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트",
+        "클래식"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           2026 청년미술상점 아트페어\n                          \n                          \n                            05.22(금)~05.24(일)",
+      "event_title": "한가람미술관 제7전시실 \n                          \n                          \n                           2026 청년미술상점 아트페어\n                          \n                          \n                            05.22(금)~05.24(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76459",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76459",
+      "event_at": "2026-05-07T02:08:10.993837+00:00",
+      "event_date": "2026-05-07T02:08:10.993837+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993837+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "7-2026-05-22-05-24:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "미술관",
+        "아트페어"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "국립현대무용단 <내가 물에서 본 것>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t국립현대무용단 <내가 물에서 본 것>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.06.12(금)~06.14(일)",
+      "event_title": "국립현대무용단 <내가 물에서 본 것>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t국립현대무용단 <내가 물에서 본 것>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.06.12(금)~06.14(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=73534",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=73534",
+      "event_at": "2026-05-07T02:08:10.993628+00:00",
+      "event_date": "2026-05-07T02:08:10.993628+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993628+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "cj-2026-06-12-06-14:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 자유소극장 연극 <뼈의 기록>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 자유소극장 연극 <뼈의 기록>\n\t                            \n\t                       \n                            \n                            자유소극장\n                            2026.04.04(토)~05.10(일)",
+      "event_title": "2026 자유소극장 연극 <뼈의 기록>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 자유소극장 연극 <뼈의 기록>\n\t                            \n\t                       \n                            \n                            자유소극장\n                            2026.04.04(토)~05.10(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=80912",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80912",
+      "event_at": "2026-05-07T02:08:10.993610+00:00",
+      "event_date": "2026-05-07T02:08:10.993610+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993610+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2026-2026-04-04-05-10:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "연극"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.09(토) 17:00",
+      "event_title": "2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.09(토) 17:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74740",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74740",
+      "event_at": "2026-05-07T02:08:10.993591+00:00",
+      "event_date": "2026-05-07T02:08:10.993591+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993591+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2026-2026-05-09-17-00:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.29(금) 19:30",
+      "event_title": "2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.29(금) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74739",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74739",
+      "event_at": "2026-05-07T02:08:10.993570+00:00",
+      "event_date": "2026-05-07T02:08:10.993570+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993570+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2026-2026-05-29-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "차이코프스키 챔버 오케스트라 창단연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t차이코프스키 챔버 오케스트라 창단연주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.06.10(수) 19:30",
+      "event_title": "차이코프스키 챔버 오케스트라 창단연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t차이코프스키 챔버 오케스트라 창단연주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.06.10(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76542",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76542",
+      "event_at": "2026-05-07T02:08:10.993548+00:00",
+      "event_date": "2026-05-07T02:08:10.993548+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993548+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-2026-06-10-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "예술의전당 × 서울시립교향악단\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t예술의전당 × 서울시립교향악단\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.21(목) 19:30",
+      "event_title": "예술의전당 × 서울시립교향악단\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t예술의전당 × 서울시립교향악단\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.21(목) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74051",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74051",
+      "event_at": "2026-05-07T02:08:10.993524+00:00",
+      "event_date": "2026-05-07T02:08:10.993524+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993524+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-05-21-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "르 콩소르\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t르 콩소르\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.06.26(금) 19:30",
+      "event_title": "르 콩소르\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t르 콩소르\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.06.26(금) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=80932",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80932",
+      "event_at": "2026-05-07T02:08:10.993502+00:00",
+      "event_date": "2026-05-07T02:08:10.993502+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993502+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-06-26-19-30:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "김홍기 피아노 독주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t김홍기 피아노 독주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.05.16(토) 20:00",
+      "event_title": "김홍기 피아노 독주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t김홍기 피아노 독주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.05.16(토) 20:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76462",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76462",
+      "event_at": "2026-05-07T02:08:10.993466+00:00",
+      "event_date": "2026-05-07T02:08:10.993466+00:00",
+      "ticket_open_date": "2026-05-07T02:08:10.993466+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-2026-05-16-20-00:seoul-arts-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "국립현대미술관 전시",
+      "event_model": "venue_calendar",
+      "title": "현재전시 < 전시 < 국립현대미술관",
+      "event_title": "현재전시 < 전시 < 국립현대미술관",
+      "url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "source_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "event_at": "2026-05-07T02:08:05.150244+00:00",
+      "event_date": "2026-05-07T02:08:05.150244+00:00",
+      "ticket_open_date": null,
+      "venue_id": "mmca",
+      "venue_name": "국립현대미술관",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-a3b315aa23f9:mmca:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "sponsor",
+      "conference": [],
+      "exhibition": [
+        "museum",
+        "전시",
+        "미술관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [
+        "워크숍",
+        "온라인"
+      ],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "인터파크 이벤트",
+      "event_model": "ticket_availability",
+      "title": "NOL 티켓 | 전시/행사",
+      "event_title": "NOL 티켓 | 전시/행사",
+      "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "event_at": "2026-05-07T02:07:58.597453+00:00",
+      "event_date": "2026-05-07T02:07:58.597453+00:00",
+      "ticket_open_date": "2026-05-07T02:07:58.597453+00:00",
+      "venue_id": "",
+      "venue_name": "인터파크",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "on_sale",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "박람회",
+        "미술관",
+        "특별전",
+        "기획전"
+      ],
+      "festival": [],
+      "performance": [
+        "공연",
+        "콘서트",
+        "연극",
+        "뮤지컬",
+        "투어",
+        "클래식",
+        "티켓",
+        "예매"
+      ],
+      "meetup": [
+        "온라인"
+      ],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id"
+      ]
+    },
+    {
+      "source": "강서구 문화행사",
+      "event_model": "venue_calendar",
+      "title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "event_at": "2026-05-07T02:07:32.159984+00:00",
+      "event_date": "2026-05-07T02:07:32.159984+00:00",
+      "ticket_open_date": null,
+      "venue_id": "gangseo-cultural-center",
+      "venue_name": "강서구",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "미술관",
+        "박물관"
+      ],
+      "festival": [],
+      "performance": [
+        "공연",
+        "재즈"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "How Nikon is Winning Over Creators with a ‘Try Before You Buy’ Experiential Strategy",
+      "event_title": "How Nikon is Winning Over Creators with a ‘Try Before You Buy’ Experiential Strategy",
+      "url": "https://www.eventmarketer.com/article/nikon-experiential-strategy-creators-try-before-buy/",
+      "source_url": "https://www.eventmarketer.com/article/nikon-experiential-strategy-creators-try-before-buy/",
+      "event_at": "2026-05-06T12:07:30+00:00",
+      "event_date": "2026-05-06T12:07:30+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Can a Small City Handle a Big Conference? Maastricht Puts Itself to the Test",
+      "event_title": "Can a Small City Handle a Big Conference? Maastricht Puts Itself to the Test",
+      "url": "https://meetings.skift.com/2026/05/06/esoc-2026-maastricht/",
+      "source_url": "https://meetings.skift.com/2026/05/06/esoc-2026-maastricht/",
+      "event_at": "2026-05-06T10:34:53+00:00",
+      "event_date": "2026-05-06T10:34:53+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "conference"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Smart Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "GMID 2026 Highlights Why Meetings Matter More Than Ever",
+      "event_title": "GMID 2026 Highlights Why Meetings Matter More Than Ever",
+      "url": "https://www.smartmeetings.com/event/180390/gmid-2026-highlights-why-meetings-matter-more-than-ever",
+      "source_url": "https://www.smartmeetings.com/event/180390/gmid-2026-highlights-why-meetings-matter-more-than-ever",
+      "event_at": "2026-05-06T09:35:07+00:00",
+      "event_date": "2026-05-06T09:35:07+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Smart Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "PCMA Convene",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "People on the Move",
+      "event_title": "People on the Move",
+      "url": "https://www.pcma.org/people-on-the-move-20260507/",
+      "source_url": "https://www.pcma.org/people-on-the-move-20260507/",
+      "event_at": "2026-05-06T05:45:47+00:00",
+      "event_date": "2026-05-06T05:45:47+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "PCMA Convene",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Industry News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Pointr and Eventbase Support AAOS 2026 with Seamless Event Navigation",
+      "event_title": "Pointr and Eventbase Support AAOS 2026 with Seamless Event Navigation",
+      "url": "https://www.eventindustrynews.com/news/pointr-and-eventbase-support-aaos-2026-with-seamless-event-navigation",
+      "source_url": "https://www.eventindustrynews.com/news/pointr-and-eventbase-support-aaos-2026-with-seamless-event-navigation",
+      "event_at": "2026-05-06T05:23:26+00:00",
+      "event_date": "2026-05-06T05:23:26+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Industry News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "IAEE Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "One Voice. One Industry. One Day.",
+      "event_title": "One Voice. One Industry. One Day.",
+      "url": "https://www.iaee.com/2026/05/06/one-voice-one-industry-one-day/",
+      "source_url": "https://www.iaee.com/2026/05/06/one-voice-one-industry-one-day/",
+      "event_at": "2026-05-06T05:00:28+00:00",
+      "event_date": "2026-05-06T05:00:28+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "IAEE Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "congress"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "AEV renames MASA group as Event Sector CTBIE",
+      "event_title": "AEV renames MASA group as Event Sector CTBIE",
+      "url": "https://exhibitionnews.uk/aev-renames-masa-group-as-event-sector-ctbie/",
+      "source_url": "https://exhibitionnews.uk/aev-renames-masa-group-as-event-sector-ctbie/",
+      "event_at": "2026-05-06T00:21:28+00:00",
+      "event_date": "2026-05-06T00:21:28+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "UFI Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "From AI Hype to Exhibition Value: Automation, Augmentation, Reconfiguration",
+      "event_title": "From AI Hype to Exhibition Value: Automation, Augmentation, Reconfiguration",
+      "url": "https://www.ufi.org/from-ai-hype-to-exhibition-value-automation-augmentation-reconfiguration/",
+      "source_url": "https://www.ufi.org/from-ai-hype-to-exhibition-value-automation-augmentation-reconfiguration/",
+      "event_at": "2026-05-05T22:36:07+00:00",
+      "event_date": "2026-05-05T22:36:07+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "UFI Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Craig Hoffend Steps Down from Gielissen",
+      "event_title": "Craig Hoffend Steps Down from Gielissen",
+      "url": "https://exhibitcitynews.com/craig-hoffend-steps-down-from-gielissen/?utm_source=rss&utm_medium=rss&utm_campaign=craig-hoffend-steps-down-from-gielissen",
+      "source_url": "https://exhibitcitynews.com/craig-hoffend-steps-down-from-gielissen/?utm_source=rss&utm_medium=rss&utm_campaign=craig-hoffend-steps-down-from-gielissen",
+      "event_at": "2026-05-05T22:08:41+00:00",
+      "event_date": "2026-05-05T22:08:41+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Olivia Rodrigo Setlist: What to Expect at The Unraveled Tour",
+      "event_title": "Olivia Rodrigo Setlist: What to Expect at The Unraveled Tour",
+      "url": "https://blog.ticketmaster.com/olivia-rodrigo-setlist/?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-setlist",
+      "source_url": "https://blog.ticketmaster.com/olivia-rodrigo-setlist/?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-setlist",
+      "event_at": "2026-05-04T22:17:22+00:00",
+      "event_date": "2026-05-04T22:17:22+00:00",
+      "ticket_open_date": "2026-05-04T22:17:22+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "tour"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "서울시 문화행사",
+      "event_model": "venue_calendar",
+      "title": "문화참여 달력 | 서울특별시",
+      "event_title": "문화참여 달력 | 서울특별시",
+      "url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "source_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "event_at": "2026-05-07T02:07:08.346669+00:00",
+      "event_date": "2026-05-07T02:07:08.346669+00:00",
+      "ticket_open_date": null,
+      "venue_id": "seoul-city-culture",
+      "venue_name": "서울시",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-05-07:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [
+        "축제"
+      ],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    }
+  ],
+  "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.05.06\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t선율 피아노 리사이틀",
+      "event_occurrence_id": "2026-05-06:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(8월)",
+      "event_occurrence_id": "2026-05-07-11-8:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.05.07\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(7월)",
+      "event_occurrence_id": "2026-05-07-11-7:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t낭만주의 거장 <시벨리우스>",
+      "event_occurrence_id": "2026-05-12:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.05.12\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t고잉홈프로젝트: 1925 (feat. 피아노 손열음)",
+      "event_occurrence_id": "2026-05-12-1925-feat:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "서울서예박물관 \n                          \n                          \n                           난초의 향기는 바람을 타고 천 리를 가네\n                          \n                          \n                            06.06(토)~07.05(일)",
+      "event_occurrence_id": "06-06-07-05:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           한경아르떼필하모닉 더클래식 2026 시리즈2\n                          \n                          \n                            05.08(금)\t19:30",
+      "event_occurrence_id": "2026-2-05-08-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           한화생명과 함께하는 예술의전당 11시 콘서트(5월)\n                          \n                          \n                            5.14(목) 11:00",
+      "event_occurrence_id": "11-5-5-14-11-00:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           IBK기업은행과 함께하는 예술의전당 토요콘서트 - 프리뷰 베토벤(5월)\n                          \n                          \n                            05.16(토) 17:00",
+      "event_occurrence_id": "ibk-5-05-16-17-00:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "한가람디자인미술관 \n                          \n                          \n                           페르난도 보테로: 형태의 미학\n                          \n                          \n                            04.24(금)~08.30(일)",
+      "event_occurrence_id": "04-24-08-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제207회 정기연주회 <모차르트 c단조 대미사>\n                          \n                          \n                            05.13(수) 19:30",
+      "event_occurrence_id": "207-c-05-13-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           베토벤 : 피아노 협주곡 3번 & 5번 ‘황제’\n                          \n                          \n                            05.20(수) 19:30",
+      "event_occurrence_id": "3-5-05-20-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           미하엘 잔데를링 & 루체른 심포니\n                          \n                          \n                            07.01(수)\t19:30",
+      "event_occurrence_id": "07-01-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "콘서트홀 \n                          \n                          \n                           KT와 함께하는 예술의전당 마음을 담은 클래식(5월)\n                          \n                          \n                            05.22(금) 11:00",
+      "event_occurrence_id": "kt-5-05-22-11-00:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           2026 청년미술상점 아트페어\n                          \n                          \n                            05.22(금)~05.24(일)",
+      "event_occurrence_id": "7-2026-05-22-05-24:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "국립현대무용단 <내가 물에서 본 것>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t국립현대무용단 <내가 물에서 본 것>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.06.12(금)~06.14(일)",
+      "event_occurrence_id": "cj-2026-06-12-06-14:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 자유소극장 연극 <뼈의 기록>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 자유소극장 연극 <뼈의 기록>\n\t                            \n\t                       \n                            \n                            자유소극장\n                            2026.04.04(토)~05.10(일)",
+      "event_occurrence_id": "2026-2026-2026-04-04-05-10:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 김선욱의 베토벤과 브람스 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.09(토) 17:00",
+      "event_occurrence_id": "2026-2026-2026-05-09-17-00:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.29(금) 19:30",
+      "event_occurrence_id": "2026-2026-2026-05-29-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "차이코프스키 챔버 오케스트라 창단연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t차이코프스키 챔버 오케스트라 창단연주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.06.10(수) 19:30",
+      "event_occurrence_id": "ibk-2026-06-10-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "예술의전당 × 서울시립교향악단\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t예술의전당 × 서울시립교향악단\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.05.21(목) 19:30",
+      "event_occurrence_id": "2026-05-21-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "르 콩소르\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t르 콩소르\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.06.26(금) 19:30",
+      "event_occurrence_id": "2026-06-26-19-30:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "김홍기 피아노 독주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t김홍기 피아노 독주회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.05.16(토) 20:00",
+      "event_occurrence_id": "ibk-2026-05-16-20-00:seoul-arts-center:2026-05-07:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "인터파크 이벤트",
+      "title": "NOL 티켓 | 전시/행사",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "인터파크 이벤트",
+      "title": "NOL 티켓 | 전시/행사"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Marketer",
+      "title": "How Nikon is Winning Over Creators with a ‘Try Before You Buy’ Experiential Strategy",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Skift Meetings",
+      "title": "Can a Small City Handle a Big Conference? Maastricht Puts Itself to the Test",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Smart Meetings",
+      "title": "GMID 2026 Highlights Why Meetings Matter More Than Ever",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "PCMA Convene",
+      "title": "People on the Move",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Industry News",
+      "title": "Pointr and Eventbase Support AAOS 2026 with Seamless Event Navigation",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "IAEE Blog",
+      "title": "One Voice. One Industry. One Day.",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibition News",
+      "title": "AEV renames MASA group as Event Sector CTBIE",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "UFI Blog",
+      "title": "From AI Hype to Exhibition Value: Automation, Augmentation, Reconfiguration",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Craig Hoffend Steps Down from Gielissen",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Olivia Rodrigo Setlist: What to Expect at The Unraveled Tour",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Olivia Rodrigo Setlist: What to Expect at The Unraveled Tour"
+    }
+  ],
+  "quality_gates": [
+    "행사일, 티켓 오픈일, 수집일을 별도 필드로 유지한다",
+    "동일 행사의 지역, 회차, 온라인 여부를 event_occurrence_id로 분리한다",
+    "미디어 소개 기사와 공식 등록/티켓 source를 분리한다",
+    "참가사/스폰서 신호는 리드 발굴용 보조 필드로만 병합한다",
+    "오류/서비스 지연 페이지는 리포트와 품질 이벤트에서 제외한다",
+    "일반 문화/연예 뉴스는 행사·공연·전시 신호가 있을 때만 리포트에 반영한다"
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "ticketmaster_discovery_api",
+        "name": "Ticketmaster Discovery API",
+        "signal_type": "ticket_availability",
+        "activation_gate": "API key, quota, event id mapping, and ticket status field validation"
+      },
+      {
+        "id": "seoul_open_event_api",
+        "name": "Seoul open culture event API",
+        "signal_type": "official_event_calendar",
+        "activation_gate": "data.go.kr/API access, venue id normalization, and date timezone validation"
+      },
+      {
+        "id": "venue_calendar_pages",
+        "name": "Major venue calendar pages",
+        "signal_type": "venue_calendar",
+        "activation_gate": "parser stability, duplicate occurrence handling, and source URL evidence"
+      },
+      {
+        "id": "exhibitor_sponsor_lists",
+        "name": "Expo exhibitor and sponsor lists",
+        "signal_type": "exhibitor_sponsor_signal",
+        "activation_gate": "ToS review, organization canonicalization, and event occurrence mapping"
+      }
+    ]
+  },
+  "errors": []
+}
