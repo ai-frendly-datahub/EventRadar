@@ -22,7 +22,7 @@ EventRadar/
 │   └── mcp_server/               # MCP 서버 (server.py + tools.py)
 ├── config/
 │   ├── config.yaml               # database_path, report_dir, raw_data_dir, search_db_path
-│   └── categories/{domain}.yaml  # 소스 + 엔티티 정의
+│   └── categories/event.yaml  # 소스 + 엔티티 정의
 ├── data/                         # DuckDB, search_index.db, raw/ JSONL
 ├── reports/                      # 생성된 HTML 리포트
 ├── tests/unit/                   # pytest 단위 테스트
@@ -34,14 +34,16 @@ EventRadar/
 
 | Entity | Examples |
 |--------|----------|
-| 주요 엔티티 1 | 예시 1, 예시 2, 예시 3 |
-| 주요 엔티티 2 | 예시 4, 예시 5, 예시 6 |
-| 주요 엔티티 3 | 예시 7, 예시 8, 예시 9 |
+| Conference | conference, summit, forum, 학회 |
+| Exhibition | exhibition, expo, trade show, 박람회 |
+| Festival | festival, carnival, celebration, 축제 |
+| Performance | concert, theater, live, 공연 |
 
 ## DEVIATIONS FROM TEMPLATE
 
-- 표준 템플릿 대비 특화 기능 1
-- 표준 템플릿 대비 특화 기능 2
+- 행사일, 티켓 오픈일, 수집일을 별도 필드로 유지한다.
+- 공식 행사 캘린더, 티켓 availability, venue calendar, exhibitor/sponsor 신호를 분리한다.
+- 일반 문화/연예 뉴스는 행사·공연·전시 신호가 있을 때만 리포트에 반영한다.
 
 ## COMMANDS
 
