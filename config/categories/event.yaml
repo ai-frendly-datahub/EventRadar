@@ -104,11 +104,8 @@ sources:
 - name: Museum Next
   type: rss
   url: https://www.museumnext.com/feed/
-  enabled: false
-  notes: "DISABLED 2026-04-23: live audit returned HTTP 403 for the homepage, /articles/, and RSS candidates. Keep as backlog until an accessible feed or approved browser path is confirmed."
-  config:
-    disabled_reason: access_forbidden_403
-    required_before_enable: [accessible_feed_or_browser_path, collection_smoke]
+  enabled: true
+  notes: "REACTIVATED 2026-05-20: URL probe returned HTTP 200 with application/rss+xml; feed is reachable again. Previously DISABLED 2026-04-23 for HTTP 403 (accessible feed not confirmed)."
 - name: PCMA Convene
   type: rss
   url: https://www.pcma.org/feed/
