@@ -3,7 +3,7 @@ name: Radar Crawler (Optimized)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *"  # Daily at 00:00 UTC (adjust per project)
+    - cron: "0 0 * * *"  # Daily at 00:00 UTC / 09:00 KST
 
 permissions:
   contents: write
@@ -71,9 +71,8 @@ jobs:
       - name: Run Quality Checks
         if: always()
         run: |
-          python scripts/check_quality.py > quality_report.txt 2>&1 || true
+          python scripts/check_quality.py > quality_report.txt 2>&1
           cat quality_report.txt >> $GITHUB_STEP_SUMMARY
-        continue-on-error: true
 
       - name: Archive Quality Report
         if: always()
@@ -100,7 +99,6 @@ jobs:
           fi
 
       - name: Auto-commit data updates
-        continue-on-error: true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update radar data [skip ci]"

@@ -3,14 +3,13 @@
 
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
 import sys
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 
 import duckdb
 import yaml
-
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -23,7 +22,10 @@ from eventradar.config_loader import (  # noqa: E402
 )
 from eventradar.models import Article  # noqa: E402
 from eventradar.quality_report import build_quality_report, write_quality_report  # noqa: E402
-from eventradar.relevance import apply_source_context_entities, filter_relevant_articles  # noqa: E402
+from eventradar.relevance import (  # noqa: E402
+    apply_source_context_entities,
+    filter_relevant_articles,
+)
 from eventradar.storage import RadarStorage  # noqa: E402
 
 
@@ -33,7 +35,9 @@ def _project_path(project_root: Path, raw_path: str | Path) -> Path:
 
 
 def _load_runtime_config(project_root: Path) -> dict[str, Any]:
-    raw = yaml.safe_load((project_root / "config" / "config.yaml").read_text(encoding="utf-8")) or {}
+    raw = (
+        yaml.safe_load((project_root / "config" / "config.yaml").read_text(encoding="utf-8")) or {}
+    )
     return raw if isinstance(raw, dict) else {}
 
 
@@ -102,7 +106,8 @@ def generate_quality_artifacts(
     quality_cfg = load_category_quality_config(category_name, categories_dir=categories_dir)
     lookback_days = _lookback_days(_latest_article_date(db_path, category_cfg.category_name))
 
-    with RadarStorage(db_path) as storage:
+    storage = RadarStorage(db_path)
+    try:
         recent_articles = _dedupe_articles(
             [
                 *storage.recent_articles(
@@ -117,6 +122,8 @@ def generate_quality_artifacts(
                 ),
             ]
         )
+    finally:
+        storage.close()
 
     scoped_articles = filter_relevant_articles(
         apply_source_context_entities(recent_articles, category_cfg.sources),

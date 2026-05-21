@@ -9,20 +9,20 @@ import structlog
 
 from .models import Article
 
-
 if TYPE_CHECKING:
     from .models import Source
 
 logger = structlog.get_logger()
 
 _BROWSER_COLLECTION_AVAILABLE = False
+_core_collect: Any | None
 try:
     _module = importlib.import_module("radar_core.browser_collector")
     _core_collect = _module.collect_browser_sources
 
     _BROWSER_COLLECTION_AVAILABLE = True
 except ImportError:
-    _core_collect = None  # type: ignore[assignment]
+    _core_collect = None
 
 
 def collect_browser_sources(

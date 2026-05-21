@@ -93,7 +93,7 @@ def test_generate_quality_artifacts_uses_latest_stored_checkpoint(
                     source="Official Calendar",
                     category="event",
                     matched_entities={},
-                )
+                ),
             ]
         )
 

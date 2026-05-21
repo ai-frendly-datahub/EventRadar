@@ -12,8 +12,7 @@ from eventradar.search_index import SearchIndex
 def _init_articles_table(db_path: Path) -> None:
     conn = duckdb.connect(str(db_path))
     try:
-        _ = conn.execute(
-            """
+        _ = conn.execute("""
             CREATE TABLE articles (
                 id BIGINT PRIMARY KEY,
                 category TEXT NOT NULL,
@@ -25,8 +24,7 @@ def _init_articles_table(db_path: Path) -> None:
                 collected_at TIMESTAMP NOT NULL,
                 entities_json TEXT
             )
-            """
-        )
+            """)
     finally:
         conn.close()
 
@@ -187,9 +185,23 @@ def test_handle_top_trends(tmp_path: Path) -> None:
     assert "1" in output
 
 
-def test_handle_price_watch_stub() -> None:
-    from mcp_server.tools import handle_price_watch
+def test_handle_event_impact(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_event_impact
 
-    output = handle_price_watch(threshold=10.0)
+    db_path = tmp_path / "radar.duckdb"
+    _init_articles_table(db_path)
+    now = datetime.now(UTC)
 
-    assert "Not available in template project" in output
+    _seed_article(
+        db_path=db_path,
+        article_id=1,
+        title="a",
+        link="https://example.com/impact",
+        collected_at=now - timedelta(days=1),
+        entities={"Festival": ["festival", "concert"]},
+    )
+
+    output = handle_event_impact(db_path=db_path, days=30, limit=10)
+
+    assert "Event impact analysis" in output
+    assert "Festival: 2 mentions in 1 article(s)" in output

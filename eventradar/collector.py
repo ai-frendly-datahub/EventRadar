@@ -24,7 +24,6 @@ from .exceptions import NetworkError, ParseError, SourceError
 from .models import Article, Source
 from .resilience import get_circuit_breaker_manager
 
-
 logger = structlog.get_logger(__name__)
 
 
@@ -195,12 +194,9 @@ def collect_sources(
     _js_types = {"javascript", "browser"}
     rss_sources = [s for s in enabled_sources if s.type.lower() == "rss"]
     js_sources = [s for s in enabled_sources if s.type.lower() in _js_types]
-    unsupported_sources = [
-        s for s in enabled_sources if s.type.lower() not in {"rss", *_js_types}
-    ]
+    unsupported_sources = [s for s in enabled_sources if s.type.lower() not in {"rss", *_js_types}]
     errors.extend(
-        f"{source.name}: Unsupported source type '{source.type}'"
-        for source in unsupported_sources
+        f"{source.name}: Unsupported source type '{source.type}'" for source in unsupported_sources
     )
     source_hosts: dict[str, str] = {
         source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources
@@ -213,7 +209,6 @@ def collect_sources(
         health_db_path or os.environ.get("RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH)
     )
     _set_collection_controls(throttler, health_store)
-    session = _create_session()
 
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
         bypass_crawl_health = source.config.get("bypass_crawl_health") is True
@@ -225,6 +220,7 @@ def collect_sources(
         host = source_hosts[source.name]
         rate_limiters[host].acquire()
 
+        session = _create_session()
         try:
             breaker = manager.get_breaker(source.name)
             result = breaker.call(
@@ -244,6 +240,8 @@ def collect_sources(
             return [], [f"{source.name}: {exc}"]
         except Exception as exc:
             return [], [f"{source.name}: Unexpected error - {type(exc).__name__}: {exc}"]
+        finally:
+            session.close()
 
     try:
         if workers == 1:
@@ -281,7 +279,6 @@ def collect_sources(
                     hint="pip install 'radar-core[browser]'",
                 )
     finally:
-        session.close()
         health_store.close()
         _clear_collection_controls()
 

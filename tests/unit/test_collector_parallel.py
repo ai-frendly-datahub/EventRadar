@@ -109,6 +109,39 @@ def test_parallel_collection_isolates_source_errors() -> None:
     assert len(errors) == 3
 
 
+def test_parallel_collection_uses_source_scoped_sessions() -> None:
+    sources = _build_sources(3)
+    manager = _pass_through_manager()
+    sessions = [Mock(name=f"session_{idx}") for idx in range(3)]
+    observed_sessions: list[object] = []
+
+    def collect_with_session(
+        source: Source,
+        *,
+        category: str,
+        limit: int,
+        timeout: int,
+        session: object | None = None,
+    ) -> list[Article]:
+        _ = (source, category, limit, timeout)
+        observed_sessions.append(session)
+        return []
+
+    with (
+        patch("radar.collector._collect_single", side_effect=collect_with_session),
+        patch("radar.collector._create_session", side_effect=sessions),
+        patch("radar.collector.get_circuit_breaker_manager", return_value=manager),
+        patch.dict(os.environ, {"RADAR_MAX_WORKERS": "3"}, clear=False),
+    ):
+        articles, errors = collect_sources(sources, category="test", min_interval_per_host=0.0)
+
+    assert articles == []
+    assert errors == []
+    assert set(observed_sessions) == set(sessions)
+    for session in sessions:
+        session.close.assert_called_once()
+
+
 def test_max_workers_one_preserves_sequential_order() -> None:
     sources = _build_sources(5)
     manager = _pass_through_manager()

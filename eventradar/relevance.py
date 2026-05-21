@@ -4,7 +4,6 @@ from collections.abc import Iterable
 
 from .models import Article, Source
 
-
 CONTEXT_PURPOSES = {
     "culture_calendar",
     "event_industry",

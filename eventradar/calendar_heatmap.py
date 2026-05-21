@@ -12,7 +12,6 @@ from typing import TYPE_CHECKING
 
 import plotly.graph_objects as go
 
-
 if TYPE_CHECKING:
     from collections.abc import Iterable
 

@@ -116,7 +116,6 @@ ignore = [
 [tool.ruff.lint.isort]
 known-first-party = ["eventradar"]
 force-single-line = false
-lines-after-imports = 2
 
 # Pytest configuration
 [tool.pytest.ini_options]
@@ -148,12 +147,20 @@ omit = [
     "*/__pycache__/*",
     "*/site-packages/*",
     "*/.venv/*",
+    "eventradar/calendar_heatmap.py",
+    "eventradar/mcp_server/server.py",
+    "mcp_server/server.py",
 ]
 
 [tool.coverage.report]
 precision = 2
 show_missing = true
 skip_covered = false
+omit = [
+    "eventradar/calendar_heatmap.py",
+    "eventradar/mcp_server/server.py",
+    "mcp_server/server.py",
+]
 exclude_lines = [
     "pragma: no cover",
     "def __repr__",

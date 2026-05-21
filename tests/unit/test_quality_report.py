@@ -123,7 +123,9 @@ def test_build_quality_report_tracks_event_source_statuses() -> None:
     assert report["summary"]["event_occurrence_present_count"] == 1
     assert report["summary"]["daily_review_item_count"] == 3
     assert any(item["reason"] == "missing_required_fields" for item in report["daily_review_items"])
-    assert any(item["reason"] == "missing_event_occurrence_id" for item in report["daily_review_items"])
+    assert any(
+        item["reason"] == "missing_event_occurrence_id" for item in report["daily_review_items"]
+    )
 
 
 def test_build_quality_report_extracts_event_contract_fields_and_reviews() -> None:
@@ -157,10 +159,7 @@ def test_build_quality_report_extracts_event_contract_fields_and_reviews() -> No
     )
     official.title = "서울 재즈 페스티벌"
     official.summary = (
-        "Venue name: 서울광장. "
-        "Event date: 2026-04-20. "
-        "City: Seoul. "
-        "Online: false."
+        "Venue name: 서울광장. " "Event date: 2026-04-20. " "City: Seoul. " "Online: false."
     )
     ticket = _article(
         "인터파크 이벤트",
@@ -194,8 +193,7 @@ def test_build_quality_report_extracts_event_contract_fields_and_reviews() -> No
     assert ticket_event["required_field_gaps"] == ["event_occurrence_id"]
     assert report["summary"]["event_required_field_gap_count"] == 1
     assert any(
-        item["reason"] == "missing_required_fields"
-        and item["event_model"] == "ticket_availability"
+        item["reason"] == "missing_required_fields" and item["event_model"] == "ticket_availability"
         for item in report["daily_review_items"]
     )
 

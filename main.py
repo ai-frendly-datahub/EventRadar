@@ -5,6 +5,9 @@ from datetime import UTC
 from pathlib import Path
 from typing import cast
 
+from radar_core.config_loader import filter_sources
+from radar_core.ontology import annotate_articles_with_ontology
+
 from eventradar.analyzer import apply_entity_rules
 from eventradar.collector import collect_sources
 from eventradar.common.validators import validate_article
@@ -21,8 +24,6 @@ from eventradar.relevance import apply_source_context_entities, filter_relevant_
 from eventradar.reporter import generate_index_html, generate_report
 from eventradar.search_index import SearchIndex
 from eventradar.storage import RadarStorage
-from radar_core.ontology import annotate_articles_with_ontology
-from radar_core.config_loader import filter_sources
 
 
 def _send_notifications(
@@ -47,6 +48,7 @@ def _send_notifications(
         CompositeNotifier,
         EmailNotifier,
         NotificationPayload,
+        Notifier,
         WebhookNotifier,
     )
 
@@ -60,7 +62,7 @@ def _send_notifications(
         report_url=str(report_path),
     )
 
-    notifiers: list[object] = []
+    notifiers: list[Notifier] = []
     if email_to:
         notifiers.append(
             EmailNotifier(
@@ -92,6 +94,7 @@ def run(
     keep_raw_days: int = 180,
     keep_report_days: int = 90,
     snapshot_db: bool = False,
+    generate_report_output: bool = True,
     max_sources: int | None = None,
     exclude_sources: tuple[str, ...] | list[str] = (),
 ) -> Path:
@@ -181,16 +184,16 @@ def run(
         category_name=category_cfg.category_name,
     )
     output_path = settings.report_dir / f"{category_cfg.category_name}_report.html"
-    _ = generate_report(
-        category=category_cfg,
-        articles=recent_articles,
-        output_path=output_path,
-        stats=stats,
-        errors=errors,
-        quality_report=quality_report,
-    )
-    # Generate index.html
-    generate_index_html(settings.report_dir)
+    if generate_report_output:
+        _ = generate_report(
+            category=category_cfg,
+            articles=recent_articles,
+            output_path=output_path,
+            stats=stats,
+            errors=errors,
+            quality_report=quality_report,
+        )
+        generate_index_html(settings.report_dir)
     date_storage = apply_date_storage_policy(
         database_path=settings.database_path,
         raw_data_dir=settings.raw_data_dir,
@@ -199,7 +202,10 @@ def run(
         keep_report_days=keep_report_days,
         snapshot_db=snapshot_db,
     )
-    print(f"[Radar] Report generated at {output_path}")
+    if generate_report_output:
+        print(f"[Radar] Report generated at {output_path}")
+    else:
+        print("[Radar] Report generation skipped.")
     print(f"[Radar] Quality report generated at {quality_paths['latest']}")
     snapshot_path = date_storage.get("snapshot_path")
     if isinstance(snapshot_path, str) and snapshot_path:
@@ -292,8 +298,14 @@ def parse_args() -> argparse.Namespace:
     _ = parser.add_argument(
         "--generate-report",
         action="store_true",
+        default=True,
+        help="Generate HTML report after collection (default; retained for compatibility)",
+    )
+    _ = parser.add_argument(
+        "--skip-report",
+        action="store_true",
         default=False,
-        help="Generate HTML report after collection",
+        help="Skip HTML report generation after collection",
     )
     _ = parser.add_argument(
         "--max-sources",
@@ -330,8 +342,6 @@ def _to_int(value: object, default: int) -> int:
     return default
 
 
-
-
 def _to_optional_int(value: object) -> int | None:
     if value is None:
         return None
@@ -351,6 +361,8 @@ def _to_str_list(value: object) -> list[str]:
     if isinstance(value, list):
         return [str(item) for item in cast(list[object], value) if isinstance(item, str)]
     return []
+
+
 if __name__ == "__main__":
     args = cast(dict[str, object], vars(parse_args()))
     _ = run(
@@ -364,6 +376,7 @@ if __name__ == "__main__":
         keep_raw_days=_to_int(args.get("keep_raw_days"), 180),
         keep_report_days=_to_int(args.get("keep_report_days"), 90),
         snapshot_db=bool(args.get("snapshot_db", False)),
+        generate_report_output=not bool(args.get("skip_report", False)),
         max_sources=_to_optional_int(args.get("max_sources")),
         exclude_sources=_to_str_list(args.get("exclude_source")),
     )

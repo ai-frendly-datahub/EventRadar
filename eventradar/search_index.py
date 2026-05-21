@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
@@ -43,8 +44,7 @@ class SearchIndex:
 
     def _create_schema(self) -> None:
         conn = self._connection()
-        _ = conn.executescript(
-            """
+        _ = conn.executescript("""
             CREATE TABLE IF NOT EXISTS documents (
                 link TEXT PRIMARY KEY,
                 title TEXT NOT NULL,
@@ -71,8 +71,7 @@ class SearchIndex:
                 INSERT INTO documents_fts(rowid, title, body)
                 VALUES (new.rowid, new.title, new.body);
             END;
-            """
-        )
+            """)
         conn.commit()
 
     def upsert(self, link: str, title: str, body: str) -> None:
@@ -87,23 +86,43 @@ class SearchIndex:
     def search(self, query: str, *, limit: int = 20) -> list[SearchResult]:
         if limit <= 0:
             return []
+        normalized_query = query.strip()
+        if not normalized_query:
+            return []
 
         conn = self._connection()
-        cursor = conn.execute(
-            """
-            SELECT
-                d.link AS link,
-                d.title AS title,
-                snippet(documents_fts, 1, '<b>', '</b>', '...', 32) AS snippet,
-                bm25(documents_fts) AS rank
-            FROM documents_fts
-            JOIN documents AS d ON d.rowid = documents_fts.rowid
-            WHERE documents_fts MATCH ?
-            ORDER BY rank ASC
-            LIMIT ?
-            """,
-            (query, limit),
-        )
+        try:
+            cursor = conn.execute(
+                """
+                SELECT
+                    d.link AS link,
+                    d.title AS title,
+                    snippet(documents_fts, 1, '<b>', '</b>', '...', 32) AS snippet,
+                    bm25(documents_fts) AS rank
+                FROM documents_fts
+                JOIN documents AS d ON d.rowid = documents_fts.rowid
+                WHERE documents_fts MATCH ?
+                ORDER BY rank ASC
+                LIMIT ?
+                """,
+                (normalized_query, limit),
+            )
+        except sqlite3.OperationalError:
+            cursor = conn.execute(
+                """
+                SELECT
+                    d.link AS link,
+                    d.title AS title,
+                    snippet(documents_fts, 1, '<b>', '</b>', '...', 32) AS snippet,
+                    bm25(documents_fts) AS rank
+                FROM documents_fts
+                JOIN documents AS d ON d.rowid = documents_fts.rowid
+                WHERE documents_fts MATCH ?
+                ORDER BY rank ASC
+                LIMIT ?
+                """,
+                (_quote_fts_query(normalized_query), limit),
+            )
 
         rows = cast(list[tuple[str, str, str, float]], cursor.fetchall())
         results: list[SearchResult] = []
@@ -124,3 +143,15 @@ class SearchIndex:
             return
         self._conn.close()
         self._conn = None
+
+
+def _quote_fts_query(query: str) -> str:
+    tokens = re.findall(r"[\w가-힣]+", query, flags=re.UNICODE)
+    if tokens:
+        return " OR ".join(_quote_fts_token(token) for token in tokens)
+    return _quote_fts_token(query)
+
+
+def _quote_fts_token(token: str) -> str:
+    escaped = token.replace('"', '""')
+    return f'"{escaped}"'

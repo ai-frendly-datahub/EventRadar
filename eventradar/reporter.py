@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 from dataclasses import replace
 from html import escape
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any, cast
 
 from radar_core.ontology import build_summary_ontology_metadata
 from radar_core.report_utils import (
@@ -24,12 +24,12 @@ def generate_report(
     output_path: Path,
     stats: dict[str, int],
     errors: list[str] | None = None,
-    store=None,
+    store: Any = None,
     quality_report: Mapping[str, Any] | None = None,
 ) -> Path:
     """Generate HTML report (delegates to radar-core)."""
     articles_list = [_sanitize_article_for_report(article) for article in articles]
-    plugin_charts = []
+    plugin_charts: list[dict[str, Any]] = []
 
     # --- Universal plugins (entity heatmap + source reliability) ---
     try:
@@ -49,18 +49,20 @@ def generate_report(
     except Exception:
         pass
 
+    ontology_metadata = build_summary_ontology_metadata(
+        "EventRadar",
+        category_name=category.category_name,
+        search_from=Path(__file__).resolve(),
+    ) or _fallback_event_ontology_metadata(category.category_name)
+
     result = _core_generate_report(
         category=category,
         articles=articles_list,
         output_path=output_path,
         stats=stats,
         errors=errors,
-        plugin_charts=plugin_charts if plugin_charts else None,
-        ontology_metadata=build_summary_ontology_metadata(
-            "EventRadar",
-            category_name=category.category_name,
-            search_from=Path(__file__).resolve(),
-        ),
+        plugin_charts=cast(Any, plugin_charts if plugin_charts else None),
+        ontology_metadata=ontology_metadata,
     )
     if quality_report:
         _inject_event_quality_panel(result, category.category_name, quality_report)
@@ -76,6 +78,21 @@ def generate_index_html(
     return _core_generate_index_html(report_dir, radar_name)
 
 
+def _fallback_event_ontology_metadata(category_name: str) -> dict[str, Any]:
+    """Keep summary metadata stable when the optional ontology checkout is absent."""
+    return {
+        "repo": "EventRadar",
+        "category": category_name,
+        "ontology_version": "0.1.0",
+        "event_model_ids": [
+            "event.exhibitor_sponsor_signal",
+            "event.official_event_calendar",
+            "event.ticket_availability",
+            "event.venue_calendar",
+        ],
+    }
+
+
 def _inject_event_quality_panel(
     output_path: Path,
     category_name: str,
@@ -83,9 +100,7 @@ def _inject_event_quality_panel(
 ) -> None:
     _inject_event_quality_panel_into(output_path, quality_report)
     dated_reports = sorted(
-        output_path.parent.glob(
-            f"{category_name}_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].html"
-        ),
+        output_path.parent.glob(f"{category_name}_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].html"),
         key=lambda path: path.stat().st_mtime,
     )
     if dated_reports:

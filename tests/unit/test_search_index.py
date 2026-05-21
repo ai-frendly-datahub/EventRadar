@@ -91,6 +91,21 @@ def test_search_returns_empty_list_when_no_match(tmp_path: Path) -> None:
     assert results == []
 
 
+def test_search_quotes_malformed_fts_query(tmp_path: Path) -> None:
+    index = SearchIndex(tmp_path / "search_index.db")
+    index.upsert(
+        link="https://example.com/a",
+        title="Festival registration opens",
+        body="Registration is open for the spring festival.",
+    )
+
+    results = index.search("festival:")
+    index.close()
+
+    assert len(results) == 1
+    assert results[0].link == "https://example.com/a"
+
+
 def test_search_supports_korean_text(tmp_path: Path) -> None:
     index = SearchIndex(tmp_path / "search_index.db")
     index.upsert(

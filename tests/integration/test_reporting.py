@@ -85,9 +85,7 @@ def test_report_generation_includes_event_quality_panel(
     assert "official_event_calendar" in content
     assert "missing_required_fields" in content
 
-    summaries = sorted(
-        tmp_path.glob("event_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_summary.json")
-    )
+    summaries = sorted(tmp_path.glob("event_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_summary.json"))
     assert len(summaries) == 1
     summary = json.loads(summaries[0].read_text(encoding="utf-8"))
     assert summary["ontology"]["repo"] == "EventRadar"

@@ -45,7 +45,9 @@ def test_filter_relevant_articles_drops_error_and_broad_non_event_rows() -> None
         Source(name="예술의전당 공연", type="javascript", url="https://www.sac.or.kr"),
     ]
     articles = [
-        _article("Billboard", title="Artist profile", matched_entities={"Entertainment": ["artist"]}),
+        _article(
+            "Billboard", title="Artist profile", matched_entities={"Entertainment": ["artist"]}
+        ),
         _article(
             "Billboard",
             title="Coachella setlist posted",

@@ -11,7 +11,6 @@ from typing import Any
 
 from .models import Article, CategoryConfig, Source
 
-
 TRACKED_EVENT_MODEL_ORDER = [
     "official_event_calendar",
     "ticket_availability",
@@ -107,9 +106,7 @@ def build_quality_report(
         "sources": source_rows,
         "events": event_rows,
         "daily_review_items": daily_review_items,
-        "quality_gates": list(quality.get("quality_gates", []))
-        if isinstance(quality.get("quality_gates"), list)
-        else [],
+        "quality_gates": _list_value(quality.get("quality_gates")),
         "source_backlog": (quality_config or {}).get("source_backlog", {}),
         "errors": errors_list,
     }
@@ -146,12 +143,11 @@ def _build_event_rows(
         event_model = _source_event_model(source)
         if event_model not in tracked_event_models:
             continue
-        event_at = (
-            _as_utc(article.published or article.collected_at)
-            if (article.published or article.collected_at)
-            else None
+        article_date = article.published or article.collected_at
+        event_at = _as_utc(article_date) if article_date is not None else None
+        rows.append(
+            _event_row(article=article, source=source, event_model=event_model, event_at=event_at)
         )
-        rows.append(_event_row(article=article, source=source, event_model=event_model, event_at=event_at))
     return rows
 
 
@@ -197,9 +193,11 @@ def _event_row(
     venue_id = _first_non_empty(
         _summary_value(article.summary, "Venue ID"),
         _string_value(source.config.get("venue_id")),
-        _slug(venue_name)
-        if venue_name and event_model in {"official_event_calendar", "venue_calendar"}
-        else "",
+        (
+            _slug(venue_name)
+            if venue_name and event_model in {"official_event_calendar", "venue_calendar"}
+            else ""
+        ),
     )
     event_occurrence_id = _event_occurrence_id(
         event_title=event_title,
@@ -268,7 +266,9 @@ def _build_source_row(
         if row["source"] == source.name and row["event_model"] == event_model
     ]
     latest_event = _latest_event(source_event_rows)
-    latest_event_at = _parse_datetime(str(latest_event.get("event_at") or "")) if latest_event else None
+    latest_event_at = (
+        _parse_datetime(str(latest_event.get("event_at") or "")) if latest_event else None
+    )
     sla_days = _source_sla_days(source, event_model, freshness_sla)
     age_days = _age_days(generated_at, latest_event_at) if latest_event_at else None
     disabled_reason = _string_value(source.config.get("disabled_reason"))
@@ -306,12 +306,12 @@ def _build_source_row(
         "latest_title": str(latest_event.get("title", "")) if latest_event else "",
         "latest_url": str(latest_event.get("url", "")) if latest_event else "",
         "latest_source_signal": latest_event.get("source_signal", []) if latest_event else [],
-        "latest_event_occurrence_id": latest_event.get("event_occurrence_id", "")
-        if latest_event
-        else "",
-        "latest_required_field_gaps": latest_event.get("required_field_gaps", [])
-        if latest_event
-        else [],
+        "latest_event_occurrence_id": (
+            latest_event.get("event_occurrence_id", "") if latest_event else ""
+        ),
+        "latest_required_field_gaps": (
+            latest_event.get("required_field_gaps", []) if latest_event else []
+        ),
         "errors": source_errors,
     }
 
@@ -372,8 +372,7 @@ def _source_event_model(source: Source) -> str:
     if any(token in source.name for token in ("국립", "세종문화회관", "예술의전당", "강서구")):
         return "venue_calendar"
     if source.trust_tier.lower().startswith("t1") or any(
-        token in source.name
-        for token in ("문화체육관광부", "서울시", "지역축제", "한국관광공사")
+        token in source.name for token in ("문화체육관광부", "서울시", "지역축제", "한국관광공사")
     ):
         return "official_event_calendar"
     if source_name in {
@@ -502,7 +501,9 @@ def _daily_review_items(
         if row.get("enabled") and row.get("tracked")
     }
     observed_models = {str(row.get("event_model") or "") for row in event_rows}
-    for event_model in sorted(model for model in tracked_models if model and model not in observed_models):
+    for event_model in sorted(
+        model for model in tracked_models if model and model not in observed_models
+    ):
         affected_sources = [
             str(row.get("source") or "")
             for row in source_rows
