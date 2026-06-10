@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-10",
+  "category": "event",
+  "article_count": 715,
+  "source_count": 24,
+  "matched_count": 715,
+  "top_entities": [
+    {
+      "name": "Entertainment",
+      "count": 563
+    },
+    {
+      "name": "EventGeneral",
+      "count": 475
+    },
+    {
+      "name": "SourceSignal",
+      "count": 401
+    },
+    {
+      "name": "Event",
+      "count": 298
+    },
+    {
+      "name": "Performance",
+      "count": 267
+    },
+    {
+      "name": "Festival",
+      "count": 184
+    },
+    {
+      "name": "Exhibition",
+      "count": 119
+    },
+    {
+      "name": "Conference",
+      "count": 76
+    },
+    {
+      "name": "Sports",
+      "count": 56
+    },
+    {
+      "name": "Meetup",
+      "count": 21
+    }
+  ],
+  "sources": {
+    "세종문화회관 공연": 1,
+    "예술의전당 공연": 40,
+    "인터파크 이벤트": 1,
+    "강서구 문화행사": 1,
+    "연합뉴스 문화": 102,
+    "Reddit r/festivals": 113,
+    "Billboard": 20,
+    "연합뉴스 연예": 37,
+    "Pollstar News": 60,
+    "Reddit r/concerts": 87,
+    "IQ Magazine": 40,
+    "Exhibit City News": 22,
+    "Skift Meetings": 19,
+    "Event Marketer": 11,
+    "Exhibition News": 27,
+    "Ticketmaster Blog": 35,
+    "Smart Meetings": 16,
+    "PCMA Convene": 20,
+    "IAEE Blog": 15,
+    "Brooklyn Vegan": 17,
+    "지역축제365": 1,
+    "국립현대미술관 전시": 1,
+    "UFI Blog": 7,
+    "Reddit r/conferences": 22
+  },
+  "generated_at": "2026-06-10T12:46:39.923887+09:00",
+  "ontology": {
+    "repo": "EventRadar",
+    "category": "event",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "event.exhibitor_sponsor_signal",
+      "event.official_event_calendar",
+      "event.ticket_availability",
+      "event.venue_calendar"
+    ]
+  }
+}
