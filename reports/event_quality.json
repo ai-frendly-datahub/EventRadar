@@ -1,6 +1,6 @@
 {
   "category": "event",
-  "generated_at": "2026-06-24T03:39:11.059962+00:00",
+  "generated_at": "2026-06-25T03:37:29.010537+00:00",
   "scope_note": "Official calendars, venue pages, ticket pages, and event-industry sources are tracked separately from broad culture/entertainment news. Generic error pages and broad rows without event-domain signals are excluded from reports.",
   "summary": {
     "total_sources": 36,
@@ -17,12 +17,12 @@
     "official_event_calendar_events": 1,
     "ticket_availability_events": 61,
     "venue_calendar_events": 2,
-    "exhibitor_sponsor_signal_events": 155,
+    "exhibitor_sponsor_signal_events": 144,
     "event_occurrence_present_count": 34,
     "venue_id_present_count": 34,
-    "availability_status_present_count": 2,
+    "availability_status_present_count": 3,
     "organization_signal_present_count": 0,
-    "event_required_field_gap_count": 539,
+    "event_required_field_gap_count": 508,
     "daily_review_item_count": 50
   },
   "sources": [
@@ -41,12 +41,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 30,
-      "event_count": 30,
-      "latest_event_at": "2026-06-23T05:47:17+00:00",
-      "age_days": 0.91,
-      "latest_title": "EN Ops Leaders’ Summit returns with expanded two-day programme",
-      "latest_url": "https://exhibitionnews.uk/en-ops-leaders-summit-returns-with-expanded-two-day-programme",
+      "article_count": 23,
+      "event_count": 23,
+      "latest_event_at": "2026-06-23T23:49:35+00:00",
+      "age_days": 1.16,
+      "latest_title": "Barcelona Boat Show to feature more brands, sectors and experiences",
+      "latest_url": "https://exhibitionnews.uk/barcelona-boat-show-to-feature-more-brands-sectors-and-experiences",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -73,12 +73,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 17,
-      "event_count": 17,
-      "latest_event_at": "2026-06-22T13:47:48+00:00",
-      "age_days": 1.58,
-      "latest_title": "The Brief: Paws of Fame and Hidden Frequencies",
-      "latest_url": "https://www.eventmarketer.com/article/brief-dogsters-paws-of-fame-puma-hidden-frequencies",
+      "article_count": 16,
+      "event_count": 16,
+      "latest_event_at": "2026-06-24T08:00:29+00:00",
+      "age_days": 0.82,
+      "latest_title": "Five Tips for Delivering Pre-Conference Programming that Builds Business",
+      "latest_url": "https://www.eventmarketer.com/article/tips-conference-pre-event-programming",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -105,12 +105,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 9,
-      "event_count": 9,
-      "latest_event_at": "2026-06-11T04:18:43+00:00",
-      "age_days": 12.97,
-      "latest_title": "Future Proofing Our Events – UFI Event Directors Summit 2026",
-      "latest_url": "https://www.ufi.org/future-proofing-our-events",
+      "article_count": 10,
+      "event_count": 10,
+      "latest_event_at": "2026-06-23T21:00:51+00:00",
+      "age_days": 1.28,
+      "latest_title": "UFI People & Culture Working Group Update: New Members, New Conversations",
+      "latest_url": "https://www.ufi.org/ufi-people-culture-working-group-update-new-members-new-conversations",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -163,12 +163,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 26,
-      "event_count": 26,
-      "latest_event_at": "2026-06-23T08:46:50+00:00",
-      "age_days": 0.79,
-      "latest_title": "People on the Move",
-      "latest_url": "https://www.pcma.org/people-on-the-move-20260625",
+      "article_count": 25,
+      "event_count": 25,
+      "latest_event_at": "2026-06-24T00:34:33+00:00",
+      "age_days": 1.13,
+      "latest_title": "Genevieve Lim | PCMA Member Spotlight",
+      "latest_url": "https://www.pcma.org/genevieve-lim-pcma-member-spotlight",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -221,19 +221,20 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 23,
-      "event_count": 23,
-      "latest_event_at": "2026-06-23T10:57:36+00:00",
-      "age_days": 0.7,
-      "latest_title": "InfoComm 2026 Signals a New Era of Connected Experiences",
-      "latest_url": "https://exhibitcitynews.com/infocomm-2026-connected-experiences",
+      "article_count": 25,
+      "event_count": 25,
+      "latest_event_at": "2026-06-24T09:46:26+00:00",
+      "age_days": 0.74,
+      "latest_title": "Orbus Adds 16-Foot Durst Printer, New Fabric Collection",
+      "latest_url": "https://exhibitcitynews.com/orbus-durst-printer-fabric-collection",
       "latest_source_signal": [
         "event_industry"
       ],
       "latest_event_occurrence_id": "",
       "latest_required_field_gaps": [
         "event_occurrence_id",
-        "organization_name"
+        "organization_name",
+        "signal_type"
       ],
       "errors": []
     },
@@ -252,12 +253,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 13,
-      "event_count": 13,
-      "latest_event_at": "2026-06-19T10:55:47+00:00",
-      "age_days": 4.7,
-      "latest_title": "Why Your Dietary Planning May Be Falling Short—and How to Fix It",
-      "latest_url": "https://www.smartmeetings.com/meeting-planning/181416/why-your-dietary-planning-may-be-falling-short-and-how-to-fix-it",
+      "article_count": 12,
+      "event_count": 12,
+      "latest_event_at": "2026-06-24T12:30:09+00:00",
+      "age_days": 0.63,
+      "latest_title": "How to Organize End-to-End Inclusive Events",
+      "latest_url": "https://www.smartmeetings.com/meeting-planning/181477/how-to-organize-end-to-end-inclusive-events",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -284,7 +285,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 40,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -336,7 +337,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 24,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -391,7 +392,7 @@
       "article_count": 29,
       "event_count": 29,
       "latest_event_at": "2026-06-23T07:31:49+00:00",
-      "age_days": 0.84,
+      "age_days": 1.84,
       "latest_title": "aespa Setlist: What to Expect from the 2026 Tour",
       "latest_url": "https://blog.ticketmaster.com/aespa-setlist",
       "latest_source_signal": [
@@ -419,12 +420,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 22,
-      "event_count": 22,
-      "latest_event_at": "2026-06-23T14:02:12+00:00",
-      "age_days": 0.57,
-      "latest_title": "Life Science Connect Expands Events Business With Biopharma Acquisition",
-      "latest_url": "https://meetings.skift.com/2026/06/23/life-science-connect-expands-events-business-with-biopharma-acquisition",
+      "article_count": 18,
+      "event_count": 18,
+      "latest_event_at": "2026-06-24T11:51:03+00:00",
+      "age_days": 0.66,
+      "latest_title": "First JW Marriott All-Inclusive Resort Reflects Growing Trend Toward Luxury",
+      "latest_url": "https://meetings.skift.com/2026/06/24/first-jw-marriott-all-inclusive-resort-reflects-growing-trend-toward-luxury",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -453,10 +454,10 @@
       "reenable_gate": [],
       "article_count": 15,
       "event_count": 15,
-      "latest_event_at": "2026-06-22T05:00:55+00:00",
-      "age_days": 1.94,
-      "latest_title": "My CEM Still Opens Doors",
-      "latest_url": "https://www.iaee.com/2026/06/22/my-cem-still-opens-doors",
+      "latest_event_at": "2026-06-24T05:00:42+00:00",
+      "age_days": 0.94,
+      "latest_title": "Design Experiences That Exceed Expectations",
+      "latest_url": "https://www.iaee.com/2026/06/24/design-experiences-that-exceed-expectations",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -541,7 +542,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 90,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -671,7 +672,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 93,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -697,7 +698,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 53,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -786,7 +787,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-24T03:36:08.846407+00:00",
+      "latest_event_at": "2026-06-25T03:34:33.650516+00:00",
       "age_days": 0.0,
       "latest_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
       "latest_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
@@ -794,7 +795,7 @@
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-06-24:seoul",
+      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-06-25:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -817,7 +818,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-24T03:36:36.657019+00:00",
+      "latest_event_at": "2026-06-25T03:34:59.861999+00:00",
       "age_days": 0.0,
       "latest_title": "NOL 티켓 | 전시/행사",
       "latest_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
@@ -946,7 +947,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T04:00:40.983775+00:00",
-      "age_days": 5.99,
+      "age_days": 6.98,
       "latest_title": "현재전시 < 전시 < 국립현대미술관",
       "latest_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
       "latest_source_signal": [
@@ -978,19 +979,17 @@
       "reenable_gate": [],
       "article_count": 30,
       "event_count": 30,
-      "latest_event_at": "2026-06-24T03:37:51.310957+00:00",
+      "latest_event_at": "2026-06-25T03:36:09.857894+00:00",
       "age_days": 0.0,
-      "latest_title": "2026.06.17\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t강남심포니오케스트라 제119회  정기연주회",
-      "latest_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80116",
+      "latest_title": "예매하기",
+      "latest_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83032",
       "latest_source_signal": [
         "official_event_calendar",
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "2026-06-17-119:seoul-arts-center:2026-06-24:seoul",
-      "latest_required_field_gaps": [
-        "availability_status"
-      ],
+      "latest_event_occurrence_id": "u-a489cf62396f:seoul-arts-center:2026-06-25:seoul",
+      "latest_required_field_gaps": [],
       "errors": []
     },
     {
@@ -1014,7 +1013,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-24T03:37:58.566244+00:00",
+      "latest_event_at": "2026-06-25T03:36:16.506222+00:00",
       "age_days": 0.0,
       "latest_title": "공연일정(목록) | 공연 | 프로그램 |",
       "latest_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
@@ -1023,7 +1022,7 @@
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-06-24:seoul",
+      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-06-25:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -1078,7 +1077,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T04:01:56.394876+00:00",
-      "age_days": 5.98,
+      "age_days": 6.98,
       "latest_title": "지역축제 - 목록보기 | 문화체육관광부",
       "latest_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
       "latest_source_signal": [
@@ -1097,15 +1096,15 @@
       "event_title": "공연일정(목록) | 공연 | 프로그램 |",
       "url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
       "source_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
-      "event_at": "2026-06-24T03:37:58.566244+00:00",
-      "event_date": "2026-06-24T03:37:58.566244+00:00",
-      "ticket_open_date": "2026-06-24T03:37:58.566244+00:00",
+      "event_at": "2026-06-25T03:36:16.506222+00:00",
+      "event_date": "2026-06-25T03:36:16.506222+00:00",
+      "ticket_open_date": "2026-06-25T03:36:16.506222+00:00",
       "venue_id": "sejong-center",
       "venue_name": "세종문화회관",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-06-24:seoul",
+      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-06-25:seoul",
       "availability_status": "on_sale",
       "organization_name": "",
       "signal_type": "",
@@ -1132,6 +1131,541 @@
         "venue_calendar"
       ],
       "required_field_gaps": []
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "예매하기",
+      "event_title": "예매하기",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=83032",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83032",
+      "event_at": "2026-06-25T03:36:09.857894+00:00",
+      "event_date": "2026-06-25T03:36:09.857894+00:00",
+      "ticket_open_date": "2026-06-25T03:36:09.857894+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-a489cf62396f:seoul-arts-center:2026-06-25:seoul",
+      "availability_status": "on_sale",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "예매"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "인터파크 이벤트",
+      "event_model": "ticket_availability",
+      "title": "NOL 티켓 | 전시/행사",
+      "event_title": "NOL 티켓 | 전시/행사",
+      "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "event_at": "2026-06-25T03:34:59.861999+00:00",
+      "event_date": "2026-06-25T03:34:59.861999+00:00",
+      "ticket_open_date": "2026-06-25T03:34:59.861999+00:00",
+      "venue_id": "",
+      "venue_name": "인터파크",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "on_sale",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "미술관",
+        "박물관",
+        "비엔날레",
+        "특별전",
+        "기획전"
+      ],
+      "festival": [
+        "축제",
+        "문화제"
+      ],
+      "performance": [
+        "공연",
+        "콘서트",
+        "연극",
+        "뮤지컬",
+        "투어",
+        "클래식",
+        "티켓",
+        "예매"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id"
+      ]
+    },
+    {
+      "source": "강서구 문화행사",
+      "event_model": "venue_calendar",
+      "title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "event_at": "2026-06-25T03:34:33.650516+00:00",
+      "event_date": "2026-06-25T03:34:33.650516+00:00",
+      "ticket_open_date": null,
+      "venue_id": "gangseo-cultural-center",
+      "venue_name": "강서구",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-06-25:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "대회"
+      ],
+      "exhibition": [
+        "전시",
+        "전시회",
+        "미술관",
+        "박물관"
+      ],
+      "festival": [],
+      "performance": [
+        "공연",
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "Smart Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "How to Organize End-to-End Inclusive Events",
+      "event_title": "How to Organize End-to-End Inclusive Events",
+      "url": "https://www.smartmeetings.com/meeting-planning/181477/how-to-organize-end-to-end-inclusive-events",
+      "source_url": "https://www.smartmeetings.com/meeting-planning/181477/how-to-organize-end-to-end-inclusive-events",
+      "event_at": "2026-06-24T12:30:09+00:00",
+      "event_date": "2026-06-24T12:30:09+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Smart Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "First JW Marriott All-Inclusive Resort Reflects Growing Trend Toward Luxury",
+      "event_title": "First JW Marriott All-Inclusive Resort Reflects Growing Trend Toward Luxury",
+      "url": "https://meetings.skift.com/2026/06/24/first-jw-marriott-all-inclusive-resort-reflects-growing-trend-toward-luxury",
+      "source_url": "https://meetings.skift.com/2026/06/24/first-jw-marriott-all-inclusive-resort-reflects-growing-trend-toward-luxury",
+      "event_at": "2026-06-24T11:51:03+00:00",
+      "event_date": "2026-06-24T11:51:03+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Orbus Adds 16-Foot Durst Printer, New Fabric Collection",
+      "event_title": "Orbus Adds 16-Foot Durst Printer, New Fabric Collection",
+      "url": "https://exhibitcitynews.com/orbus-durst-printer-fabric-collection",
+      "source_url": "https://exhibitcitynews.com/orbus-durst-printer-fabric-collection",
+      "event_at": "2026-06-24T09:46:26+00:00",
+      "event_date": "2026-06-24T09:46:26+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Helping Build the Events Industry's Next Generation",
+      "event_title": "Helping Build the Events Industry's Next Generation",
+      "url": "https://meetings.skift.com/2026/06/24/helping-build-the-events-industrys-next-generation",
+      "source_url": "https://meetings.skift.com/2026/06/24/helping-build-the-events-industrys-next-generation",
+      "event_at": "2026-06-24T09:33:06+00:00",
+      "event_date": "2026-06-24T09:33:06+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Five Tips for Delivering Pre-Conference Programming that Builds Business",
+      "event_title": "Five Tips for Delivering Pre-Conference Programming that Builds Business",
+      "url": "https://www.eventmarketer.com/article/tips-conference-pre-event-programming",
+      "source_url": "https://www.eventmarketer.com/article/tips-conference-pre-event-programming",
+      "event_at": "2026-06-24T08:00:29+00:00",
+      "event_date": "2026-06-24T08:00:29+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "conference"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [
+        "networking"
+      ],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Podcast: The Power of Mentorship and Betting on Yourself, with Anna Nicholson of Yahoo",
+      "event_title": "Podcast: The Power of Mentorship and Betting on Yourself, with Anna Nicholson of Yahoo",
+      "url": "https://www.eventmarketer.com/article/podcast-mentorship-betting-on-yourself-anna-nicholson-yahoo",
+      "source_url": "https://www.eventmarketer.com/article/podcast-mentorship-betting-on-yourself-anna-nicholson-yahoo",
+      "event_at": "2026-06-24T07:19:36+00:00",
+      "event_date": "2026-06-24T07:19:36+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "2016 Rewind: Looking Back at What Our B2B Dream Teamers Were Talking About a Decade Ago",
+      "event_title": "2016 Rewind: Looking Back at What Our B2B Dream Teamers Were Talking About a Decade Ago",
+      "url": "https://www.eventmarketer.com/article/b2b-dream-team-10-year-retrospective",
+      "source_url": "https://www.eventmarketer.com/article/b2b-dream-team-10-year-retrospective",
+      "event_at": "2026-06-24T06:00:20+00:00",
+      "event_date": "2026-06-24T06:00:20+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "conference"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "IAEE Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Design Experiences That Exceed Expectations",
+      "event_title": "Design Experiences That Exceed Expectations",
+      "url": "https://www.iaee.com/2026/06/24/design-experiences-that-exceed-expectations",
+      "source_url": "https://www.iaee.com/2026/06/24/design-experiences-that-exceed-expectations",
+      "event_at": "2026-06-24T05:00:42+00:00",
+      "event_date": "2026-06-24T05:00:42+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "IAEE Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "expo"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Grand Ex 2026: Google Cloud, Opus Agency and Gramercy Tech Earn the Campaign of the Year with ‘Tech Immersion’",
+      "event_title": "Grand Ex 2026: Google Cloud, Opus Agency and Gramercy Tech Earn the Campaign of the Year with ‘Tech Immersion’",
+      "url": "https://www.eventmarketer.com/article/grand-ex-2026-google-cloud",
+      "source_url": "https://www.eventmarketer.com/article/grand-ex-2026-google-cloud",
+      "event_at": "2026-06-24T05:00:39+00:00",
+      "event_date": "2026-06-24T05:00:39+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Nth Degree Names Ed Finnegan VP of Business Development for Fern",
+      "event_title": "Nth Degree Names Ed Finnegan VP of Business Development for Fern",
+      "url": "https://exhibitcitynews.com/ed-finnegan-fern-business-development",
+      "source_url": "https://exhibitcitynews.com/ed-finnegan-fern-business-development",
+      "event_at": "2026-06-24T05:00:21+00:00",
+      "event_date": "2026-06-24T05:00:21+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Women Build Vegas Returns to AREA15",
+      "event_title": "Women Build Vegas Returns to AREA15",
+      "url": "https://exhibitcitynews.com/women-build-vegas-area15",
+      "source_url": "https://exhibitcitynews.com/women-build-vegas-area15",
+      "event_at": "2026-06-24T04:30:32+00:00",
+      "event_date": "2026-06-24T04:30:32+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Net Zero Carbon Events Names Johanna Fuhlendorf Program Director",
+      "event_title": "Net Zero Carbon Events Names Johanna Fuhlendorf Program Director",
+      "url": "https://exhibitcitynews.com/johanna-fuhlendorf-net-zero-carbon-events",
+      "source_url": "https://exhibitcitynews.com/johanna-fuhlendorf-net-zero-carbon-events",
+      "event_at": "2026-06-24T04:00:24+00:00",
+      "event_date": "2026-06-24T04:00:24+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
     },
     {
       "source": "예술의전당 공연",
@@ -1255,41 +1789,6 @@
       "exhibition": [],
       "festival": [],
       "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "2026.06.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 유니버설발레단 <백조의 호수>",
-      "event_title": "2026.06.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 유니버설발레단 <백조의 호수>",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=83032",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83032",
-      "event_at": "2026-06-24T03:37:51.310911+00:00",
-      "event_date": "2026-06-24T03:37:51.310911+00:00",
-      "ticket_open_date": "2026-06-24T03:37:51.310911+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-06-25-2026:seoul-arts-center:2026-06-24:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "발레"
-      ],
       "meetup": [],
       "source_signal": [
         "official_event_calendar",
@@ -1718,94 +2217,105 @@
       ]
     },
     {
-      "source": "인터파크 이벤트",
-      "event_model": "ticket_availability",
-      "title": "NOL 티켓 | 전시/행사",
-      "event_title": "NOL 티켓 | 전시/행사",
-      "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
-      "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
-      "event_at": "2026-06-24T03:36:36.657019+00:00",
-      "event_date": "2026-06-24T03:36:36.657019+00:00",
-      "ticket_open_date": "2026-06-24T03:36:36.657019+00:00",
+      "source": "PCMA Convene",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Genevieve Lim | PCMA Member Spotlight",
+      "event_title": "Genevieve Lim | PCMA Member Spotlight",
+      "url": "https://www.pcma.org/genevieve-lim-pcma-member-spotlight",
+      "source_url": "https://www.pcma.org/genevieve-lim-pcma-member-spotlight",
+      "event_at": "2026-06-24T00:34:33+00:00",
+      "event_date": "2026-06-24T00:34:33+00:00",
+      "ticket_open_date": null,
       "venue_id": "",
-      "venue_name": "인터파크",
+      "venue_name": "PCMA Convene",
       "city": "",
       "country": "",
       "online_flag": null,
       "event_occurrence_id": "",
-      "availability_status": "on_sale",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Barcelona Boat Show to feature more brands, sectors and experiences",
+      "event_title": "Barcelona Boat Show to feature more brands, sectors and experiences",
+      "url": "https://exhibitionnews.uk/barcelona-boat-show-to-feature-more-brands-sectors-and-experiences",
+      "source_url": "https://exhibitionnews.uk/barcelona-boat-show-to-feature-more-brands-sectors-and-experiences",
+      "event_at": "2026-06-23T23:49:35+00:00",
+      "event_date": "2026-06-23T23:49:35+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
       "organization_name": "",
       "signal_type": "",
       "conference": [],
       "exhibition": [
-        "전시",
-        "미술관",
-        "박물관",
-        "비엔날레",
-        "특별전",
-        "기획전"
+        "exhibition"
       ],
-      "festival": [
-        "축제",
-        "문화제"
-      ],
-      "performance": [
-        "공연",
-        "콘서트",
-        "연극",
-        "뮤지컬",
-        "투어",
-        "클래식",
-        "티켓",
-        "예매"
-      ],
+      "festival": [],
+      "performance": [],
       "meetup": [],
       "source_signal": [
-        "ticket_availability"
+        "event_industry"
       ],
       "required_field_gaps": [
-        "event_occurrence_id"
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
       ]
     },
     {
-      "source": "강서구 문화행사",
-      "event_model": "venue_calendar",
-      "title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
-      "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
-      "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
-      "event_at": "2026-06-24T03:36:08.846407+00:00",
-      "event_date": "2026-06-24T03:36:08.846407+00:00",
+      "source": "UFI Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "UFI People & Culture Working Group Update: New Members, New Conversations",
+      "event_title": "UFI People & Culture Working Group Update: New Members, New Conversations",
+      "url": "https://www.ufi.org/ufi-people-culture-working-group-update-new-members-new-conversations",
+      "source_url": "https://www.ufi.org/ufi-people-culture-working-group-update-new-members-new-conversations",
+      "event_at": "2026-06-23T21:00:51+00:00",
+      "event_date": "2026-06-23T21:00:51+00:00",
       "ticket_open_date": null,
-      "venue_id": "gangseo-cultural-center",
-      "venue_name": "강서구",
-      "city": "Seoul",
-      "country": "KR",
+      "venue_id": "",
+      "venue_name": "UFI Blog",
+      "city": "",
+      "country": "",
       "online_flag": null,
-      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-06-24:seoul",
+      "event_occurrence_id": "",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
-      "conference": [
-        "대회"
-      ],
-      "exhibition": [
-        "전시",
-        "전시회",
-        "미술관",
-        "박물관"
-      ],
+      "conference": [],
+      "exhibition": [],
       "festival": [],
-      "performance": [
-        "공연",
-        "콘서트"
-      ],
+      "performance": [],
       "meetup": [],
       "source_signal": [
-        "official_event_calendar",
-        "venue_calendar"
+        "event_industry"
       ],
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
     },
     {
       "source": "Skift Meetings",
@@ -4497,204 +5007,6 @@
       ]
     },
     {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Informa reports five-month 7.6% revenue uplift in B2B Live Events",
-      "event_title": "Informa reports five-month 7.6% revenue uplift in B2B Live Events",
-      "url": "https://exhibitionnews.uk/informa-reports-five-month-7-6-revenue-uplift-in-b2b-live-events",
-      "source_url": "https://exhibitionnews.uk/informa-reports-five-month-7-6-revenue-uplift-in-b2b-live-events",
-      "event_at": "2026-06-17T23:03:48+00:00",
-      "event_date": "2026-06-17T23:03:48+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Rod Wave Concert Setlist: What to Expect at 2026 Don’t Look Down Tour",
-      "event_title": "Rod Wave Concert Setlist: What to Expect at 2026 Don’t Look Down Tour",
-      "url": "https://blog.ticketmaster.com/rod-wave-setlist",
-      "source_url": "https://blog.ticketmaster.com/rod-wave-setlist",
-      "event_at": "2026-06-17T22:36:43+00:00",
-      "event_date": "2026-06-17T22:36:43+00:00",
-      "ticket_open_date": "2026-06-17T22:36:43+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "concert",
-        "tour"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Dodgers Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "event_title": "Dodgers Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "url": "https://blog.ticketmaster.com/los-angeles-dodgers-promotions-schedule",
-      "source_url": "https://blog.ticketmaster.com/los-angeles-dodgers-promotions-schedule",
-      "event_at": "2026-06-17T22:35:41+00:00",
-      "event_date": "2026-06-17T22:35:41+00:00",
-      "ticket_open_date": "2026-06-17T22:35:41+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Giants Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "event_title": "Giants Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "url": "https://blog.ticketmaster.com/san-francisco-giants-promotions-schedule",
-      "source_url": "https://blog.ticketmaster.com/san-francisco-giants-promotions-schedule",
-      "event_at": "2026-06-17T22:23:31+00:00",
-      "event_date": "2026-06-17T22:23:31+00:00",
-      "ticket_open_date": "2026-06-17T22:23:31+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "How Ticket Presales Work",
-      "event_title": "How Ticket Presales Work",
-      "url": "https://blog.ticketmaster.com/presale-codes",
-      "source_url": "https://blog.ticketmaster.com/presale-codes",
-      "event_at": "2026-06-17T22:20:10+00:00",
-      "event_date": "2026-06-17T22:20:10+00:00",
-      "ticket_open_date": "2026-06-17T22:20:10+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Cubs Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "event_title": "Cubs Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
-      "url": "https://blog.ticketmaster.com/chicago-cubs-promotions-schedule",
-      "source_url": "https://blog.ticketmaster.com/chicago-cubs-promotions-schedule",
-      "event_at": "2026-06-17T22:15:59+00:00",
-      "event_date": "2026-06-17T22:15:59+00:00",
-      "ticket_open_date": "2026-06-17T22:15:59+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
       "source": "Skift Meetings",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Don't Buy AI, Buy the Outcome",
@@ -4796,41 +5108,6 @@
       ]
     },
     {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "ESTA Names Mark Wofford Manager of PERG",
-      "event_title": "ESTA Names Mark Wofford Manager of PERG",
-      "url": "https://exhibitcitynews.com/mark-wofford-perg-esta",
-      "source_url": "https://exhibitcitynews.com/mark-wofford-perg-esta",
-      "event_at": "2026-06-17T10:00:27+00:00",
-      "event_date": "2026-06-17T10:00:27+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
       "source": "Smart Meetings",
       "event_model": "exhibitor_sponsor_signal",
       "title": "How to Keep Your Contract Data Secure While Using AI",
@@ -4851,318 +5128,6 @@
       "signal_type": "",
       "conference": [],
       "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Key Takeaways From the mdg Event Industry Trend Report",
-      "event_title": "Key Takeaways From the mdg Event Industry Trend Report",
-      "url": "https://www.eventmarketer.com/article/key-takeaways-from-the-mdg-event-industry-trend-report",
-      "source_url": "https://www.eventmarketer.com/article/key-takeaways-from-the-mdg-event-industry-trend-report",
-      "event_at": "2026-06-17T08:35:32+00:00",
-      "event_date": "2026-06-17T08:35:32+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "performance"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Expert Insights on How to Fortify Your Event Performance Recap",
-      "event_title": "Expert Insights on How to Fortify Your Event Performance Recap",
-      "url": "https://www.eventmarketer.com/article/expert-insights-on-how-to-fortify-your-event-performance-recap",
-      "source_url": "https://www.eventmarketer.com/article/expert-insights-on-how-to-fortify-your-event-performance-recap",
-      "event_at": "2026-06-17T08:30:28+00:00",
-      "event_date": "2026-06-17T08:30:28+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "performance"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Five Ways to Elevate the Way You Measure Engagement at Your Events",
-      "event_title": "Five Ways to Elevate the Way You Measure Engagement at Your Events",
-      "url": "https://www.eventmarketer.com/article/five-ways-to-elevate-the-way-you-measure-engagement-at-your-events",
-      "source_url": "https://www.eventmarketer.com/article/five-ways-to-elevate-the-way-you-measure-engagement-at-your-events",
-      "event_at": "2026-06-17T08:30:26+00:00",
-      "event_date": "2026-06-17T08:30:26+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Dream Team Tips: Designing Trackable Pipeline, Avoiding ‘Broad-stroke’ Strategies",
-      "event_title": "Dream Team Tips: Designing Trackable Pipeline, Avoiding ‘Broad-stroke’ Strategies",
-      "url": "https://www.eventmarketer.com/article/measurement-insights-from-the-b-to-b-dream-team",
-      "source_url": "https://www.eventmarketer.com/article/measurement-insights-from-the-b-to-b-dream-team",
-      "event_at": "2026-06-17T08:20:53+00:00",
-      "event_date": "2026-06-17T08:20:53+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Prague Congress Centre Expands to Bid for Larger Events",
-      "event_title": "Prague Congress Centre Expands to Bid for Larger Events",
-      "url": "https://meetings.skift.com/2026/06/17/prague-congress-centre-expands-to-bid-for-larger-events",
-      "source_url": "https://meetings.skift.com/2026/06/17/prague-congress-centre-expands-to-bid-for-larger-events",
-      "event_at": "2026-06-17T07:17:20+00:00",
-      "event_date": "2026-06-17T07:17:20+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "congress"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Are you spending on the wrong risks?",
-      "event_title": "Are you spending on the wrong risks?",
-      "url": "https://exhibitionnews.uk/are-you-spending-on-the-wrong-risks",
-      "source_url": "https://exhibitionnews.uk/are-you-spending-on-the-wrong-risks",
-      "event_at": "2026-06-17T06:54:31+00:00",
-      "event_date": "2026-06-17T06:54:31+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Global Event Tech Summit 2026 London venue and keynote speaker announced",
-      "event_title": "Global Event Tech Summit 2026 London venue and keynote speaker announced",
-      "url": "https://exhibitionnews.uk/global-event-tech-summit-2026-london-venue-and-keynote-speaker-announced",
-      "source_url": "https://exhibitionnews.uk/global-event-tech-summit-2026-london-venue-and-keynote-speaker-announced",
-      "event_at": "2026-06-17T06:35:11+00:00",
-      "event_date": "2026-06-17T06:35:11+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "speaker",
-      "conference": [
-        "summit",
-        "keynote",
-        "speaker"
-      ],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Eight Ways to Make Your Events More Immersive—and Memorable",
-      "event_title": "Eight Ways to Make Your Events More Immersive—and Memorable",
-      "url": "https://www.eventmarketer.com/article/eight-ways-to-make-your-events-more-immersive-and-memorable",
-      "source_url": "https://www.eventmarketer.com/article/eight-ways-to-make-your-events-more-immersive-and-memorable",
-      "event_at": "2026-06-17T05:34:25+00:00",
-      "event_date": "2026-06-17T05:34:25+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Pickleball English OPEN to make NEC debut",
-      "event_title": "Pickleball English OPEN to make NEC debut",
-      "url": "https://exhibitionnews.uk/pickleball-english-open-to-make-nec-debut",
-      "source_url": "https://exhibitionnews.uk/pickleball-english-open-to-make-nec-debut",
-      "event_at": "2026-06-17T05:33:00+00:00",
-      "event_date": "2026-06-17T05:33:00+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
       "festival": [],
       "performance": [],
       "meetup": [],
@@ -5207,180 +5172,6 @@
       "required_field_gaps": [
         "event_occurrence_id",
         "organization_name"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Miami Beach Convention Center Advances Upgrades and Hotel Project",
-      "event_title": "Miami Beach Convention Center Advances Upgrades and Hotel Project",
-      "url": "https://exhibitcitynews.com/miami-beach-convention-center-upgrades-hotel",
-      "source_url": "https://exhibitcitynews.com/miami-beach-convention-center-upgrades-hotel",
-      "event_at": "2026-06-17T04:40:45+00:00",
-      "event_date": "2026-06-17T04:40:45+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Visit by GES launches next generation touchpoints to capture untapped interest on exhibition floors",
-      "event_title": "Visit by GES launches next generation touchpoints to capture untapped interest on exhibition floors",
-      "url": "https://exhibitionnews.uk/visit-by-ges-launches-next-generation-touchpoints-to-capture-untapped-interest-on-exhibition-floors",
-      "source_url": "https://exhibitionnews.uk/visit-by-ges-launches-next-generation-touchpoints-to-capture-untapped-interest-on-exhibition-floors",
-      "event_at": "2026-06-17T04:26:00+00:00",
-      "event_date": "2026-06-17T04:26:00+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "exhibitor",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "PCMA Convene",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "People on the Move",
-      "event_title": "People on the Move",
-      "url": "https://www.pcma.org/people-on-the-move-20260618",
-      "source_url": "https://www.pcma.org/people-on-the-move-20260618",
-      "event_at": "2026-06-17T04:08:29+00:00",
-      "event_date": "2026-06-17T04:08:29+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "PCMA Convene",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "10 Alternatives to Serving Sweets at Events",
-      "event_title": "10 Alternatives to Serving Sweets at Events",
-      "url": "https://meetings.skift.com/2026/06/17/10-alternatives-to-serving-sweets-at-events",
-      "source_url": "https://meetings.skift.com/2026/06/17/10-alternatives-to-serving-sweets-at-events",
-      "event_at": "2026-06-17T04:07:26+00:00",
-      "event_date": "2026-06-17T04:07:26+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Babyface to Headline ASAE Opening Celebration in Indianapolis",
-      "event_title": "Babyface to Headline ASAE Opening Celebration in Indianapolis",
-      "url": "https://exhibitcitynews.com/babyface-asae-opening-celebration",
-      "source_url": "https://exhibitcitynews.com/babyface-asae-opening-celebration",
-      "event_at": "2026-06-17T04:00:10+00:00",
-      "event_date": "2026-06-17T04:00:10+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [
-        "celebration"
-      ],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
       ]
     },
     {
@@ -5834,39 +5625,6 @@
       ]
     },
     {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "San Antonio’s New Arciniega District Offers Walkable Hospitality",
-      "event_title": "San Antonio’s New Arciniega District Offers Walkable Hospitality",
-      "url": "https://www.smartmeetings.com/news/180998/san-antonios-new-arciniega-district-offers-walkable-hospitality",
-      "source_url": "https://www.smartmeetings.com/news/180998/san-antonios-new-arciniega-district-offers-walkable-hospitality",
-      "event_at": "2026-06-04T11:29:35+00:00",
-      "event_date": "2026-06-04T11:29:35+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
       "source": "IAEE Blog",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Have the AI Advantage in Smarter Exhibition Strategy",
@@ -6024,39 +5782,6 @@
       "exhibition": [
         "exhibition"
       ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "IAEE Blog",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Robyn Davis Shows How Leadership and Lifting Others Transforms an Industry",
-      "event_title": "Robyn Davis Shows How Leadership and Lifting Others Transforms an Industry",
-      "url": "https://www.iaee.com/2026/05/26/robyn-davis-shows-how-leadership-and-lifting-others-transforms-an-industry",
-      "source_url": "https://www.iaee.com/2026/05/26/robyn-davis-shows-how-leadership-and-lifting-others-transforms-an-industry",
-      "event_at": "2026-05-26T05:00:25+00:00",
-      "event_date": "2026-05-26T05:00:25+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "IAEE Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
       "festival": [],
       "performance": [],
       "meetup": [],
@@ -6244,6 +5969,459 @@
     {
       "source": "Skift Meetings",
       "event_model": "exhibitor_sponsor_signal",
+      "title": "Prague Congress Centre Expands to Bid for Larger Events",
+      "event_title": "Prague Congress Centre Expands to Bid for Larger Events",
+      "url": "https://meetings.skift.com/2026/06/17/prague-congress-centre-expands-to-bid-for-larger-events",
+      "source_url": "https://meetings.skift.com/2026/06/17/prague-congress-centre-expands-to-bid-for-larger-events",
+      "event_at": "2026-06-17T07:17:20+00:00",
+      "event_date": "2026-06-17T07:17:20+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "congress"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "10 Alternatives to Serving Sweets at Events",
+      "event_title": "10 Alternatives to Serving Sweets at Events",
+      "url": "https://meetings.skift.com/2026/06/17/10-alternatives-to-serving-sweets-at-events",
+      "source_url": "https://meetings.skift.com/2026/06/17/10-alternatives-to-serving-sweets-at-events",
+      "event_at": "2026-06-17T04:07:26+00:00",
+      "event_date": "2026-06-17T04:07:26+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Smart Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "San Antonio’s New Arciniega District Offers Walkable Hospitality",
+      "event_title": "San Antonio’s New Arciniega District Offers Walkable Hospitality",
+      "url": "https://www.smartmeetings.com/news/180998/san-antonios-new-arciniega-district-offers-walkable-hospitality",
+      "source_url": "https://www.smartmeetings.com/news/180998/san-antonios-new-arciniega-district-offers-walkable-hospitality",
+      "event_at": "2026-06-04T11:29:35+00:00",
+      "event_date": "2026-06-04T11:29:35+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Smart Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "IAEE Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Robyn Davis Shows How Leadership and Lifting Others Transforms an Industry",
+      "event_title": "Robyn Davis Shows How Leadership and Lifting Others Transforms an Industry",
+      "url": "https://www.iaee.com/2026/05/26/robyn-davis-shows-how-leadership-and-lifting-others-transforms-an-industry",
+      "source_url": "https://www.iaee.com/2026/05/26/robyn-davis-shows-how-leadership-and-lifting-others-transforms-an-industry",
+      "event_at": "2026-05-26T05:00:25+00:00",
+      "event_date": "2026-05-26T05:00:25+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "IAEE Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Informa reports five-month 7.6% revenue uplift in B2B Live Events",
+      "event_title": "Informa reports five-month 7.6% revenue uplift in B2B Live Events",
+      "url": "https://exhibitionnews.uk/informa-reports-five-month-7-6-revenue-uplift-in-b2b-live-events",
+      "source_url": "https://exhibitionnews.uk/informa-reports-five-month-7-6-revenue-uplift-in-b2b-live-events",
+      "event_at": "2026-06-17T23:03:48+00:00",
+      "event_date": "2026-06-17T23:03:48+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Rod Wave Concert Setlist: What to Expect at 2026 Don’t Look Down Tour",
+      "event_title": "Rod Wave Concert Setlist: What to Expect at 2026 Don’t Look Down Tour",
+      "url": "https://blog.ticketmaster.com/rod-wave-setlist",
+      "source_url": "https://blog.ticketmaster.com/rod-wave-setlist",
+      "event_at": "2026-06-17T22:36:43+00:00",
+      "event_date": "2026-06-17T22:36:43+00:00",
+      "ticket_open_date": "2026-06-17T22:36:43+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "concert",
+        "tour"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Dodgers Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "event_title": "Dodgers Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "url": "https://blog.ticketmaster.com/los-angeles-dodgers-promotions-schedule",
+      "source_url": "https://blog.ticketmaster.com/los-angeles-dodgers-promotions-schedule",
+      "event_at": "2026-06-17T22:35:41+00:00",
+      "event_date": "2026-06-17T22:35:41+00:00",
+      "ticket_open_date": "2026-06-17T22:35:41+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "ESTA Names Mark Wofford Manager of PERG",
+      "event_title": "ESTA Names Mark Wofford Manager of PERG",
+      "url": "https://exhibitcitynews.com/mark-wofford-perg-esta",
+      "source_url": "https://exhibitcitynews.com/mark-wofford-perg-esta",
+      "event_at": "2026-06-17T10:00:27+00:00",
+      "event_date": "2026-06-17T10:00:27+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Are you spending on the wrong risks?",
+      "event_title": "Are you spending on the wrong risks?",
+      "url": "https://exhibitionnews.uk/are-you-spending-on-the-wrong-risks",
+      "source_url": "https://exhibitionnews.uk/are-you-spending-on-the-wrong-risks",
+      "event_at": "2026-06-17T06:54:31+00:00",
+      "event_date": "2026-06-17T06:54:31+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Global Event Tech Summit 2026 London venue and keynote speaker announced",
+      "event_title": "Global Event Tech Summit 2026 London venue and keynote speaker announced",
+      "url": "https://exhibitionnews.uk/global-event-tech-summit-2026-london-venue-and-keynote-speaker-announced",
+      "source_url": "https://exhibitionnews.uk/global-event-tech-summit-2026-london-venue-and-keynote-speaker-announced",
+      "event_at": "2026-06-17T06:35:11+00:00",
+      "event_date": "2026-06-17T06:35:11+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "speaker",
+      "conference": [
+        "summit",
+        "keynote",
+        "speaker"
+      ],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Pickleball English OPEN to make NEC debut",
+      "event_title": "Pickleball English OPEN to make NEC debut",
+      "url": "https://exhibitionnews.uk/pickleball-english-open-to-make-nec-debut",
+      "source_url": "https://exhibitionnews.uk/pickleball-english-open-to-make-nec-debut",
+      "event_at": "2026-06-17T05:33:00+00:00",
+      "event_date": "2026-06-17T05:33:00+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Miami Beach Convention Center Advances Upgrades and Hotel Project",
+      "event_title": "Miami Beach Convention Center Advances Upgrades and Hotel Project",
+      "url": "https://exhibitcitynews.com/miami-beach-convention-center-upgrades-hotel",
+      "source_url": "https://exhibitcitynews.com/miami-beach-convention-center-upgrades-hotel",
+      "event_at": "2026-06-17T04:40:45+00:00",
+      "event_date": "2026-06-17T04:40:45+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "convention"
+      ],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Babyface to Headline ASAE Opening Celebration in Indianapolis",
+      "event_title": "Babyface to Headline ASAE Opening Celebration in Indianapolis",
+      "url": "https://exhibitcitynews.com/babyface-asae-opening-celebration",
+      "source_url": "https://exhibitcitynews.com/babyface-asae-opening-celebration",
+      "event_at": "2026-06-17T04:00:10+00:00",
+      "event_date": "2026-06-17T04:00:10+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [
+        "celebration"
+      ],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
       "title": "Bahrain Confirmed as Host of November UFI Congress",
       "event_title": "Bahrain Confirmed as Host of November UFI Congress",
       "url": "https://meetings.skift.com/2026/06/17/bahrain-confirmed-as-host-of-november-ufi-congress",
@@ -6368,6 +6546,169 @@
       "conference": [
         "conference"
       ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Giants Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "event_title": "Giants Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "url": "https://blog.ticketmaster.com/san-francisco-giants-promotions-schedule",
+      "source_url": "https://blog.ticketmaster.com/san-francisco-giants-promotions-schedule",
+      "event_at": "2026-06-17T22:23:31+00:00",
+      "event_date": "2026-06-17T22:23:31+00:00",
+      "ticket_open_date": "2026-06-17T22:23:31+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "How Ticket Presales Work",
+      "event_title": "How Ticket Presales Work",
+      "url": "https://blog.ticketmaster.com/presale-codes",
+      "source_url": "https://blog.ticketmaster.com/presale-codes",
+      "event_at": "2026-06-17T22:20:10+00:00",
+      "event_date": "2026-06-17T22:20:10+00:00",
+      "ticket_open_date": "2026-06-17T22:20:10+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Cubs Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "event_title": "Cubs Promotions: Your Ultimate Guide to Game-Day Deals and Steals",
+      "url": "https://blog.ticketmaster.com/chicago-cubs-promotions-schedule",
+      "source_url": "https://blog.ticketmaster.com/chicago-cubs-promotions-schedule",
+      "event_at": "2026-06-17T22:15:59+00:00",
+      "event_date": "2026-06-17T22:15:59+00:00",
+      "ticket_open_date": "2026-06-17T22:15:59+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Exhibition News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Visit by GES launches next generation touchpoints to capture untapped interest on exhibition floors",
+      "event_title": "Visit by GES launches next generation touchpoints to capture untapped interest on exhibition floors",
+      "url": "https://exhibitionnews.uk/visit-by-ges-launches-next-generation-touchpoints-to-capture-untapped-interest-on-exhibition-floors",
+      "source_url": "https://exhibitionnews.uk/visit-by-ges-launches-next-generation-touchpoints-to-capture-untapped-interest-on-exhibition-floors",
+      "event_at": "2026-06-17T04:26:00+00:00",
+      "event_date": "2026-06-17T04:26:00+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibition News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "exhibitor",
+      "conference": [],
+      "exhibition": [
+        "exhibition"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name"
+      ]
+    },
+    {
+      "source": "PCMA Convene",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "People on the Move",
+      "event_title": "People on the Move",
+      "url": "https://www.pcma.org/people-on-the-move-20260618",
+      "source_url": "https://www.pcma.org/people-on-the-move-20260618",
+      "event_at": "2026-06-17T04:08:29+00:00",
+      "event_date": "2026-06-17T04:08:29+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "PCMA Convene",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
       "exhibition": [],
       "festival": [],
       "performance": [],
@@ -7231,6 +7572,175 @@
       ]
     },
     {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Key Takeaways From the mdg Event Industry Trend Report",
+      "event_title": "Key Takeaways From the mdg Event Industry Trend Report",
+      "url": "https://www.eventmarketer.com/article/key-takeaways-from-the-mdg-event-industry-trend-report",
+      "source_url": "https://www.eventmarketer.com/article/key-takeaways-from-the-mdg-event-industry-trend-report",
+      "event_at": "2026-06-17T08:35:32+00:00",
+      "event_date": "2026-06-17T08:35:32+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "performance"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Expert Insights on How to Fortify Your Event Performance Recap",
+      "event_title": "Expert Insights on How to Fortify Your Event Performance Recap",
+      "url": "https://www.eventmarketer.com/article/expert-insights-on-how-to-fortify-your-event-performance-recap",
+      "source_url": "https://www.eventmarketer.com/article/expert-insights-on-how-to-fortify-your-event-performance-recap",
+      "event_at": "2026-06-17T08:30:28+00:00",
+      "event_date": "2026-06-17T08:30:28+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "performance"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Five Ways to Elevate the Way You Measure Engagement at Your Events",
+      "event_title": "Five Ways to Elevate the Way You Measure Engagement at Your Events",
+      "url": "https://www.eventmarketer.com/article/five-ways-to-elevate-the-way-you-measure-engagement-at-your-events",
+      "source_url": "https://www.eventmarketer.com/article/five-ways-to-elevate-the-way-you-measure-engagement-at-your-events",
+      "event_at": "2026-06-17T08:30:26+00:00",
+      "event_date": "2026-06-17T08:30:26+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Dream Team Tips: Designing Trackable Pipeline, Avoiding ‘Broad-stroke’ Strategies",
+      "event_title": "Dream Team Tips: Designing Trackable Pipeline, Avoiding ‘Broad-stroke’ Strategies",
+      "url": "https://www.eventmarketer.com/article/measurement-insights-from-the-b-to-b-dream-team",
+      "source_url": "https://www.eventmarketer.com/article/measurement-insights-from-the-b-to-b-dream-team",
+      "event_at": "2026-06-17T08:20:53+00:00",
+      "event_date": "2026-06-17T08:20:53+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Eight Ways to Make Your Events More Immersive—and Memorable",
+      "event_title": "Eight Ways to Make Your Events More Immersive—and Memorable",
+      "url": "https://www.eventmarketer.com/article/eight-ways-to-make-your-events-more-immersive-and-memorable",
+      "source_url": "https://www.eventmarketer.com/article/eight-ways-to-make-your-events-more-immersive-and-memorable",
+      "event_at": "2026-06-17T05:34:25+00:00",
+      "event_date": "2026-06-17T05:34:25+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
       "source": "Exhibition News",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Ten years at the helm – A chairman’s farewell",
@@ -7744,909 +8254,169 @@
         "event_occurrence_id",
         "availability_status"
       ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "EMS 2026: Seven Takeaways for Trade Show Exhibitors and Their Partners",
-      "event_title": "EMS 2026: Seven Takeaways for Trade Show Exhibitors and Their Partners",
-      "url": "https://www.eventmarketer.com/article/ems-2026-six-takeaways-for-trade-show-exhibitors-and-their-partners",
-      "source_url": "https://www.eventmarketer.com/article/ems-2026-six-takeaways-for-trade-show-exhibitors-and-their-partners",
-      "event_at": "2026-06-16T07:30:54+00:00",
-      "event_date": "2026-06-16T07:30:54+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "exhibitor",
-      "conference": [
-        "summit"
-      ],
-      "exhibition": [
-        "trade show"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "It’s a Messe model and it’s looking good",
-      "event_title": "It’s a Messe model and it’s looking good",
-      "url": "https://exhibitionnews.uk/its-a-messe-model-and-its-looking-good",
-      "source_url": "https://exhibitionnews.uk/its-a-messe-model-and-its-looking-good",
-      "event_at": "2026-06-16T06:40:44+00:00",
-      "event_date": "2026-06-16T06:40:44+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Deutsche Messe repointing its collaboration strategy for future successes",
-      "event_title": "Deutsche Messe repointing its collaboration strategy for future successes",
-      "url": "https://exhibitionnews.uk/deutsche-messe-repointing-its-collaboration-strategy-for-future-successes",
-      "source_url": "https://exhibitionnews.uk/deutsche-messe-repointing-its-collaboration-strategy-for-future-successes",
-      "event_at": "2026-06-16T06:27:41+00:00",
-      "event_date": "2026-06-16T06:27:41+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition",
-        "trade fair"
-      ],
-      "festival": [],
-      "performance": [
-        "performance"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Logistical challenges and how best to work together to find solutions for tomorrow",
-      "event_title": "Logistical challenges and how best to work together to find solutions for tomorrow",
-      "url": "https://exhibitionnews.uk/logistical-challenges-and-how-best-to-work-together-to-find-solutions-for-tomorrow",
-      "source_url": "https://exhibitionnews.uk/logistical-challenges-and-how-best-to-work-together-to-find-solutions-for-tomorrow",
-      "event_at": "2026-06-16T06:19:36+00:00",
-      "event_date": "2026-06-16T06:19:36+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Asia’s rising star for business events",
-      "event_title": "Asia’s rising star for business events",
-      "url": "https://exhibitionnews.uk/asias-rising-star-for-business-events",
-      "source_url": "https://exhibitionnews.uk/asias-rising-star-for-business-events",
-      "event_at": "2026-06-16T06:05:12+00:00",
-      "event_date": "2026-06-16T06:05:12+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Guest Column: You’ve Been Told ‘This is Just How it is.’ It Doesn’t Have to Be.",
-      "event_title": "Guest Column: You’ve Been Told ‘This is Just How it is.’ It Doesn’t Have to Be.",
-      "url": "https://www.eventmarketer.com/article/guest-column-it-doesnt-have-to-be-this-way",
-      "source_url": "https://www.eventmarketer.com/article/guest-column-it-doesnt-have-to-be-this-way",
-      "event_at": "2026-06-16T06:00:34+00:00",
-      "event_date": "2026-06-16T06:00:34+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "exhibitor",
-      "conference": [],
-      "exhibition": [
-        "exhibitor"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "How London Packaging Week has become the beating heart of the UK packaging industry",
-      "event_title": "How London Packaging Week has become the beating heart of the UK packaging industry",
-      "url": "https://exhibitionnews.uk/how-london-packaging-week-has-become-the-beating-heart-of-the-uk-packaging-industry",
-      "source_url": "https://exhibitionnews.uk/how-london-packaging-week-has-become-the-beating-heart-of-the-uk-packaging-industry",
-      "event_at": "2026-06-16T05:49:17+00:00",
-      "event_date": "2026-06-16T05:49:17+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "How to turn £700,000 into $1.77bn in 14 easy steps",
-      "event_title": "How to turn £700,000 into $1.77bn in 14 easy steps",
-      "url": "https://exhibitionnews.uk/how-to-turn-700000-into-1-77bn-in-14-easy-steps",
-      "source_url": "https://exhibitionnews.uk/how-to-turn-700000-into-1-77bn-in-14-easy-steps",
-      "event_at": "2026-06-16T04:25:01+00:00",
-      "event_date": "2026-06-16T04:25:01+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Registration opens for 93rd UFI Global Congress in Bahrain",
-      "event_title": "Registration opens for 93rd UFI Global Congress in Bahrain",
-      "url": "https://exhibitionnews.uk/registration-opens-for-93rd-ufi-global-congress-in-bahrain",
-      "source_url": "https://exhibitionnews.uk/registration-opens-for-93rd-ufi-global-congress-in-bahrain",
-      "event_at": "2026-06-16T04:13:23+00:00",
-      "event_date": "2026-06-16T04:13:23+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "congress"
-      ],
-      "exhibition": [
-        "exhibition"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibition News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Super Benji targets sponsor and exhibitor sales with new AI platform",
-      "event_title": "Super Benji targets sponsor and exhibitor sales with new AI platform",
-      "url": "https://exhibitionnews.uk/super-benji-targets-sponsor-and-exhibitor-sales-with-new-ai-platform",
-      "source_url": "https://exhibitionnews.uk/super-benji-targets-sponsor-and-exhibitor-sales-with-new-ai-platform",
-      "event_at": "2026-06-16T00:40:24+00:00",
-      "event_date": "2026-06-16T00:40:24+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibition News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "sponsor",
-      "conference": [],
-      "exhibition": [
-        "exhibition",
-        "exhibitor"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "The Brief: Lemonade Spas and Malibu in Manhattan",
-      "event_title": "The Brief: Lemonade Spas and Malibu in Manhattan",
-      "url": "https://www.eventmarketer.com/article/the-brief-lemonade-spas-dunkin-barbie-dreamhouse",
-      "source_url": "https://www.eventmarketer.com/article/the-brief-lemonade-spas-dunkin-barbie-dreamhouse",
-      "event_at": "2026-06-15T13:59:01+00:00",
-      "event_date": "2026-06-15T13:59:01+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Experiential Marketing Trend of the Week: ASMR Activations",
-      "event_title": "Experiential Marketing Trend of the Week: ASMR Activations",
-      "url": "https://www.eventmarketer.com/article/experiential-marketing-trend-of-the-week-asmr-experiences",
-      "source_url": "https://www.eventmarketer.com/article/experiential-marketing-trend-of-the-week-asmr-experiences",
-      "event_at": "2026-06-15T03:00:42+00:00",
-      "event_date": "2026-06-15T03:00:42+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Cannes Lions 2026 Preview: Salons, Submarines, Supper Clubs and More",
-      "event_title": "Cannes Lions 2026 Preview: Salons, Submarines, Supper Clubs and More",
-      "url": "https://www.eventmarketer.com/article/cannes-lions-2026-preview",
-      "source_url": "https://www.eventmarketer.com/article/cannes-lions-2026-preview",
-      "event_at": "2026-06-12T08:55:12+00:00",
-      "event_date": "2026-06-12T08:55:12+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "8 Places to Find Inspiration for Your Events",
-      "event_title": "8 Places to Find Inspiration for Your Events",
-      "url": "https://meetings.skift.com/2026/06/12/inspiration-for-event-planners",
-      "source_url": "https://meetings.skift.com/2026/06/12/inspiration-for-event-planners",
-      "event_at": "2026-06-12T05:39:29+00:00",
-      "event_date": "2026-06-12T05:39:29+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "ESCA Shares Details for 2026 Summer Educational Conference",
-      "event_title": "ESCA Shares Details for 2026 Summer Educational Conference",
-      "url": "https://exhibitcitynews.com/esca-2026-summer-educational-conference",
-      "source_url": "https://exhibitcitynews.com/esca-2026-summer-educational-conference",
-      "event_at": "2026-06-12T04:30:37+00:00",
-      "event_date": "2026-06-12T04:30:37+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "conference"
-      ],
-      "exhibition": [
-        "exhibition",
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [
-        "webinar"
-      ],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "The Service Scope Creep That’s Quietly Killing Your Margins",
-      "event_title": "The Service Scope Creep That’s Quietly Killing Your Margins",
-      "url": "https://exhibitcitynews.com/service-scope-creep-exhibit-margins",
-      "source_url": "https://exhibitcitynews.com/service-scope-creep-exhibit-margins",
-      "event_at": "2026-06-12T04:00:59+00:00",
-      "event_date": "2026-06-12T04:00:59+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "PCMA Convene",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "This Week on the Convene Podcast: Events with Social Impact, Designing for Nervous‑System Wellness, and the Power of Art in Meetings",
-      "event_title": "This Week on the Convene Podcast: Events with Social Impact, Designing for Nervous‑System Wellness, and the Power of Art in Meetings",
-      "url": "https://www.pcma.org/podcast-weekly-recap-20260612",
-      "source_url": "https://www.pcma.org/podcast-weekly-recap-20260612",
-      "event_at": "2026-06-11T22:38:27+00:00",
-      "event_date": "2026-06-11T22:38:27+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "PCMA Convene",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "PCMA Convene",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Art for Events’ Sake",
-      "event_title": "Art for Events’ Sake",
-      "url": "https://www.pcma.org/art-for-events-sake",
-      "source_url": "https://www.pcma.org/art-for-events-sake",
-      "event_at": "2026-06-11T09:14:11+00:00",
-      "event_date": "2026-06-11T09:14:11+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "PCMA Convene",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Conference Ejections Trigger ADA Leadership Shake-Up and Internal Review",
-      "event_title": "Conference Ejections Trigger ADA Leadership Shake-Up and Internal Review",
-      "url": "https://meetings.skift.com/2026/06/11/conference-ejections-trigger-ada-leadership-shake-up-and-internal-review",
-      "source_url": "https://meetings.skift.com/2026/06/11/conference-ejections-trigger-ada-leadership-shake-up-and-internal-review",
-      "event_at": "2026-06-11T04:20:57+00:00",
-      "event_date": "2026-06-11T04:20:57+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "conference"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "World Cup's Triple Threat: Security, Heat, and Disease",
-      "event_title": "World Cup's Triple Threat: Security, Heat, and Disease",
-      "url": "https://meetings.skift.com/2026/06/10/world-cups-triple-threat-security-heat-and-disease",
-      "source_url": "https://meetings.skift.com/2026/06/10/world-cups-triple-threat-security-heat-and-disease",
-      "event_at": "2026-06-10T15:21:16+00:00",
-      "event_date": "2026-06-10T15:21:16+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Bali’s New Convention Center Ups the Ante for Large Groups",
-      "event_title": "Bali’s New Convention Center Ups the Ante for Large Groups",
-      "url": "https://meetings.skift.com/2026/06/10/balis-new-convention-center-ups-the-ante-for-large-groups",
-      "source_url": "https://meetings.skift.com/2026/06/10/balis-new-convention-center-ups-the-ante-for-large-groups",
-      "event_at": "2026-06-10T11:43:40+00:00",
-      "event_date": "2026-06-10T11:43:40+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "These Smaller Cities Are Pouring Billions Into Convention Centers",
-      "event_title": "These Smaller Cities Are Pouring Billions Into Convention Centers",
-      "url": "https://meetings.skift.com/2026/06/10/these-smaller-cities-are-pouring-billions-into-convention-centers",
-      "source_url": "https://meetings.skift.com/2026/06/10/these-smaller-cities-are-pouring-billions-into-convention-centers",
-      "event_at": "2026-06-10T10:51:05+00:00",
-      "event_date": "2026-06-10T10:51:05+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Is Charging for No Shows a Bad Idea?",
-      "event_title": "Is Charging for No Shows a Bad Idea?",
-      "url": "https://meetings.skift.com/2026/06/09/is-charging-for-no-shows-going-too-far",
-      "source_url": "https://meetings.skift.com/2026/06/09/is-charging-for-no-shows-going-too-far",
-      "event_at": "2026-06-09T06:36:10+00:00",
-      "event_date": "2026-06-09T06:36:10+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Highlights From IRF Invitational 2026",
-      "event_title": "Highlights From IRF Invitational 2026",
-      "url": "https://www.smartmeetings.com/event/180938/highlights-from-irf-invitational-2026",
-      "source_url": "https://www.smartmeetings.com/event/180938/highlights-from-irf-invitational-2026",
-      "event_at": "2026-06-03T12:47:21+00:00",
-      "event_date": "2026-06-03T12:47:21+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Cabo’s Diverse Landscape Delivers on Dynamic Meeting Experiences",
-      "event_title": "Cabo’s Diverse Landscape Delivers on Dynamic Meeting Experiences",
-      "url": "https://www.smartmeetings.com/sponsored-content/180892/cabos-diverse-landscape-delivers-on-dynamic-meeting-experiences",
-      "source_url": "https://www.smartmeetings.com/sponsored-content/180892/cabos-diverse-landscape-delivers-on-dynamic-meeting-experiences",
-      "event_at": "2026-06-01T14:25:48+00:00",
-      "event_date": "2026-06-01T14:25:48+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "IAEE Blog",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "The Business Case for Greening Your Operations",
-      "event_title": "The Business Case for Greening Your Operations",
-      "url": "https://www.iaee.com/2026/05/18/the-business-case-for-greening-your-operations",
-      "source_url": "https://www.iaee.com/2026/05/18/the-business-case-for-greening-your-operations",
-      "event_at": "2026-05-18T05:00:09+00:00",
-      "event_date": "2026-05-18T05:00:09+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "IAEE Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "인터파크 이벤트",
+      "title": "NOL 티켓 | 전시/행사",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "인터파크 이벤트",
+      "title": "NOL 티켓 | 전시/행사"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Smart Meetings",
+      "title": "How to Organize End-to-End Inclusive Events",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Skift Meetings",
+      "title": "First JW Marriott All-Inclusive Resort Reflects Growing Trend Toward Luxury",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Orbus Adds 16-Foot Durst Printer, New Fabric Collection",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Skift Meetings",
+      "title": "Helping Build the Events Industry's Next Generation",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Marketer",
+      "title": "Five Tips for Delivering Pre-Conference Programming that Builds Business",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Marketer",
+      "title": "Podcast: The Power of Mentorship and Betting on Yourself, with Anna Nicholson of Yahoo",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Marketer",
+      "title": "2016 Rewind: Looking Back at What Our B2B Dream Teamers Were Talking About a Decade Ago",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "IAEE Blog",
+      "title": "Design Experiences That Exceed Expectations",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Event Marketer",
+      "title": "Grand Ex 2026: Google Cloud, Opus Agency and Gramercy Tech Earn the Campaign of the Year with ‘Tech Immersion’",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Nth Degree Names Ed Finnegan VP of Business Development for Fern",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Women Build Vegas Returns to AREA15",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Net Zero Carbon Events Names Johanna Fuhlendorf Program Director",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "ticket_availability",
@@ -8683,16 +8453,6 @@
       "source": "예술의전당 공연",
       "title": "2026.06.23\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t에스토니아 국립 오케스트라 with 선우예권",
       "event_occurrence_id": "2026-06-23-with:seoul-arts-center:2026-06-24:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026.06.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 유니버설발레단 <백조의 호수>",
-      "event_occurrence_id": "2026-06-25-2026:seoul-arts-center:2026-06-24:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -8819,19 +8579,39 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "인터파크 이벤트",
-      "title": "NOL 티켓 | 전시/행사",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "PCMA Convene",
+      "title": "Genevieve Lim | PCMA Member Spotlight",
       "event_occurrence_id": "",
       "required_field_gaps": [
-        "event_occurrence_id"
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
       ]
     },
     {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "인터파크 이벤트",
-      "title": "NOL 티켓 | 전시/행사"
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibition News",
+      "title": "Barcelona Boat Show to feature more brands, sectors and experiences",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "UFI Blog",
+      "title": "UFI People & Culture Working Group Update: New Members, New Conversations",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -9019,164 +8799,6 @@
       "event_occurrence_id": "3-07-17-09-27:seoul-arts-center:2026-06-23:seoul",
       "required_field_gaps": [
         "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "서울서예박물관 (3층) \n                          \n                          \n                           난초의 향기는 바람을 타고 천 리를 가네\n                          \n                          \n                            06.06(토)~07.05(일)",
-      "event_occurrence_id": "3-06-06-07-05:seoul-arts-center:2026-06-23:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibition News",
-      "title": "Aberdeen hosts one of Europe’s largest geoscience gatherings",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "‘Davos’ for Private Enterprise Launches in Monaco",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibition News",
-      "title": "IEG to open doors to new Hall 2 in Vicenza in September",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "Don Toliver Setlist: What to Expect from the OCTANE Tour",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "Don Toliver Setlist: What to Expect from the OCTANE Tour"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "Late Registrations Are Not the Only Thing Stressing Planners Out",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "The White House Wants to Approve Your Conference Attendance. The Events Industry Is Pushing Back.",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Event Marketer",
-      "title": "The Brief: Paws of Fame and Hidden Frequencies",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "How Sands® Resorts Macao Pulled Off a High-Profile Showcase Event in Mere Months",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "6 ideas poderosas que marcaron las conversaciones de Convening LATAM 2026",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibition News",
-      "title": "QSNCC opens Bangkok’s first city-centre bonded warehouse for international exhibitions",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "IAEE Blog",
-      "title": "My CEM Still Opens Doors",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "Why Executive Retreats Are Moving Beyond the Usual Big Cities",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
       ]
     }
   ],
