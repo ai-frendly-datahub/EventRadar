@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-15",
+  "category": "event",
+  "article_count": 563,
+  "source_count": 22,
+  "matched_count": 563,
+  "top_entities": [
+    {
+      "name": "Entertainment",
+      "count": 435
+    },
+    {
+      "name": "SourceSignal",
+      "count": 368
+    },
+    {
+      "name": "EventGeneral",
+      "count": 363
+    },
+    {
+      "name": "Event",
+      "count": 217
+    },
+    {
+      "name": "Performance",
+      "count": 168
+    },
+    {
+      "name": "Festival",
+      "count": 157
+    },
+    {
+      "name": "Exhibition",
+      "count": 132
+    },
+    {
+      "name": "Sports",
+      "count": 61
+    },
+    {
+      "name": "Conference",
+      "count": 52
+    },
+    {
+      "name": "Meetup",
+      "count": 23
+    }
+  ],
+  "sources": {
+    "세종문화회관 공연": 1,
+    "예술의전당 공연": 25,
+    "인터파크 이벤트": 1,
+    "강서구 문화행사": 1,
+    "서울시 문화행사": 1,
+    "연합뉴스 문화": 100,
+    "Billboard": 27,
+    "Reddit r/festivals": 81,
+    "Pollstar News": 56,
+    "Ticketmaster Blog": 54,
+    "Event Marketer": 11,
+    "Smart Meetings": 13,
+    "Skift Meetings": 17,
+    "IQ Magazine": 39,
+    "지역축제365": 1,
+    "국립현대미술관 전시": 1,
+    "Exhibition News": 20,
+    "Exhibit City News": 25,
+    "PCMA Convene": 23,
+    "연합뉴스 연예": 42,
+    "IAEE Blog": 14,
+    "UFI Blog": 10
+  },
+  "generated_at": "2026-08-15T10:16:18.250170+09:00",
+  "ontology": {
+    "repo": "EventRadar",
+    "category": "event",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "event.exhibitor_sponsor_signal",
+      "event.official_event_calendar",
+      "event.ticket_availability",
+      "event.venue_calendar"
+    ]
+  }
+}
