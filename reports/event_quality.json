@@ -1,13 +1,13 @@
 {
   "category": "event",
-  "generated_at": "2026-08-29T05:54:10.604082+00:00",
+  "generated_at": "2026-08-30T03:58:46.207830+00:00",
   "scope_note": "Official calendars, venue pages, ticket pages, and event-industry sources are tracked separately from broad culture/entertainment news. Generic error pages and broad rows without event-domain signals are excluded from reports.",
   "summary": {
     "total_sources": 36,
     "enabled_sources": 29,
     "tracked_sources": 18,
-    "fresh_sources": 15,
-    "stale_sources": 0,
+    "fresh_sources": 14,
+    "stale_sources": 1,
     "missing_sources": 3,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 7,
     "collection_error_count": 0,
     "official_event_calendar_events": 1,
-    "ticket_availability_events": 47,
+    "ticket_availability_events": 48,
     "venue_calendar_events": 3,
     "exhibitor_sponsor_signal_events": 116,
-    "event_occurrence_present_count": 31,
-    "venue_id_present_count": 31,
+    "event_occurrence_present_count": 32,
+    "venue_id_present_count": 32,
     "availability_status_present_count": 2,
     "organization_signal_present_count": 0,
-    "event_required_field_gap_count": 395,
+    "event_required_field_gap_count": 396,
     "daily_review_item_count": 50
   },
   "sources": [
@@ -70,7 +70,7 @@
       "article_count": 11,
       "event_count": 11,
       "latest_event_at": "2026-08-28T07:00:21+00:00",
-      "age_days": 0.95,
+      "age_days": 1.87,
       "latest_title": "Building an Invested Community, with Club Ichi’s Liz Lathan and Nicole Osibodu",
       "latest_url": "https://www.eventmarketer.com/article/podcast-building-an-invested-community-club-ichi",
       "latest_source_signal": [
@@ -102,7 +102,7 @@
       "article_count": 11,
       "event_count": 11,
       "latest_event_at": "2026-08-25T13:00:08+00:00",
-      "age_days": 3.7,
+      "age_days": 4.62,
       "latest_title": "Is Exhibition Success Still About Size?",
       "latest_url": "https://www.ufi.org/is-exhibition-success-still-about-size",
       "latest_source_signal": [
@@ -159,7 +159,7 @@
       "article_count": 22,
       "event_count": 22,
       "latest_event_at": "2026-08-28T10:58:37+00:00",
-      "age_days": 0.79,
+      "age_days": 1.71,
       "latest_title": "Detroit Gives Planners Room to Think Bigger",
       "latest_url": "https://www.pcma.org/detroit-gives-planners-room-to-think-bigger",
       "latest_source_signal": [
@@ -217,7 +217,7 @@
       "article_count": 24,
       "event_count": 24,
       "latest_event_at": "2026-08-27T22:45:46+00:00",
-      "age_days": 1.3,
+      "age_days": 2.22,
       "latest_title": "IAAPA Names Four to 2026 Hall of Fame Class",
       "latest_url": "https://exhibitcitynews.com/iaapa-2026-hall-of-fame",
       "latest_source_signal": [
@@ -249,7 +249,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-28T13:49:21+00:00",
-      "age_days": 0.67,
+      "age_days": 1.59,
       "latest_title": "Inspire Your Next Incentive in Sydney",
       "latest_url": "https://www.smartmeetings.com/sponsored-content/184280/where-business-meets-inspiration",
       "latest_source_signal": [
@@ -330,7 +330,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 19,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -379,13 +379,13 @@
       "tracked": true,
       "event_model": "ticket_availability",
       "freshness_sla_days": 3.0,
-      "status": "fresh",
+      "status": "stale",
       "skip_reason": "",
       "reenable_gate": [],
       "article_count": 19,
       "event_count": 19,
       "latest_event_at": "2026-08-26T22:46:44+00:00",
-      "age_days": 2.3,
+      "age_days": 3.22,
       "latest_title": "Things to Do in Las Vegas for a Bachelor Party: 6 Weekend Ideas",
       "latest_url": "https://blog.ticketmaster.com/things-to-do-las-vegas-bachelor-party",
       "latest_source_signal": [
@@ -416,7 +416,7 @@
       "article_count": 19,
       "event_count": 19,
       "latest_event_at": "2026-08-28T03:48:47+00:00",
-      "age_days": 1.09,
+      "age_days": 2.01,
       "latest_title": "Meeting Planner Salaries: Why They Never Agree",
       "latest_url": "https://meetings.skift.com/2026/08/28/meeting-planner-salaries-why-they-never-agree",
       "latest_source_signal": [
@@ -448,7 +448,7 @@
       "article_count": 14,
       "event_count": 14,
       "latest_event_at": "2026-08-27T05:00:40+00:00",
-      "age_days": 2.04,
+      "age_days": 2.96,
       "latest_title": "Sneak Peek: Experience Design at Expo! Expo! 2026",
       "latest_url": "https://www.iaee.com/2026/08/27/sneak-peek-experience-design-at-expo-expo-2026",
       "latest_source_signal": [
@@ -535,7 +535,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 79,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -665,7 +665,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 86,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -691,7 +691,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 52,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -751,15 +751,15 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-28T09:51:44.249025+00:00",
-      "age_days": 0.84,
+      "latest_event_at": "2026-08-30T03:55:21.120557+00:00",
+      "age_days": 0.0,
       "latest_title": "문화참여 달력 | 서울특별시",
       "latest_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
       "latest_source_signal": [
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-08-28:seoul",
+      "latest_event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-08-30:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -783,7 +783,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-29T05:52:41.686614+00:00",
+      "latest_event_at": "2026-08-30T03:55:49.164503+00:00",
       "age_days": 0.0,
       "latest_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
       "latest_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
@@ -791,7 +791,7 @@
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-08-29:seoul",
+      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-08-30:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -814,7 +814,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-29T05:53:08.561637+00:00",
+      "latest_event_at": "2026-08-30T03:56:15.123941+00:00",
       "age_days": 0.0,
       "latest_title": "NOL 티켓 | 전시/행사",
       "latest_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
@@ -943,7 +943,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-08-29T05:53:18.132391+00:00",
-      "age_days": 0.0,
+      "age_days": 0.92,
       "latest_title": "현재전시 < 전시 < 국립현대미술관",
       "latest_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
       "latest_source_signal": [
@@ -973,9 +973,9 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 26,
-      "event_count": 26,
-      "latest_event_at": "2026-08-29T05:53:28.700749+00:00",
+      "article_count": 27,
+      "event_count": 27,
+      "latest_event_at": "2026-08-30T03:57:28.801335+00:00",
       "age_days": 0.0,
       "latest_title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제  `아르토 노라스와 김규연 리사이틀 : 멋진 추억`",
       "latest_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77419",
@@ -984,7 +984,7 @@
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-29:seoul",
+      "latest_event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-30:seoul",
       "latest_required_field_gaps": [
         "availability_status"
       ],
@@ -1011,7 +1011,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-29T05:53:36.333782+00:00",
+      "latest_event_at": "2026-08-30T03:57:35.484032+00:00",
       "age_days": 0.0,
       "latest_title": "공연일정(목록) | 공연 | 프로그램 |",
       "latest_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
@@ -1020,7 +1020,7 @@
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-08-29:seoul",
+      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-08-30:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -1075,7 +1075,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-08-29T05:54:05.295935+00:00",
-      "age_days": 0.0,
+      "age_days": 0.92,
       "latest_title": "지역축제 - 목록보기 | 문화체육관광부",
       "latest_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
       "latest_source_signal": [
@@ -1088,59 +1088,21 @@
   ],
   "events": [
     {
-      "source": "지역축제365",
-      "event_model": "official_event_calendar",
-      "title": "지역축제 - 목록보기 | 문화체육관광부",
-      "event_title": "지역축제 - 목록보기 | 문화체육관광부",
-      "url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
-      "source_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
-      "event_at": "2026-08-29T05:54:05.295935+00:00",
-      "event_date": "2026-08-29T05:54:05.295935+00:00",
-      "ticket_open_date": null,
-      "venue_id": "365",
-      "venue_name": "지역축제365",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "u-6f74edd1c031:365:2026-08-29",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "전시"
-      ],
-      "festival": [
-        "축제",
-        "페스티벌",
-        "지역축제"
-      ],
-      "performance": [
-        "공연",
-        "무대"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar"
-      ],
-      "required_field_gaps": []
-    },
-    {
       "source": "세종문화회관 공연",
       "event_model": "ticket_availability",
       "title": "공연일정(목록) | 공연 | 프로그램 |",
       "event_title": "공연일정(목록) | 공연 | 프로그램 |",
       "url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
       "source_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
-      "event_at": "2026-08-29T05:53:36.333782+00:00",
-      "event_date": "2026-08-29T05:53:36.333782+00:00",
-      "ticket_open_date": "2026-08-29T05:53:36.333782+00:00",
+      "event_at": "2026-08-30T03:57:35.484032+00:00",
+      "event_date": "2026-08-30T03:57:35.484032+00:00",
+      "ticket_open_date": "2026-08-30T03:57:35.484032+00:00",
       "venue_id": "sejong-center",
       "venue_name": "세종문화회관",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-08-29:seoul",
+      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-08-30:seoul",
       "availability_status": "on_sale",
       "organization_name": "",
       "signal_type": "",
@@ -1175,15 +1137,15 @@
       "event_title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제  `아르토 노라스와 김규연 리사이틀 : 멋진 추억`",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77419",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77419",
-      "event_at": "2026-08-29T05:53:28.700749+00:00",
-      "event_date": "2026-08-29T05:53:28.700749+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700749+00:00",
+      "event_at": "2026-08-30T03:57:28.801335+00:00",
+      "event_date": "2026-08-30T03:57:28.801335+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801335+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1210,15 +1172,15 @@
       "event_title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t조성현 바흐 플루트 소나타 전곡 리사이틀",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77873",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77873",
-      "event_at": "2026-08-29T05:53:28.700729+00:00",
-      "event_date": "2026-08-29T05:53:28.700729+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700729+00:00",
+      "event_at": "2026-08-30T03:57:28.801322+00:00",
+      "event_date": "2026-08-30T03:57:28.801322+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801322+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1243,15 +1205,15 @@
       "event_title": "2026.08.26\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제 `Serenade’",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77421",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77421",
-      "event_at": "2026-08-29T05:53:28.700710+00:00",
-      "event_date": "2026-08-29T05:53:28.700710+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700710+00:00",
+      "event_at": "2026-08-30T03:57:28.801287+00:00",
+      "event_date": "2026-08-30T03:57:28.801287+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801287+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-08-26-2026-serenade:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-26-2026-serenade:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1278,15 +1240,15 @@
       "event_title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t이지혜 x 김다솔: Beethoven II",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=84174",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=84174",
-      "event_at": "2026-08-29T05:53:28.700692+00:00",
-      "event_date": "2026-08-29T05:53:28.700692+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700692+00:00",
+      "event_at": "2026-08-30T03:57:28.801276+00:00",
+      "event_date": "2026-08-30T03:57:28.801276+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801276+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1311,15 +1273,15 @@
       "event_title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t왕쯔통 피아노 리사이틀",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82253",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82253",
-      "event_at": "2026-08-29T05:53:28.700674+00:00",
-      "event_date": "2026-08-29T05:53:28.700674+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700674+00:00",
+      "event_at": "2026-08-30T03:57:28.801264+00:00",
+      "event_date": "2026-08-30T03:57:28.801264+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801264+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1340,19 +1302,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
-      "event_title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79800",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79800",
-      "event_at": "2026-08-29T05:53:28.700656+00:00",
-      "event_date": "2026-08-29T05:53:28.700656+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700656+00:00",
+      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(11월)",
+      "event_title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(11월)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79801",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79801",
+      "event_at": "2026-08-30T03:57:28.801253+00:00",
+      "event_date": "2026-08-30T03:57:28.801253+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801253+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-02-11-12:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-02-11-11:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1375,19 +1337,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(11월)",
-      "event_title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(11월)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79801",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79801",
-      "event_at": "2026-08-29T05:53:28.700636+00:00",
-      "event_date": "2026-08-29T05:53:28.700636+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700636+00:00",
+      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
+      "event_title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79800",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79800",
+      "event_at": "2026-08-30T03:57:28.801241+00:00",
+      "event_date": "2026-08-30T03:57:28.801241+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801241+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-02-11-11:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-02-11-12:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1414,15 +1376,15 @@
       "event_title": "2026.09.08\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제  ‘이안 보스트리지: 슈만 시인의 사랑’",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77418",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77418",
-      "event_at": "2026-08-29T05:53:28.700614+00:00",
-      "event_date": "2026-08-29T05:53:28.700614+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700614+00:00",
+      "event_at": "2026-08-30T03:57:28.801227+00:00",
+      "event_date": "2026-08-30T03:57:28.801227+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801227+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-08-2026:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-08-2026:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1445,54 +1407,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
-      "event_title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76454",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76454",
-      "event_at": "2026-08-29T05:53:28.700590+00:00",
-      "event_date": "2026-08-29T05:53:28.700590+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700590+00:00",
+      "title": "콘서트홀 \n                          \n                          \n                           2026 예술의전당 회원음악회\n                          \n                          \n                            09.12(토) 17:00",
+      "event_title": "콘서트홀 \n                          \n                          \n                           2026 예술의전당 회원음악회\n                          \n                          \n                            09.12(토) 17:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74019",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74019",
+      "event_at": "2026-08-30T03:57:28.801212+00:00",
+      "event_date": "2026-08-30T03:57:28.801212+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801212+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "07-17-09-27:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "박물관"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
-      "event_title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74793",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74793",
-      "event_at": "2026-08-29T05:53:28.700574+00:00",
-      "event_date": "2026-08-29T05:53:28.700574+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700574+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "209-2026-09-30-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-12-17-00:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1519,15 +1446,15 @@
       "event_title": "콘서트홀 \n                          \n                          \n                           구스타보 히메노 ＆ 룩셈부르크 필하모닉\n                          \n                          \n                            09.11(금) 19:30",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=78533",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=78533",
-      "event_at": "2026-08-29T05:53:28.700513+00:00",
-      "event_date": "2026-08-29T05:53:28.700513+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700513+00:00",
+      "event_at": "2026-08-30T03:57:28.801205+00:00",
+      "event_date": "2026-08-30T03:57:28.801205+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801205+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "09-11-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "09-11-19-30:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1550,19 +1477,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "콘서트홀 \n                          \n                          \n                           2026 예술의전당 회원음악회\n                          \n                          \n                            09.12(토) 17:00",
-      "event_title": "콘서트홀 \n                          \n                          \n                           2026 예술의전당 회원음악회\n                          \n                          \n                            09.12(토) 17:00",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74019",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74019",
-      "event_at": "2026-08-29T05:53:28.700491+00:00",
-      "event_date": "2026-08-29T05:53:28.700491+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700491+00:00",
+      "title": "콘서트홀 \n                          \n                          \n                           파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n                          \n                          \n                            10.29(목) 19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n                          \n                          \n                            10.29(목) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
+      "event_at": "2026-08-30T03:57:28.801195+00:00",
+      "event_date": "2026-08-30T03:57:28.801195+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801195+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-12-17-00:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "10-29-19-30:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1585,19 +1512,125 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
-      "event_title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81013",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81013",
-      "event_at": "2026-08-29T05:53:28.700470+00:00",
-      "event_date": "2026-08-29T05:53:28.700470+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700470+00:00",
+      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
+      "event_title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74793",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74793",
+      "event_at": "2026-08-30T03:57:28.801186+00:00",
+      "event_date": "2026-08-30T03:57:28.801186+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801186+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "ibk-08-29-20-00:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "209-2026-09-30-19-30:seoul-arts-center:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
+      "event_title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76454",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76454",
+      "event_at": "2026-08-30T03:57:28.801174+00:00",
+      "event_date": "2026-08-30T03:57:28.801174+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801174+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "07-17-09-27:seoul-arts-center:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "박물관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.16(수) 19:30",
+      "event_title": "프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.16(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74772",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74772",
+      "event_at": "2026-08-30T03:57:28.801104+00:00",
+      "event_date": "2026-08-30T03:57:28.801104+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801104+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-09-16-19-30:seoul-arts-center:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "공연",
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
+      "event_title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77926",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77926",
+      "event_at": "2026-08-30T03:57:28.801088+00:00",
+      "event_date": "2026-08-30T03:57:28.801088+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801088+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-2026-09-04-19-30:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1618,89 +1651,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "콘서트홀 \n                          \n                          \n                           파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n                          \n                          \n                            10.29(목) 19:30",
-      "event_title": "콘서트홀 \n                          \n                          \n                           파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n                          \n                          \n                            10.29(목) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
-      "event_at": "2026-08-29T05:53:28.700448+00:00",
-      "event_date": "2026-08-29T05:53:28.700448+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700448+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "10-29-19-30:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
-      "event_title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77682",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77682",
-      "event_at": "2026-08-29T05:53:28.700401+00:00",
-      "event_date": "2026-08-29T05:53:28.700401+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700401+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "118-118-2026-09-09-19-30:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
       "title": "피아니스트 임동혁과 함께하는 차이코프스키\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t피아니스트 임동혁과 함께하는 차이코프스키\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.22(목) 19:30",
       "event_title": "피아니스트 임동혁과 함께하는 차이코프스키\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t피아니스트 임동혁과 함께하는 차이코프스키\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.22(목) 19:30",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=84095",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=84095",
-      "event_at": "2026-08-29T05:53:28.700380+00:00",
-      "event_date": "2026-08-29T05:53:28.700380+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700380+00:00",
+      "event_at": "2026-08-30T03:57:28.801074+00:00",
+      "event_date": "2026-08-30T03:57:28.801074+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801074+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-10-22-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-10-22-19-30:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1727,15 +1690,15 @@
       "event_title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
-      "event_at": "2026-08-29T05:53:28.700356+00:00",
-      "event_date": "2026-08-29T05:53:28.700356+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700356+00:00",
+      "event_at": "2026-08-30T03:57:28.801059+00:00",
+      "event_date": "2026-08-30T03:57:28.801059+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801059+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1758,123 +1721,19 @@
     {
       "source": "예술의전당 공연",
       "event_model": "ticket_availability",
-      "title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
-      "event_title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
-      "event_at": "2026-08-29T05:53:28.700331+00:00",
-      "event_date": "2026-08-29T05:53:28.700331+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700331+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-04-24-08-30:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "미술관"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
-      "event_title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77926",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77926",
-      "event_at": "2026-08-29T05:53:28.700308+00:00",
-      "event_date": "2026-08-29T05:53:28.700308+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700308+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "ibk-2026-09-04-19-30:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.16(수) 19:30",
-      "event_title": "프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.16(수) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74772",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74772",
-      "event_at": "2026-08-29T05:53:28.700280+00:00",
-      "event_date": "2026-08-29T05:53:28.700280+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700280+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-09-16-19-30:seoul-arts-center:2026-08-29:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "공연",
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
       "title": "와일드스미스 그림책 원화展\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t와일드스미스 그림책 원화展\n\t                            \n\t                       \n                            \n                            서울서예박물관\n                            2026.07.07(화)~10.16(금)",
       "event_title": "와일드스미스 그림책 원화展\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t와일드스미스 그림책 원화展\n\t                            \n\t                       \n                            \n                            서울서예박물관\n                            2026.07.07(화)~10.16(금)",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=78112",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=78112",
-      "event_at": "2026-08-29T05:53:28.700239+00:00",
-      "event_date": "2026-08-29T05:53:28.700239+00:00",
-      "ticket_open_date": "2026-08-29T05:53:28.700239+00:00",
+      "event_at": "2026-08-30T03:57:28.801041+00:00",
+      "event_date": "2026-08-30T03:57:28.801041+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801041+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-07-07-10-16:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-07-07-10-16:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1895,40 +1754,109 @@
       ]
     },
     {
-      "source": "국립현대미술관 전시",
-      "event_model": "venue_calendar",
-      "title": "현재전시 < 전시 < 국립현대미술관",
-      "event_title": "현재전시 < 전시 < 국립현대미술관",
-      "url": "https://www.mmca.go.kr/exhibitions/progressList.do",
-      "source_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
-      "event_at": "2026-08-29T05:53:18.132391+00:00",
-      "event_date": "2026-08-29T05:53:18.132391+00:00",
-      "ticket_open_date": null,
-      "venue_id": "mmca",
-      "venue_name": "국립현대미술관",
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.16(금) 19:30",
+      "event_title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.16(금) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74735",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74735",
+      "event_at": "2026-08-30T03:57:28.801025+00:00",
+      "event_date": "2026-08-30T03:57:28.801025+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801025+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "u-a3b315aa23f9:mmca:2026-08-29:seoul",
+      "event_occurrence_id": "2026-2026-2026-10-16-19-30:seoul-arts-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
-      "signal_type": "sponsor",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
+      "event_title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76470",
+      "event_at": "2026-08-30T03:57:28.801005+00:00",
+      "event_date": "2026-08-30T03:57:28.801005+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.801005+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-04-24-08-30:seoul-arts-center:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
       "conference": [],
       "exhibition": [
-        "museum",
-        "전시",
         "미술관"
       ],
       "festival": [],
       "performance": [],
-      "meetup": [
-        "온라인"
-      ],
+      "meetup": [],
       "source_signal": [
         "official_event_calendar",
+        "ticket_availability",
         "venue_calendar"
       ],
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
+      "event_title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77682",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77682",
+      "event_at": "2026-08-30T03:57:28.800980+00:00",
+      "event_date": "2026-08-30T03:57:28.800980+00:00",
+      "ticket_open_date": "2026-08-30T03:57:28.800980+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "118-118-2026-09-09-19-30:seoul-arts-center:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
     },
     {
       "source": "인터파크 이벤트",
@@ -1937,9 +1865,9 @@
       "event_title": "NOL 티켓 | 전시/행사",
       "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
       "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
-      "event_at": "2026-08-29T05:53:08.561637+00:00",
-      "event_date": "2026-08-29T05:53:08.561637+00:00",
-      "ticket_open_date": "2026-08-29T05:53:08.561637+00:00",
+      "event_at": "2026-08-30T03:56:15.123941+00:00",
+      "event_date": "2026-08-30T03:56:15.123941+00:00",
+      "ticket_open_date": "2026-08-30T03:56:15.123941+00:00",
       "venue_id": "",
       "venue_name": "인터파크",
       "city": "",
@@ -1992,15 +1920,15 @@
       "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
       "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
       "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
-      "event_at": "2026-08-29T05:52:41.686614+00:00",
-      "event_date": "2026-08-29T05:52:41.686614+00:00",
+      "event_at": "2026-08-30T03:55:49.164503+00:00",
+      "event_date": "2026-08-30T03:55:49.164503+00:00",
       "ticket_open_date": null,
       "venue_id": "gangseo-cultural-center",
       "venue_name": "강서구",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-08-29:seoul",
+      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-08-30:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -2015,6 +1943,150 @@
         "공연"
       ],
       "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "서울시 문화행사",
+      "event_model": "venue_calendar",
+      "title": "문화참여 달력 | 서울특별시",
+      "event_title": "문화참여 달력 | 서울특별시",
+      "url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "source_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "event_at": "2026-08-30T03:55:21.120557+00:00",
+      "event_date": "2026-08-30T03:55:21.120557+00:00",
+      "ticket_open_date": null,
+      "venue_id": "seoul-city-culture",
+      "venue_name": "서울시",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-08-30:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "sponsor",
+      "conference": [],
+      "exhibition": [
+        "부스",
+        "박물관"
+      ],
+      "festival": [
+        "축제"
+      ],
+      "performance": [],
+      "meetup": [
+        "온라인"
+      ],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "지역축제365",
+      "event_model": "official_event_calendar",
+      "title": "지역축제 - 목록보기 | 문화체육관광부",
+      "event_title": "지역축제 - 목록보기 | 문화체육관광부",
+      "url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
+      "source_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
+      "event_at": "2026-08-29T05:54:05.295935+00:00",
+      "event_date": "2026-08-29T05:54:05.295935+00:00",
+      "ticket_open_date": null,
+      "venue_id": "365",
+      "venue_name": "지역축제365",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "u-6f74edd1c031:365:2026-08-29",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시"
+      ],
+      "festival": [
+        "축제",
+        "페스티벌",
+        "지역축제"
+      ],
+      "performance": [
+        "공연",
+        "무대"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
+      "event_title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81013",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81013",
+      "event_at": "2026-08-29T05:53:28.700470+00:00",
+      "event_date": "2026-08-29T05:53:28.700470+00:00",
+      "ticket_open_date": "2026-08-29T05:53:28.700470+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-08-29-20-00:seoul-arts-center:2026-08-29:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "국립현대미술관 전시",
+      "event_model": "venue_calendar",
+      "title": "현재전시 < 전시 < 국립현대미술관",
+      "event_title": "현재전시 < 전시 < 국립현대미술관",
+      "url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "source_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "event_at": "2026-08-29T05:53:18.132391+00:00",
+      "event_date": "2026-08-29T05:53:18.132391+00:00",
+      "ticket_open_date": null,
+      "venue_id": "mmca",
+      "venue_name": "국립현대미술관",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-a3b315aa23f9:mmca:2026-08-29:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "sponsor",
+      "conference": [],
+      "exhibition": [
+        "museum",
+        "전시",
+        "미술관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [
+        "온라인"
+      ],
       "source_signal": [
         "official_event_calendar",
         "venue_calendar"
@@ -2152,43 +2224,6 @@
         "organization_name",
         "signal_type"
       ]
-    },
-    {
-      "source": "서울시 문화행사",
-      "event_model": "venue_calendar",
-      "title": "문화참여 달력 | 서울특별시",
-      "event_title": "문화참여 달력 | 서울특별시",
-      "url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
-      "source_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
-      "event_at": "2026-08-28T09:51:44.249025+00:00",
-      "event_date": "2026-08-28T09:51:44.249025+00:00",
-      "ticket_open_date": null,
-      "venue_id": "seoul-city-culture",
-      "venue_name": "서울시",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-08-28:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "sponsor",
-      "conference": [],
-      "exhibition": [
-        "부스",
-        "박물관"
-      ],
-      "festival": [
-        "축제"
-      ],
-      "performance": [],
-      "meetup": [
-        "온라인"
-      ],
-      "source_signal": [
-        "official_event_calendar",
-        "venue_calendar"
-      ],
-      "required_field_gaps": []
     },
     {
       "source": "Event Marketer",
@@ -6848,7 +6883,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제  `아르토 노라스와 김규연 리사이틀 : 멋진 추억`",
-      "event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-25-2026:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6858,7 +6893,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t조성현 바흐 플루트 소나타 전곡 리사이틀",
-      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6868,7 +6903,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.08.26\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제 `Serenade’",
-      "event_occurrence_id": "2026-08-26-2026-serenade:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-08-26-2026-serenade:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6878,7 +6913,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t이지혜 x 김다솔: Beethoven II",
-      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6888,17 +6923,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t왕쯔통 피아노 리사이틀",
-      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
-      "event_occurrence_id": "2026-09-02-11-12:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6908,7 +6933,17 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(11월)",
-      "event_occurrence_id": "2026-09-02-11-11:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-02-11-11:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.09.02\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t한화생명과 함께하는 예술의전당 11시 콘서트(12월)",
+      "event_occurrence_id": "2026-09-02-11-12:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6918,37 +6953,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.08\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 서울국제음악제  ‘이안 보스트리지: 슈만 시인의 사랑’",
-      "event_occurrence_id": "2026-09-08-2026:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
-      "event_occurrence_id": "07-17-09-27:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
-      "event_occurrence_id": "209-2026-09-30-19-30:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "콘서트홀 \n                          \n                          \n                           구스타보 히메노 ＆ 룩셈부르크 필하모닉\n                          \n                          \n                            09.11(금) 19:30",
-      "event_occurrence_id": "09-11-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-08-2026:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6958,7 +6963,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "콘서트홀 \n                          \n                          \n                           2026 예술의전당 회원음악회\n                          \n                          \n                            09.12(토) 17:00",
-      "event_occurrence_id": "2026-09-12-17-00:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-12-17-00:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6967,8 +6972,8 @@
       "reason": "missing_required_fields",
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
-      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
-      "event_occurrence_id": "ibk-08-29-20-00:seoul-arts-center:2026-08-29:seoul",
+      "title": "콘서트홀 \n                          \n                          \n                           구스타보 히메노 ＆ 룩셈부르크 필하모닉\n                          \n                          \n                            09.11(금) 19:30",
+      "event_occurrence_id": "09-11-19-30:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6978,7 +6983,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "콘서트홀 \n                          \n                          \n                           파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n                          \n                          \n                            10.29(목) 19:30",
-      "event_occurrence_id": "10-29-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "10-29-19-30:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6987,8 +6992,8 @@
       "reason": "missing_required_fields",
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
-      "title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
-      "event_occurrence_id": "118-118-2026-09-09-19-30:seoul-arts-center:2026-08-29:seoul",
+      "title": "콘서트홀 \n                          \n                          \n                           국립합창단 제209회 정기연주회 <베토벤 & 슈베르트>\n                          \n                          \n                            2026.09.30(수) 19:30",
+      "event_occurrence_id": "209-2026-09-30-19-30:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6997,38 +7002,8 @@
       "reason": "missing_required_fields",
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
-      "title": "피아니스트 임동혁과 함께하는 차이코프스키\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t피아니스트 임동혁과 함께하는 차이코프스키\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.22(목) 19:30",
-      "event_occurrence_id": "2026-10-22-19-30:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
-      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
-      "event_occurrence_id": "2026-04-24-08-30:seoul-arts-center:2026-08-29:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
-      "event_occurrence_id": "ibk-2026-09-04-19-30:seoul-arts-center:2026-08-29:seoul",
+      "title": "서울서예박물관 \n                          \n                          \n                           이완 - 나는 쓴다\n                          \n                          \n                            07.17(금)~09.27(일)",
+      "event_occurrence_id": "07-17-09-27:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -7038,7 +7013,37 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t프랑스 메스 그랑테스트 국립 오케스트라 내한공연\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.16(수) 19:30",
-      "event_occurrence_id": "2026-09-16-19-30:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-09-16-19-30:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "유다윤 바이올린 리사이틀\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t유다윤 바이올린 리사이틀\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.09.04(금) 19:30",
+      "event_occurrence_id": "ibk-2026-09-04-19-30:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "피아니스트 임동혁과 함께하는 차이코프스키\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t피아니스트 임동혁과 함께하는 차이코프스키\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.22(목) 19:30",
+      "event_occurrence_id": "2026-10-22-19-30:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
+      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -7048,7 +7053,37 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "와일드스미스 그림책 원화展\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t와일드스미스 그림책 원화展\n\t                            \n\t                       \n                            \n                            서울서예박물관\n                            2026.07.07(화)~10.16(금)",
-      "event_occurrence_id": "2026-07-07-10-16:seoul-arts-center:2026-08-29:seoul",
+      "event_occurrence_id": "2026-07-07-10-16:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.16(금) 19:30",
+      "event_occurrence_id": "2026-2026-2026-10-16-19-30:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "페르난도 보테로: 형태의 미학\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t페르난도 보테로: 형태의 미학\n\t                            \n\t                       \n                            \n                            한가람디자인미술관\n                            2026.04.24(금)~08.30(일)",
+      "event_occurrence_id": "2026-04-24-08-30:seoul-arts-center:2026-08-30:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "강남심포니오케스트라 제118회 정기연주회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t강남심포니오케스트라 제118회 정기연주회\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.09.09(수) 19:30",
+      "event_occurrence_id": "118-118-2026-09-09-19-30:seoul-arts-center:2026-08-30:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -7068,6 +7103,16 @@
       "event_model": "ticket_availability",
       "source": "인터파크 이벤트",
       "title": "NOL 티켓 | 전시/행사"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           원재연 & 김수연 피아노 듀오 리사이틀\n                          \n                          \n                            08.29(토) 20:00",
+      "event_occurrence_id": "ibk-08-29-20-00:seoul-arts-center:2026-08-29:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7367,18 +7412,6 @@
       "event_model": "ticket_availability",
       "source": "Ticketmaster Blog",
       "title": "Things to Do in Las Vegas for a Bachelor Party: 6 Weekend Ideas"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibit City News",
-      "title": "RX Global to Launch Hardlines Supplier Event in Las Vegas",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
     }
   ],
   "quality_gates": [
