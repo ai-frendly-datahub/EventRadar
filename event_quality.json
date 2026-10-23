@@ -1,6 +1,6 @@
 {
   "category": "event",
-  "generated_at": "2026-10-22T03:32:51.661064+00:00",
+  "generated_at": "2026-10-23T03:37:57.441097+00:00",
   "scope_note": "Official calendars, venue pages, ticket pages, and event-industry sources are tracked separately from broad culture/entertainment news. Generic error pages and broad rows without event-domain signals are excluded from reports.",
   "summary": {
     "total_sources": 36,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 7,
     "collection_error_count": 0,
     "official_event_calendar_events": 1,
-    "ticket_availability_events": 54,
+    "ticket_availability_events": 55,
     "venue_calendar_events": 3,
-    "exhibitor_sponsor_signal_events": 107,
-    "event_occurrence_present_count": 31,
-    "venue_id_present_count": 31,
+    "exhibitor_sponsor_signal_events": 101,
+    "event_occurrence_present_count": 32,
+    "venue_id_present_count": 32,
     "availability_status_present_count": 2,
     "organization_signal_present_count": 0,
-    "event_required_field_gap_count": 388,
+    "event_required_field_gap_count": 372,
     "daily_review_item_count": 50
   },
   "sources": [
@@ -67,10 +67,10 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 13,
-      "event_count": 13,
+      "article_count": 9,
+      "event_count": 9,
       "latest_event_at": "2026-10-20T10:07:47+00:00",
-      "age_days": 1.73,
+      "age_days": 2.73,
       "latest_title": "Survey Says: How Brands Turned Questions into Activations",
       "latest_url": "https://www.eventmarketer.com/article/survey-brands-turn-questions-into-activations",
       "latest_source_signal": [
@@ -102,7 +102,7 @@
       "article_count": 4,
       "event_count": 4,
       "latest_event_at": "2026-10-12T21:00:37+00:00",
-      "age_days": 9.27,
+      "age_days": 10.28,
       "latest_title": "Letter from the UFI President: October 2026",
       "latest_url": "https://www.ufi.org/letter-from-the-ufi-president-october-2026",
       "latest_source_signal": [
@@ -160,7 +160,7 @@
       "article_count": 19,
       "event_count": 19,
       "latest_event_at": "2026-10-21T12:34:59+00:00",
-      "age_days": 0.62,
+      "age_days": 1.63,
       "latest_title": "New PCMA Insights Report Explores Opportunities for Information and Communications Technology Events",
       "latest_url": "https://www.pcma.org/pcma-insights-report-explores-ict-events",
       "latest_source_signal": [
@@ -215,12 +215,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 23,
-      "event_count": 23,
-      "latest_event_at": "2026-10-21T01:05:56+00:00",
-      "age_days": 1.1,
-      "latest_title": "CC Spotlight: San Diego Convention Center",
-      "latest_url": "https://exhibitcitynews.com/san-diego-convention-center",
+      "article_count": 22,
+      "event_count": 22,
+      "latest_event_at": "2026-10-21T22:05:18+00:00",
+      "age_days": 1.23,
+      "latest_title": "H&X Technologies Showcases 3-D LED Displays at Las Vegas Open House",
+      "latest_url": "https://exhibitcitynews.com/hx-technologies-3d-led-las-vegas-open-house",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -247,10 +247,10 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 18,
-      "event_count": 18,
+      "article_count": 16,
+      "event_count": 16,
       "latest_event_at": "2026-10-21T08:46:05+00:00",
-      "age_days": 0.78,
+      "age_days": 1.79,
       "latest_title": "$1 Million Launches Brian D. Stevens Hospitality Education Fund",
       "latest_url": "https://www.smartmeetings.com/hospitality-philanthropy/185283/brianstevens",
       "latest_source_signal": [
@@ -279,7 +279,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 30,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -305,7 +305,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 50,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -331,7 +331,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 25,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -385,10 +385,10 @@
       "reenable_gate": [],
       "article_count": 26,
       "event_count": 26,
-      "latest_event_at": "2026-10-21T00:35:07+00:00",
-      "age_days": 1.12,
-      "latest_title": "NHL Stadium Series: Series History & What You Need to Know for 2027",
-      "latest_url": "https://blog.ticketmaster.com/nhl-stadium-series",
+      "latest_event_at": "2026-10-22T08:07:48+00:00",
+      "age_days": 0.81,
+      "latest_title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
+      "latest_url": "https://blog.ticketmaster.com/mlb-world-series-explained",
       "latest_source_signal": [
         "ticket_availability"
       ],
@@ -416,10 +416,10 @@
       "reenable_gate": [],
       "article_count": 17,
       "event_count": 17,
-      "latest_event_at": "2026-10-21T08:33:56+00:00",
-      "age_days": 0.79,
-      "latest_title": "5 LEED-Certified Convention Centers You Should Know About",
-      "latest_url": "https://meetings.skift.com/2026/10/21/5-leed-certified-convention-centers-you-should-know-about",
+      "latest_event_at": "2026-10-22T05:08:14+00:00",
+      "age_days": 0.94,
+      "latest_title": "Bigger Meeting Budgets, Tighter Scrutiny: What Planners Expect in 2027",
+      "latest_url": "https://meetings.skift.com/2026/10/22/bigger-meeting-budgets-tighter-scrutiny-what-planners-expect-in-2027",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -446,12 +446,12 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 13,
-      "event_count": 13,
-      "latest_event_at": "2026-10-19T05:00:12+00:00",
-      "age_days": 2.94,
-      "latest_title": "Beyond the Event Software Demo",
-      "latest_url": "https://www.iaee.com/2026/10/19/beyond-the-event-software-demo",
+      "article_count": 14,
+      "event_count": 14,
+      "latest_event_at": "2026-10-22T05:00:10+00:00",
+      "age_days": 0.94,
+      "latest_title": "Make Your Booth Unforgettable",
+      "latest_url": "https://www.iaee.com/2026/10/22/make-your-booth-unforgettable",
       "latest_source_signal": [
         "event_industry"
       ],
@@ -535,7 +535,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 38,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -665,7 +665,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 96,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -691,7 +691,7 @@
       "status": "not_tracked",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 49,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -751,7 +751,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:31:03.923212+00:00",
+      "latest_event_at": "2026-10-23T03:36:06.784847+00:00",
       "age_days": 0.0,
       "latest_title": "문화참여 달력 | 서울특별시",
       "latest_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
@@ -759,7 +759,7 @@
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-10-22:seoul",
+      "latest_event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-10-23:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -783,7 +783,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:31:31.617669+00:00",
+      "latest_event_at": "2026-10-23T03:36:31.464245+00:00",
       "age_days": 0.0,
       "latest_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
       "latest_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
@@ -791,7 +791,7 @@
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-10-22:seoul",
+      "latest_event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-10-23:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -814,7 +814,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:31:56.891523+00:00",
+      "latest_event_at": "2026-10-23T03:36:56.467006+00:00",
       "age_days": 0.0,
       "latest_title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트",
       "latest_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
@@ -943,7 +943,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:32:03.832872+00:00",
+      "latest_event_at": "2026-10-23T03:37:05.289860+00:00",
       "age_days": 0.0,
       "latest_title": "현재전시 < 전시 < 국립현대미술관",
       "latest_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
@@ -951,7 +951,7 @@
         "official_event_calendar",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-a3b315aa23f9:mmca:2026-10-22:seoul",
+      "latest_event_occurrence_id": "u-a3b315aa23f9:mmca:2026-10-23:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -974,9 +974,9 @@
       "status": "fresh",
       "skip_reason": "",
       "reenable_gate": [],
-      "article_count": 26,
-      "event_count": 26,
-      "latest_event_at": "2026-10-22T03:32:10.999094+00:00",
+      "article_count": 27,
+      "event_count": 27,
+      "latest_event_at": "2026-10-23T03:37:14.751548+00:00",
       "age_days": 0.0,
       "latest_title": "2026.08.19\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t예술의전당 토요콘서트 - 프리뷰 베토벤(11월)",
       "latest_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80176",
@@ -985,7 +985,7 @@
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-22:seoul",
+      "latest_event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-23:seoul",
       "latest_required_field_gaps": [
         "availability_status"
       ],
@@ -1012,7 +1012,7 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:32:18.370830+00:00",
+      "latest_event_at": "2026-10-23T03:37:22.240755+00:00",
       "age_days": 0.0,
       "latest_title": "공연일정(목록) | 공연 | 프로그램 |",
       "latest_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
@@ -1021,7 +1021,7 @@
         "ticket_availability",
         "venue_calendar"
       ],
-      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-10-22:seoul",
+      "latest_event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-10-23:seoul",
       "latest_required_field_gaps": [],
       "errors": []
     },
@@ -1075,14 +1075,14 @@
       "reenable_gate": [],
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T03:32:47.227744+00:00",
+      "latest_event_at": "2026-10-23T03:37:53.217539+00:00",
       "age_days": 0.0,
       "latest_title": "지역축제 - 목록보기 | 문화체육관광부",
       "latest_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
       "latest_source_signal": [
         "official_event_calendar"
       ],
-      "latest_event_occurrence_id": "u-6f74edd1c031:365:2026-10-22",
+      "latest_event_occurrence_id": "u-6f74edd1c031:365:2026-10-23",
       "latest_required_field_gaps": [],
       "errors": []
     }
@@ -1095,15 +1095,15 @@
       "event_title": "지역축제 - 목록보기 | 문화체육관광부",
       "url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
       "source_url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
-      "event_at": "2026-10-22T03:32:47.227744+00:00",
-      "event_date": "2026-10-22T03:32:47.227744+00:00",
+      "event_at": "2026-10-23T03:37:53.217539+00:00",
+      "event_date": "2026-10-23T03:37:53.217539+00:00",
       "ticket_open_date": null,
       "venue_id": "365",
       "venue_name": "지역축제365",
       "city": "",
       "country": "",
       "online_flag": null,
-      "event_occurrence_id": "u-6f74edd1c031:365:2026-10-22",
+      "event_occurrence_id": "u-6f74edd1c031:365:2026-10-23",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1137,15 +1137,15 @@
       "event_title": "공연일정(목록) | 공연 | 프로그램 |",
       "url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
       "source_url": "https://www.sejongpac.or.kr/portal/performance/performance/performList.do?menuNo=200320",
-      "event_at": "2026-10-22T03:32:18.370830+00:00",
-      "event_date": "2026-10-22T03:32:18.370830+00:00",
-      "ticket_open_date": "2026-10-22T03:32:18.370830+00:00",
+      "event_at": "2026-10-23T03:37:22.240755+00:00",
+      "event_date": "2026-10-23T03:37:22.240755+00:00",
+      "ticket_open_date": "2026-10-23T03:37:22.240755+00:00",
       "venue_id": "sejong-center",
       "venue_name": "세종문화회관",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-10-22:seoul",
+      "event_occurrence_id": "u-14c3a1b5a1f1:sejong-center:2026-10-23:seoul",
       "availability_status": "on_sale",
       "organization_name": "",
       "signal_type": "",
@@ -1180,15 +1180,15 @@
       "event_title": "2026.08.19\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t예술의전당 토요콘서트 - 프리뷰 베토벤(11월)",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=80176",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=80176",
-      "event_at": "2026-10-22T03:32:10.999094+00:00",
-      "event_date": "2026-10-22T03:32:10.999094+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999094+00:00",
+      "event_at": "2026-10-23T03:37:14.751548+00:00",
+      "event_date": "2026-10-23T03:37:14.751548+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751548+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1215,15 +1215,15 @@
       "event_title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t조성현 바흐 플루트 소나타 전곡 리사이틀",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=77873",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=77873",
-      "event_at": "2026-10-22T03:32:10.999088+00:00",
-      "event_date": "2026-10-22T03:32:10.999088+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999088+00:00",
+      "event_at": "2026-10-23T03:37:14.751541+00:00",
+      "event_date": "2026-10-23T03:37:14.751541+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751541+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1248,15 +1248,15 @@
       "event_title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t왕쯔통 피아노 리사이틀",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82253",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82253",
-      "event_at": "2026-10-22T03:32:10.999082+00:00",
-      "event_date": "2026-10-22T03:32:10.999082+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999082+00:00",
+      "event_at": "2026-10-23T03:37:14.751535+00:00",
+      "event_date": "2026-10-23T03:37:14.751535+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751535+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1281,15 +1281,15 @@
       "event_title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t이지혜 x 김다솔: Beethoven II",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=84174",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=84174",
-      "event_at": "2026-10-22T03:32:10.999076+00:00",
-      "event_date": "2026-10-22T03:32:10.999076+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999076+00:00",
+      "event_at": "2026-10-23T03:37:14.751529+00:00",
+      "event_date": "2026-10-23T03:37:14.751529+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751529+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1314,15 +1314,15 @@
       "event_title": "2026.09.09\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t알렉상드르 캉토로프 피아노 리사이틀",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74255",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74255",
-      "event_at": "2026-10-22T03:32:10.999070+00:00",
-      "event_date": "2026-10-22T03:32:10.999070+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999070+00:00",
+      "event_at": "2026-10-23T03:37:14.751522+00:00",
+      "event_date": "2026-10-23T03:37:14.751522+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751522+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-09:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-09:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1347,15 +1347,15 @@
       "event_title": "2026.09.15\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t라흐마니노프 in 뉴욕",
       "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82758",
       "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82758",
-      "event_at": "2026-10-22T03:32:10.999063+00:00",
-      "event_date": "2026-10-22T03:32:10.999063+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999063+00:00",
+      "event_at": "2026-10-23T03:37:14.751515+00:00",
+      "event_date": "2026-10-23T03:37:14.751515+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751515+00:00",
       "venue_id": "seoul-arts-center",
       "venue_name": "예술의전당",
       "city": "Seoul",
       "country": "KR",
       "online_flag": null,
-      "event_occurrence_id": "2026-09-15-in:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-15-in:seoul-arts-center:2026-10-23:seoul",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
@@ -1371,6 +1371,712 @@
       ],
       "required_field_gaps": [
         "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.10.27\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t바리톤 양준모 독창회 <삶 그리고 영혼의 노래>",
+      "event_title": "2026.10.27\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t바리톤 양준모 독창회 <삶 그리고 영혼의 노래>",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82081",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82081",
+      "event_at": "2026-10-23T03:37:14.751507+00:00",
+      "event_date": "2026-10-23T03:37:14.751507+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751507+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-10-27:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026.11.03\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 국립발레단 <호두까기인형>",
+      "event_title": "2026.11.03\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 국립발레단 <호두까기인형>",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=86292",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=86292",
+      "event_at": "2026-10-23T03:37:14.751496+00:00",
+      "event_date": "2026-10-23T03:37:14.751496+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.751496+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-11-03-2026:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "발레"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           베토벤 교향곡 x 두 대의 피아노 #3\n                          \n                          \n                            12.23(수) 19:30",
+      "event_title": "IBK기업은행챔버홀 \n                          \n                          \n                           베토벤 교향곡 x 두 대의 피아노 #3\n                          \n                          \n                            12.23(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=78772",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=78772",
+      "event_at": "2026-10-23T03:37:14.750055+00:00",
+      "event_date": "2026-10-23T03:37:14.750055+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750055+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "ibk-x-3-12-23-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
+      "event_title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76434",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76434",
+      "event_at": "2026-10-23T03:37:14.750050+00:00",
+      "event_date": "2026-10-23T03:37:14.750050+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750050+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "7-differently-dali-10-30-11-15:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "전시",
+        "미술관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "리사이틀홀 \n                          \n                          \n                           제27회 예술의전당 음악영재 콘서트\n                          \n                          \n                            11.07(토) 14:00",
+      "event_title": "리사이틀홀 \n                          \n                          \n                           제27회 예술의전당 음악영재 콘서트\n                          \n                          \n                            11.07(토) 14:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=75580",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=75580",
+      "event_at": "2026-10-23T03:37:14.750046+00:00",
+      "event_date": "2026-10-23T03:37:14.750046+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750046+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "27-11-07-14-00:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
+      "event_title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
+      "event_at": "2026-10-23T03:37:14.750024+00:00",
+      "event_date": "2026-10-23T03:37:14.750024+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750024+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "연극"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "임동혁 X 오케스트라 디 오리지널 < 리부트: 라흐마니노프 >\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t    \n\t                            \t    임동혁 X 오케스트라 디 오리지널 \n< 리부트: 라흐마니노프 >\n\t                            \t\n\t                            \t\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.10(화) 19:30",
+      "event_title": "임동혁 X 오케스트라 디 오리지널 < 리부트: 라흐마니노프 >\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t    \n\t                            \t    임동혁 X 오케스트라 디 오리지널 \n< 리부트: 라흐마니노프 >\n\t                            \t\n\t                            \t\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.10(화) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81768",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81768",
+      "event_at": "2026-10-23T03:37:14.750015+00:00",
+      "event_date": "2026-10-23T03:37:14.750015+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750015+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "x-x-2026-11-10-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
+      "event_title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
+      "event_at": "2026-10-23T03:37:14.750008+00:00",
+      "event_date": "2026-10-23T03:37:14.750008+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.750008+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-10-29-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "리처드 용재 오닐 〈바흐 소사이어티〉\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t리처드 용재 오닐 〈바흐 소사이어티〉\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.12.23(수) 19:30",
+      "event_title": "리처드 용재 오닐 〈바흐 소사이어티〉\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t리처드 용재 오닐 〈바흐 소사이어티〉\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.12.23(수) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81132",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81132",
+      "event_at": "2026-10-23T03:37:14.749998+00:00",
+      "event_date": "2026-10-23T03:37:14.749998+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.749998+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-12-23-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "메리고라운드\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t메리고라운드\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.11.26(목)~11.29(일)",
+      "event_title": "메리고라운드\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t메리고라운드\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.11.26(목)~11.29(일)",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76992",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76992",
+      "event_at": "2026-10-23T03:37:14.749983+00:00",
+      "event_date": "2026-10-23T03:37:14.749983+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.749983+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "cj-2026-11-26-11-29:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "한국·벨기에 수교 125주년 기념음악회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t한국·벨기에 수교 125주년 기념음악회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.12.08(화) 19:30",
+      "event_title": "한국·벨기에 수교 125주년 기념음악회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t한국·벨기에 수교 125주년 기념음악회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.12.08(화) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79592",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79592",
+      "event_at": "2026-10-23T03:37:14.749971+00:00",
+      "event_date": "2026-10-23T03:37:14.749971+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.749971+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "125-125-ibk-2026-12-08-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
+      "event_title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74734",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74734",
+      "event_at": "2026-10-23T03:37:14.749961+00:00",
+      "event_date": "2026-10-23T03:37:14.749961+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.749961+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "2026-2026-2026-10-24-17-00:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "예술의전당 공연",
+      "event_model": "ticket_availability",
+      "title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
+      "event_title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
+      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82358",
+      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82358",
+      "event_at": "2026-10-23T03:37:14.749941+00:00",
+      "event_date": "2026-10-23T03:37:14.749941+00:00",
+      "ticket_open_date": "2026-10-23T03:37:14.749941+00:00",
+      "venue_id": "seoul-arts-center",
+      "venue_name": "예술의전당",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "i-i-2027-01-19-19-30:seoul-arts-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "콘서트"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "official_event_calendar",
+        "ticket_availability",
+        "venue_calendar"
+      ],
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "source": "국립현대미술관 전시",
+      "event_model": "venue_calendar",
+      "title": "현재전시 < 전시 < 국립현대미술관",
+      "event_title": "현재전시 < 전시 < 국립현대미술관",
+      "url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "source_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
+      "event_at": "2026-10-23T03:37:05.289860+00:00",
+      "event_date": "2026-10-23T03:37:05.289860+00:00",
+      "ticket_open_date": null,
+      "venue_id": "mmca",
+      "venue_name": "국립현대미술관",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-a3b315aa23f9:mmca:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "sponsor",
+      "conference": [],
+      "exhibition": [
+        "museum",
+        "전시",
+        "미술관"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [
+        "온라인"
+      ],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "인터파크 이벤트",
+      "event_model": "ticket_availability",
+      "title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트",
+      "event_title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트",
+      "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
+      "event_at": "2026-10-23T03:36:56.467006+00:00",
+      "event_date": "2026-10-23T03:36:56.467006+00:00",
+      "ticket_open_date": "2026-10-23T03:36:56.467006+00:00",
+      "venue_id": "",
+      "venue_name": "인터파크",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "강서구 문화행사",
+      "event_model": "venue_calendar",
+      "title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
+      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
+      "event_at": "2026-10-23T03:36:31.464245+00:00",
+      "event_date": "2026-10-23T03:36:31.464245+00:00",
+      "ticket_open_date": null,
+      "venue_id": "gangseo-cultural-center",
+      "venue_name": "강서구",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "대회"
+      ],
+      "exhibition": [
+        "전시",
+        "미술관",
+        "박물관"
+      ],
+      "festival": [],
+      "performance": [
+        "공연",
+        "재즈"
+      ],
+      "meetup": [
+        "세미나"
+      ],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "서울시 문화행사",
+      "event_model": "venue_calendar",
+      "title": "문화참여 달력 | 서울특별시",
+      "event_title": "문화참여 달력 | 서울특별시",
+      "url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "source_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
+      "event_at": "2026-10-23T03:36:06.784847+00:00",
+      "event_date": "2026-10-23T03:36:06.784847+00:00",
+      "ticket_open_date": null,
+      "venue_id": "seoul-city-culture",
+      "venue_name": "서울시",
+      "city": "Seoul",
+      "country": "KR",
+      "online_flag": null,
+      "event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-10-23:seoul",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "컨퍼런스",
+        "대회"
+      ],
+      "exhibition": [
+        "전시"
+      ],
+      "festival": [
+        "축제",
+        "마켓",
+        "플리마켓",
+        "영화제"
+      ],
+      "performance": [
+        "공연",
+        "투어",
+        "라이브",
+        "쇼"
+      ],
+      "meetup": [
+        "세미나",
+        "라이브",
+        "강연"
+      ],
+      "source_signal": [
+        "official_event_calendar",
+        "venue_calendar"
+      ],
+      "required_field_gaps": []
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
+      "event_title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
+      "url": "https://blog.ticketmaster.com/mlb-world-series-explained",
+      "source_url": "https://blog.ticketmaster.com/mlb-world-series-explained",
+      "event_at": "2026-10-22T08:07:48+00:00",
+      "event_date": "2026-10-22T08:07:48+00:00",
+      "ticket_open_date": "2026-10-22T08:07:48+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Bigger Meeting Budgets, Tighter Scrutiny: What Planners Expect in 2027",
+      "event_title": "Bigger Meeting Budgets, Tighter Scrutiny: What Planners Expect in 2027",
+      "url": "https://meetings.skift.com/2026/10/22/bigger-meeting-budgets-tighter-scrutiny-what-planners-expect-in-2027",
+      "source_url": "https://meetings.skift.com/2026/10/22/bigger-meeting-budgets-tighter-scrutiny-what-planners-expect-in-2027",
+      "event_at": "2026-10-22T05:08:14+00:00",
+      "event_date": "2026-10-22T05:08:14+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "IAEE Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Make Your Booth Unforgettable",
+      "event_title": "Make Your Booth Unforgettable",
+      "url": "https://www.iaee.com/2026/10/22/make-your-booth-unforgettable",
+      "source_url": "https://www.iaee.com/2026/10/22/make-your-booth-unforgettable",
+      "event_at": "2026-10-22T05:00:10+00:00",
+      "event_date": "2026-10-22T05:00:10+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "IAEE Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "exhibitor",
+      "conference": [],
+      "exhibition": [
+        "booth",
+        "show floor"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name"
       ]
     },
     {
@@ -1407,431 +2113,17 @@
       ]
     },
     {
-      "source": "예술의전당 공연",
+      "source": "Ticketmaster Blog",
       "event_model": "ticket_availability",
-      "title": "2026.10.27\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t바리톤 양준모 독창회 <삶 그리고 영혼의 노래>",
-      "event_title": "2026.10.27\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t바리톤 양준모 독창회 <삶 그리고 영혼의 노래>",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82081",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82081",
-      "event_at": "2026-10-22T03:32:10.999048+00:00",
-      "event_date": "2026-10-22T03:32:10.999048+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999048+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-10-27:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
-      "event_title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76434",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76434",
-      "event_at": "2026-10-22T03:32:10.999037+00:00",
-      "event_date": "2026-10-22T03:32:10.999037+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999037+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "7-differently-dali-10-30-11-15:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "전시",
-        "미술관"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "IBK기업은행챔버홀 \n                          \n                          \n                           베토벤 교향곡 x 두 대의 피아노 #3\n                          \n                          \n                            12.23(수) 19:30",
-      "event_title": "IBK기업은행챔버홀 \n                          \n                          \n                           베토벤 교향곡 x 두 대의 피아노 #3\n                          \n                          \n                            12.23(수) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=78772",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=78772",
-      "event_at": "2026-10-22T03:32:10.999033+00:00",
-      "event_date": "2026-10-22T03:32:10.999033+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999033+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "ibk-x-3-12-23-19-30:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "리사이틀홀 \n                          \n                          \n                           제27회 예술의전당 음악영재 콘서트\n                          \n                          \n                            11.07(토) 14:00",
-      "event_title": "리사이틀홀 \n                          \n                          \n                           제27회 예술의전당 음악영재 콘서트\n                          \n                          \n                            11.07(토) 14:00",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=75580",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=75580",
-      "event_at": "2026-10-22T03:32:10.999026+00:00",
-      "event_date": "2026-10-22T03:32:10.999026+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999026+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "27-11-07-14-00:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
-      "event_title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74472",
-      "event_at": "2026-10-22T03:32:10.999009+00:00",
-      "event_date": "2026-10-22T03:32:10.999009+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.999009+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-10-29-19-30:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
-      "event_title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=82358",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=82358",
-      "event_at": "2026-10-22T03:32:10.998999+00:00",
-      "event_date": "2026-10-22T03:32:10.998999+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998999+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "i-i-2027-01-19-19-30:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
-      "event_title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=83392",
-      "event_at": "2026-10-22T03:32:10.998991+00:00",
-      "event_date": "2026-10-22T03:32:10.998991+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998991+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "연극"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
-      "event_title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74734",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74734",
-      "event_at": "2026-10-22T03:32:10.998983+00:00",
-      "event_date": "2026-10-22T03:32:10.998983+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998983+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-2026-2026-10-24-17-00:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "임동혁 X 오케스트라 디 오리지널 < 리부트: 라흐마니노프 >\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t    \n\t                            \t    임동혁 X 오케스트라 디 오리지널 \n< 리부트: 라흐마니노프 >\n\t                            \t\n\t                            \t\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.10(화) 19:30",
-      "event_title": "임동혁 X 오케스트라 디 오리지널 < 리부트: 라흐마니노프 >\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t    \n\t                            \t    임동혁 X 오케스트라 디 오리지널 \n< 리부트: 라흐마니노프 >\n\t                            \t\n\t                            \t\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.10(화) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=81768",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=81768",
-      "event_at": "2026-10-22T03:32:10.998972+00:00",
-      "event_date": "2026-10-22T03:32:10.998972+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998972+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "x-x-2026-11-10-19-30:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "메리고라운드\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t메리고라운드\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.11.26(목)~11.29(일)",
-      "event_title": "메리고라운드\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t메리고라운드\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.11.26(목)~11.29(일)",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=76992",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=76992",
-      "event_at": "2026-10-22T03:32:10.998961+00:00",
-      "event_date": "2026-10-22T03:32:10.998961+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998961+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "cj-2026-11-26-11-29:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "한국·벨기에 수교 125주년 기념음악회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t한국·벨기에 수교 125주년 기념음악회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.12.08(화) 19:30",
-      "event_title": "한국·벨기에 수교 125주년 기념음악회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t한국·벨기에 수교 125주년 기념음악회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.12.08(화) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=79592",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=79592",
-      "event_at": "2026-10-22T03:32:10.998944+00:00",
-      "event_date": "2026-10-22T03:32:10.998944+00:00",
-      "ticket_open_date": "2026-10-22T03:32:10.998944+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "125-125-ibk-2026-12-08-19-30:seoul-arts-center:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "국립현대미술관 전시",
-      "event_model": "venue_calendar",
-      "title": "현재전시 < 전시 < 국립현대미술관",
-      "event_title": "현재전시 < 전시 < 국립현대미술관",
-      "url": "https://www.mmca.go.kr/exhibitions/progressList.do",
-      "source_url": "https://www.mmca.go.kr/exhibitions/progressList.do",
-      "event_at": "2026-10-22T03:32:03.832872+00:00",
-      "event_date": "2026-10-22T03:32:03.832872+00:00",
-      "ticket_open_date": null,
-      "venue_id": "mmca",
-      "venue_name": "국립현대미술관",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "u-a3b315aa23f9:mmca:2026-10-22:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "sponsor",
-      "conference": [],
-      "exhibition": [
-        "museum",
-        "전시",
-        "미술관"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [
-        "온라인"
-      ],
-      "source_signal": [
-        "official_event_calendar",
-        "venue_calendar"
-      ],
-      "required_field_gaps": []
-    },
-    {
-      "source": "인터파크 이벤트",
-      "event_model": "ticket_availability",
-      "title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트",
-      "event_title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트",
-      "url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
-      "source_url": "https://ticket.interpark.com/TPGoodsList.asp?Ca=Eve",
-      "event_at": "2026-10-22T03:31:56.891523+00:00",
-      "event_date": "2026-10-22T03:31:56.891523+00:00",
-      "ticket_open_date": "2026-10-22T03:31:56.891523+00:00",
+      "title": "Step Inside: Amerant Bank Arena – Home of the Florida Panthers",
+      "event_title": "Step Inside: Amerant Bank Arena – Home of the Florida Panthers",
+      "url": "https://blog.ticketmaster.com/step-inside-amerant-bank-arena-sunrise-fl",
+      "source_url": "https://blog.ticketmaster.com/step-inside-amerant-bank-arena-sunrise-fl",
+      "event_at": "2026-10-22T00:53:55+00:00",
+      "event_date": "2026-10-22T00:53:55+00:00",
+      "ticket_open_date": "2026-10-22T00:53:55+00:00",
       "venue_id": "",
-      "venue_name": "인터파크",
+      "venue_name": "Ticketmaster Blog",
       "city": "",
       "country": "",
       "online_flag": null,
@@ -1853,94 +2145,277 @@
       ]
     },
     {
-      "source": "강서구 문화행사",
-      "event_model": "venue_calendar",
-      "title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
-      "event_title": "전체일정 | 공연/전시/행사 | 강서구 문화시설 통합운영관리시스템",
-      "url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
-      "source_url": "https://culture.gangseo.seoul.kr/gsfc/culture/calendar.do?menuNo=800038",
-      "event_at": "2026-10-22T03:31:31.617669+00:00",
-      "event_date": "2026-10-22T03:31:31.617669+00:00",
-      "ticket_open_date": null,
-      "venue_id": "gangseo-cultural-center",
-      "venue_name": "강서구",
-      "city": "Seoul",
-      "country": "KR",
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "How to Buy Last-Minute Tickets on Ticketmaster: Concerts, Games & More",
+      "event_title": "How to Buy Last-Minute Tickets on Ticketmaster: Concerts, Games & More",
+      "url": "https://blog.ticketmaster.com/last-minute-ticket-guide",
+      "source_url": "https://blog.ticketmaster.com/last-minute-ticket-guide",
+      "event_at": "2026-10-21T22:57:40+00:00",
+      "event_date": "2026-10-21T22:57:40+00:00",
+      "ticket_open_date": "2026-10-21T22:57:40+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
       "online_flag": null,
-      "event_occurrence_id": "u-6ba1d8fa9ad5:gangseo-cultural-center:2026-10-22:seoul",
+      "event_occurrence_id": "",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
-      "conference": [
-        "대회"
-      ],
-      "exhibition": [
-        "전시",
-        "미술관",
-        "박물관"
-      ],
+      "conference": [],
+      "exhibition": [],
       "festival": [],
-      "performance": [
-        "공연",
-        "재즈"
-      ],
-      "meetup": [
-        "세미나"
-      ],
+      "performance": [],
+      "meetup": [],
       "source_signal": [
-        "official_event_calendar",
-        "venue_calendar"
+        "ticket_availability"
       ],
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
     },
     {
-      "source": "서울시 문화행사",
-      "event_model": "venue_calendar",
-      "title": "문화참여 달력 | 서울특별시",
-      "event_title": "문화참여 달력 | 서울특별시",
-      "url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
-      "source_url": "https://www.seoul.go.kr/realmnews/culture/calendar.do",
-      "event_at": "2026-10-22T03:31:03.923212+00:00",
-      "event_date": "2026-10-22T03:31:03.923212+00:00",
-      "ticket_open_date": null,
-      "venue_id": "seoul-city-culture",
-      "venue_name": "서울시",
-      "city": "Seoul",
-      "country": "KR",
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Step Inside Lunt-Fontanne Theatre, The Holiday Home of Blue Man Group",
+      "event_title": "Step Inside Lunt-Fontanne Theatre, The Holiday Home of Blue Man Group",
+      "url": "https://blog.ticketmaster.com/step-inside-lunt-fontanne-theatre-new-york-ny",
+      "source_url": "https://blog.ticketmaster.com/step-inside-lunt-fontanne-theatre-new-york-ny",
+      "event_at": "2026-10-21T22:12:31+00:00",
+      "event_date": "2026-10-21T22:12:31+00:00",
+      "ticket_open_date": "2026-10-21T22:12:31+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
       "online_flag": null,
-      "event_occurrence_id": "u-060ea9b85a42:seoul-city-culture:2026-10-22:seoul",
+      "event_occurrence_id": "",
       "availability_status": "",
       "organization_name": "",
       "signal_type": "",
-      "conference": [
-        "컨퍼런스",
-        "대회"
-      ],
-      "exhibition": [
-        "전시"
-      ],
-      "festival": [
-        "축제",
-        "마켓",
-        "플리마켓",
-        "영화제"
-      ],
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
       "performance": [
-        "공연",
-        "투어",
-        "라이브",
-        "쇼"
+        "theater",
+        "theatre"
       ],
-      "meetup": [
-        "세미나",
-        "라이브",
-        "강연"
-      ],
+      "meetup": [],
       "source_signal": [
-        "official_event_calendar",
-        "venue_calendar"
+        "ticket_availability"
       ],
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "H&X Technologies Showcases 3-D LED Displays at Las Vegas Open House",
+      "event_title": "H&X Technologies Showcases 3-D LED Displays at Las Vegas Open House",
+      "url": "https://exhibitcitynews.com/hx-technologies-3d-led-las-vegas-open-house",
+      "source_url": "https://exhibitcitynews.com/hx-technologies-3d-led-las-vegas-open-house",
+      "event_at": "2026-10-21T22:05:18+00:00",
+      "event_date": "2026-10-21T22:05:18+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Excel London Reports 60 Percent Growth in U.S. Events",
+      "event_title": "Excel London Reports 60 Percent Growth in U.S. Events",
+      "url": "https://exhibitcitynews.com/excel-london-us-events-growth",
+      "source_url": "https://exhibitcitynews.com/excel-london-us-events-growth",
+      "event_at": "2026-10-21T22:05:11+00:00",
+      "event_date": "2026-10-21T22:05:11+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Step Inside Crypto.com Arena – Home of the Lakers, Kings, Sparks",
+      "event_title": "Step Inside Crypto.com Arena – Home of the Lakers, Kings, Sparks",
+      "url": "https://blog.ticketmaster.com/step-inside-crypto-com-arena-los-angeles-ca",
+      "source_url": "https://blog.ticketmaster.com/step-inside-crypto-com-arena-los-angeles-ca",
+      "event_at": "2026-10-21T22:05:03+00:00",
+      "event_date": "2026-10-21T22:05:03+00:00",
+      "ticket_open_date": "2026-10-21T22:05:03+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Jonas Brothers Setlist: What to Expect From Burning Up Tour All Over Again",
+      "event_title": "Jonas Brothers Setlist: What to Expect From Burning Up Tour All Over Again",
+      "url": "https://blog.ticketmaster.com/jonas-brothers-setlist",
+      "source_url": "https://blog.ticketmaster.com/jonas-brothers-setlist",
+      "event_at": "2026-10-21T22:01:26+00:00",
+      "event_date": "2026-10-21T22:01:26+00:00",
+      "ticket_open_date": "2026-10-21T22:01:26+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "tour"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Lionel Richie Setlist: What to Expect at King of Hearts Las Vegas Residency",
+      "event_title": "Lionel Richie Setlist: What to Expect at King of Hearts Las Vegas Residency",
+      "url": "https://blog.ticketmaster.com/lionel-richie-setlist",
+      "source_url": "https://blog.ticketmaster.com/lionel-richie-setlist",
+      "event_at": "2026-10-21T22:00:46+00:00",
+      "event_date": "2026-10-21T22:00:46+00:00",
+      "ticket_open_date": "2026-10-21T22:00:46+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [
+        "theater",
+        "tour"
+      ],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "ECN Magazine Archive Preserves Tradeshow Industry History",
+      "event_title": "ECN Magazine Archive Preserves Tradeshow Industry History",
+      "url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history",
+      "source_url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history",
+      "event_at": "2026-10-21T22:00:08+00:00",
+      "event_date": "2026-10-21T22:00:08+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
     },
     {
       "source": "PCMA Convene",
@@ -2752,38 +3227,6 @@
         "event_occurrence_id",
         "organization_name",
         "signal_type"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
-      "event_title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
-      "url": "https://blog.ticketmaster.com/mlb-world-series-explained",
-      "source_url": "https://blog.ticketmaster.com/mlb-world-series-explained",
-      "event_at": "2026-10-20T08:07:48+00:00",
-      "event_date": "2026-10-20T08:07:48+00:00",
-      "ticket_open_date": "2026-10-20T08:07:48+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
       ]
     },
     {
@@ -3653,10 +4096,10 @@
     {
       "source": "Smart Meetings",
       "event_model": "exhibitor_sponsor_signal",
-      "title": "IMEX America 2026 Recap: Day 4",
-      "event_title": "IMEX America 2026 Recap: Day 4",
-      "url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-4",
-      "source_url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-4",
+      "title": "IMEX America 2026 Recap: Day 3",
+      "event_title": "IMEX America 2026 Recap: Day 3",
+      "url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-3",
+      "source_url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-3",
       "event_at": "2026-10-16T09:16:33+00:00",
       "event_date": "2026-10-16T09:16:33+00:00",
       "ticket_open_date": null,
@@ -3686,10 +4129,10 @@
     {
       "source": "Smart Meetings",
       "event_model": "exhibitor_sponsor_signal",
-      "title": "IMEX America 2026 Recap: Day 3",
-      "event_title": "IMEX America 2026 Recap: Day 3",
-      "url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-3",
-      "source_url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-3",
+      "title": "IMEX America 2026 Recap: Day 4",
+      "event_title": "IMEX America 2026 Recap: Day 4",
+      "url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-4",
+      "source_url": "https://www.smartmeetings.com/event/185140/imex-america-2026-recap-day-4",
       "event_at": "2026-10-16T09:16:33+00:00",
       "event_date": "2026-10-16T09:16:33+00:00",
       "ticket_open_date": null,
@@ -3824,348 +4267,6 @@
       ]
     },
     {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "NYCC 2026 Experiential: Shopping Malls, Haunted Cabins and Slime Surges",
-      "event_title": "NYCC 2026 Experiential: Shopping Malls, Haunted Cabins and Slime Surges",
-      "url": "https://www.eventmarketer.com/article/field-report-nycc-2026-experiential",
-      "source_url": "https://www.eventmarketer.com/article/field-report-nycc-2026-experiential",
-      "event_at": "2026-10-16T03:28:59+00:00",
-      "event_date": "2026-10-16T03:28:59+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "예술의전당 공연",
-      "event_model": "ticket_availability",
-      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.16(금) 19:30",
-      "event_title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘주피터’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.16(금) 19:30",
-      "url": "https://www.sac.or.kr/site/main/show/show_view?SN=74735",
-      "source_url": "https://www.sac.or.kr/site/main/show/show_view?SN=74735",
-      "event_at": "2026-10-16T03:23:25.263401+00:00",
-      "event_date": "2026-10-16T03:23:25.263401+00:00",
-      "ticket_open_date": "2026-10-16T03:23:25.263401+00:00",
-      "venue_id": "seoul-arts-center",
-      "venue_name": "예술의전당",
-      "city": "Seoul",
-      "country": "KR",
-      "online_flag": null,
-      "event_occurrence_id": "2026-2026-2026-10-16-19-30:seoul-arts-center:2026-10-16:seoul",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "콘서트"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "official_event_calendar",
-        "ticket_availability",
-        "venue_calendar"
-      ],
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Aluvision x Ice 9: A Cool Case for Hi-LED pro",
-      "event_title": "Aluvision x Ice 9: A Cool Case for Hi-LED pro",
-      "url": "https://exhibitcitynews.com/aluvision-ice-9-hi-led-pro",
-      "source_url": "https://exhibitcitynews.com/aluvision-ice-9-hi-led-pro",
-      "event_at": "2026-10-16T01:05:38+00:00",
-      "event_date": "2026-10-16T01:05:38+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit",
-        "booth"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Reading the Signals What clients can expect in 2027",
-      "event_title": "Reading the Signals What clients can expect in 2027",
-      "url": "https://exhibitcitynews.com/reading-the-signals-client-expectations-2027",
-      "source_url": "https://exhibitcitynews.com/reading-the-signals-client-expectations-2027",
-      "event_at": "2026-10-16T01:05:35+00:00",
-      "event_date": "2026-10-16T01:05:35+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "UM Wolverines vs. MSU Spartans: A Look at This Michigan Football Rivalry",
-      "event_title": "UM Wolverines vs. MSU Spartans: A Look at This Michigan Football Rivalry",
-      "url": "https://blog.ticketmaster.com/michigan-wolverines-vs-msu-spartans-series",
-      "source_url": "https://blog.ticketmaster.com/michigan-wolverines-vs-msu-spartans-series",
-      "event_at": "2026-10-15T23:09:10+00:00",
-      "event_date": "2026-10-15T23:09:10+00:00",
-      "ticket_open_date": "2026-10-15T23:09:10+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "conference"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "LSU vs. Texas A&M: A Heated SEC Rivalry",
-      "event_title": "LSU vs. Texas A&M: A Heated SEC Rivalry",
-      "url": "https://blog.ticketmaster.com/lsu-tigers-vs-texas-am-aggies-series",
-      "source_url": "https://blog.ticketmaster.com/lsu-tigers-vs-texas-am-aggies-series",
-      "event_at": "2026-10-15T22:55:24+00:00",
-      "event_date": "2026-10-15T22:55:24+00:00",
-      "ticket_open_date": "2026-10-15T22:55:24+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Step Inside The Colosseum at Caesars Palace: Seating Guide, Layout",
-      "event_title": "Step Inside The Colosseum at Caesars Palace: Seating Guide, Layout",
-      "url": "https://blog.ticketmaster.com/venue-faq-the-colosseum-caesars-palace-las-vegas-nv",
-      "source_url": "https://blog.ticketmaster.com/venue-faq-the-colosseum-caesars-palace-las-vegas-nv",
-      "event_at": "2026-10-15T22:52:47+00:00",
-      "event_date": "2026-10-15T22:52:47+00:00",
-      "ticket_open_date": "2026-10-15T22:52:47+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "ND Fighting Irish vs. USC Trojans: Battle for the Jeweled Shillelagh",
-      "event_title": "ND Fighting Irish vs. USC Trojans: Battle for the Jeweled Shillelagh",
-      "url": "https://blog.ticketmaster.com/notre-dame-fighting-irish-vs-usc-trojans-series",
-      "source_url": "https://blog.ticketmaster.com/notre-dame-fighting-irish-vs-usc-trojans-series",
-      "event_at": "2026-10-15T22:47:27+00:00",
-      "event_date": "2026-10-15T22:47:27+00:00",
-      "ticket_open_date": "2026-10-15T22:47:27+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Tigers vs. Crimson Tide: History of the Iron Bowl",
-      "event_title": "Tigers vs. Crimson Tide: History of the Iron Bowl",
-      "url": "https://blog.ticketmaster.com/alabama-crimson-tide-vs-auburn-tigers-series",
-      "source_url": "https://blog.ticketmaster.com/alabama-crimson-tide-vs-auburn-tigers-series",
-      "event_at": "2026-10-15T22:32:46+00:00",
-      "event_date": "2026-10-15T22:32:46+00:00",
-      "ticket_open_date": "2026-10-15T22:32:46+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "ACVB Promotes Chinela Bertrand to Membership Manager",
-      "event_title": "ACVB Promotes Chinela Bertrand to Membership Manager",
-      "url": "https://exhibitcitynews.com/acvb-chinela-bertrand-membership-manager",
-      "source_url": "https://exhibitcitynews.com/acvb-chinela-bertrand-membership-manager",
-      "event_at": "2026-10-15T22:05:27+00:00",
-      "event_date": "2026-10-15T22:05:27+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
       "source": "Skift Meetings",
       "event_model": "exhibitor_sponsor_signal",
       "title": "EIC’s Plan to Help Planners Find New Job Opportunities",
@@ -4199,40 +4300,6 @@
       ]
     },
     {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Dirty Sodas and Mini-Marts: Brands Share Their Experiential Strategies at NACS 2026",
-      "event_title": "Dirty Sodas and Mini-Marts: Brands Share Their Experiential Strategies at NACS 2026",
-      "url": "https://www.eventmarketer.com/article/experiential-at-nacs-2026",
-      "source_url": "https://www.eventmarketer.com/article/experiential-at-nacs-2026",
-      "event_at": "2026-10-15T11:28:34+00:00",
-      "event_date": "2026-10-15T11:28:34+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "exhibitor",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
       "source": "Skift Meetings",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Why Networking Receptions Stress Attendees Out — And What to Build Instead",
@@ -4258,39 +4325,6 @@
       "meetup": [
         "networking"
       ],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "IMEX America 2026 Recap: Day 3",
-      "event_title": "IMEX America 2026 Recap: Day 3",
-      "url": "https://www.smartmeetings.com/event/185123/imex-america-2026-recap-day-3",
-      "source_url": "https://www.smartmeetings.com/event/185123/imex-america-2026-recap-day-3",
-      "event_at": "2026-10-15T06:12:13+00:00",
-      "event_date": "2026-10-15T06:12:13+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
       "source_signal": [
         "event_industry"
       ],
@@ -4391,39 +4425,6 @@
       "exhibition": [
         "exhibition"
       ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "5 Key Statistics About the State of Incentive Programs",
-      "event_title": "5 Key Statistics About the State of Incentive Programs",
-      "url": "https://meetings.skift.com/2026/10/14/5-key-statistics-about-the-state-of-incentive-programs",
-      "source_url": "https://meetings.skift.com/2026/10/14/5-key-statistics-about-the-state-of-incentive-programs",
-      "event_at": "2026-10-14T16:11:53+00:00",
-      "event_date": "2026-10-14T16:11:53+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
       "festival": [],
       "performance": [],
       "meetup": [],
@@ -5015,39 +5016,6 @@
       ]
     },
     {
-      "source": "IAEE Blog",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Beating Event Chaos Before it Strikes",
-      "event_title": "Beating Event Chaos Before it Strikes",
-      "url": "https://www.iaee.com/2026/09/10/beating-event-chaos-before-it-strikes",
-      "source_url": "https://www.iaee.com/2026/09/10/beating-event-chaos-before-it-strikes",
-      "event_at": "2026-09-10T05:00:59+00:00",
-      "event_date": "2026-09-10T05:00:59+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "IAEE Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
       "source": "UFI Blog",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Letter from the UFI President: September 2026",
@@ -5112,6 +5080,342 @@
       "required_field_gaps": [
         "event_occurrence_id",
         "organization_name"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "UM Wolverines vs. MSU Spartans: A Look at This Michigan Football Rivalry",
+      "event_title": "UM Wolverines vs. MSU Spartans: A Look at This Michigan Football Rivalry",
+      "url": "https://blog.ticketmaster.com/michigan-wolverines-vs-msu-spartans-series",
+      "source_url": "https://blog.ticketmaster.com/michigan-wolverines-vs-msu-spartans-series",
+      "event_at": "2026-10-15T23:09:10+00:00",
+      "event_date": "2026-10-15T23:09:10+00:00",
+      "ticket_open_date": "2026-10-15T23:09:10+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "conference"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "LSU vs. Texas A&M: A Heated SEC Rivalry",
+      "event_title": "LSU vs. Texas A&M: A Heated SEC Rivalry",
+      "url": "https://blog.ticketmaster.com/lsu-tigers-vs-texas-am-aggies-series",
+      "source_url": "https://blog.ticketmaster.com/lsu-tigers-vs-texas-am-aggies-series",
+      "event_at": "2026-10-15T22:55:24+00:00",
+      "event_date": "2026-10-15T22:55:24+00:00",
+      "ticket_open_date": "2026-10-15T22:55:24+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Skift Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "5 Key Statistics About the State of Incentive Programs",
+      "event_title": "5 Key Statistics About the State of Incentive Programs",
+      "url": "https://meetings.skift.com/2026/10/14/5-key-statistics-about-the-state-of-incentive-programs",
+      "source_url": "https://meetings.skift.com/2026/10/14/5-key-statistics-about-the-state-of-incentive-programs",
+      "event_at": "2026-10-14T16:11:53+00:00",
+      "event_date": "2026-10-14T16:11:53+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Skift Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "IAEE Blog",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Beating Event Chaos Before it Strikes",
+      "event_title": "Beating Event Chaos Before it Strikes",
+      "url": "https://www.iaee.com/2026/09/10/beating-event-chaos-before-it-strikes",
+      "source_url": "https://www.iaee.com/2026/09/10/beating-event-chaos-before-it-strikes",
+      "event_at": "2026-09-10T05:00:59+00:00",
+      "event_date": "2026-09-10T05:00:59+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "IAEE Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Aluvision x Ice 9: A Cool Case for Hi-LED pro",
+      "event_title": "Aluvision x Ice 9: A Cool Case for Hi-LED pro",
+      "url": "https://exhibitcitynews.com/aluvision-ice-9-hi-led-pro",
+      "source_url": "https://exhibitcitynews.com/aluvision-ice-9-hi-led-pro",
+      "event_at": "2026-10-16T01:05:38+00:00",
+      "event_date": "2026-10-16T01:05:38+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit",
+        "booth"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Reading the Signals What clients can expect in 2027",
+      "event_title": "Reading the Signals What clients can expect in 2027",
+      "url": "https://exhibitcitynews.com/reading-the-signals-client-expectations-2027",
+      "source_url": "https://exhibitcitynews.com/reading-the-signals-client-expectations-2027",
+      "event_at": "2026-10-16T01:05:35+00:00",
+      "event_date": "2026-10-16T01:05:35+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Step Inside The Colosseum at Caesars Palace: Seating Guide, Layout",
+      "event_title": "Step Inside The Colosseum at Caesars Palace: Seating Guide, Layout",
+      "url": "https://blog.ticketmaster.com/venue-faq-the-colosseum-caesars-palace-las-vegas-nv",
+      "source_url": "https://blog.ticketmaster.com/venue-faq-the-colosseum-caesars-palace-las-vegas-nv",
+      "event_at": "2026-10-15T22:52:47+00:00",
+      "event_date": "2026-10-15T22:52:47+00:00",
+      "ticket_open_date": "2026-10-15T22:52:47+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "ND Fighting Irish vs. USC Trojans: Battle for the Jeweled Shillelagh",
+      "event_title": "ND Fighting Irish vs. USC Trojans: Battle for the Jeweled Shillelagh",
+      "url": "https://blog.ticketmaster.com/notre-dame-fighting-irish-vs-usc-trojans-series",
+      "source_url": "https://blog.ticketmaster.com/notre-dame-fighting-irish-vs-usc-trojans-series",
+      "event_at": "2026-10-15T22:47:27+00:00",
+      "event_date": "2026-10-15T22:47:27+00:00",
+      "ticket_open_date": "2026-10-15T22:47:27+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Ticketmaster Blog",
+      "event_model": "ticket_availability",
+      "title": "Tigers vs. Crimson Tide: History of the Iron Bowl",
+      "event_title": "Tigers vs. Crimson Tide: History of the Iron Bowl",
+      "url": "https://blog.ticketmaster.com/alabama-crimson-tide-vs-auburn-tigers-series",
+      "source_url": "https://blog.ticketmaster.com/alabama-crimson-tide-vs-auburn-tigers-series",
+      "event_at": "2026-10-15T22:32:46+00:00",
+      "event_date": "2026-10-15T22:32:46+00:00",
+      "ticket_open_date": "2026-10-15T22:32:46+00:00",
+      "venue_id": "",
+      "venue_name": "Ticketmaster Blog",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "ticket_availability"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "source": "Exhibit City News",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "ACVB Promotes Chinela Bertrand to Membership Manager",
+      "event_title": "ACVB Promotes Chinela Bertrand to Membership Manager",
+      "url": "https://exhibitcitynews.com/acvb-chinela-bertrand-membership-manager",
+      "source_url": "https://exhibitcitynews.com/acvb-chinela-bertrand-membership-manager",
+      "event_at": "2026-10-15T22:05:27+00:00",
+      "event_date": "2026-10-15T22:05:27+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Exhibit City News",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "convention"
+      ],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
       ]
     },
     {
@@ -5820,6 +6124,110 @@
       ]
     },
     {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "NYCC 2026 Experiential: Shopping Malls, Haunted Cabins and Slime Surges",
+      "event_title": "NYCC 2026 Experiential: Shopping Malls, Haunted Cabins and Slime Surges",
+      "url": "https://www.eventmarketer.com/article/field-report-nycc-2026-experiential",
+      "source_url": "https://www.eventmarketer.com/article/field-report-nycc-2026-experiential",
+      "event_at": "2026-10-16T03:28:59+00:00",
+      "event_date": "2026-10-16T03:28:59+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [
+        "convention"
+      ],
+      "exhibition": [
+        "exhibit"
+      ],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "source": "Event Marketer",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "Dirty Sodas and Mini-Marts: Brands Share Their Experiential Strategies at NACS 2026",
+      "event_title": "Dirty Sodas and Mini-Marts: Brands Share Their Experiential Strategies at NACS 2026",
+      "url": "https://www.eventmarketer.com/article/experiential-at-nacs-2026",
+      "source_url": "https://www.eventmarketer.com/article/experiential-at-nacs-2026",
+      "event_at": "2026-10-15T11:28:34+00:00",
+      "event_date": "2026-10-15T11:28:34+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Event Marketer",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "exhibitor",
+      "conference": [
+        "convention"
+      ],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name"
+      ]
+    },
+    {
+      "source": "Smart Meetings",
+      "event_model": "exhibitor_sponsor_signal",
+      "title": "IMEX America 2026 Recap: Day 3",
+      "event_title": "IMEX America 2026 Recap: Day 3",
+      "url": "https://www.smartmeetings.com/event/185123/imex-america-2026-recap-day-3",
+      "source_url": "https://www.smartmeetings.com/event/185123/imex-america-2026-recap-day-3",
+      "event_at": "2026-10-15T06:12:13+00:00",
+      "event_date": "2026-10-15T06:12:13+00:00",
+      "ticket_open_date": null,
+      "venue_id": "",
+      "venue_name": "Smart Meetings",
+      "city": "",
+      "country": "",
+      "online_flag": null,
+      "event_occurrence_id": "",
+      "availability_status": "",
+      "organization_name": "",
+      "signal_type": "",
+      "conference": [],
+      "exhibition": [],
+      "festival": [],
+      "performance": [],
+      "meetup": [],
+      "source_signal": [
+        "event_industry"
+      ],
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
       "source": "Exhibit City News",
       "event_model": "exhibitor_sponsor_signal",
       "title": "Smart City Expo Adds Housing Summit in Barcelona",
@@ -6166,588 +6574,6 @@
         "event_occurrence_id",
         "organization_name"
       ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "SITE Appoints Rebecca Wright as Interim CEO",
-      "event_title": "SITE Appoints Rebecca Wright as Interim CEO",
-      "url": "https://exhibitcitynews.com/site-rebecca-wright-interim-ceo",
-      "source_url": "https://exhibitcitynews.com/site-rebecca-wright-interim-ceo",
-      "event_at": "2026-10-12T22:05:56+00:00",
-      "event_date": "2026-10-12T22:05:56+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "The Hidden Safety Issue Sitting on Your Spec Sheet",
-      "event_title": "The Hidden Safety Issue Sitting on Your Spec Sheet",
-      "url": "https://exhibitcitynews.com/exhibit-weight-workplace-safety-spec-sheet",
-      "source_url": "https://exhibitcitynews.com/exhibit-weight-workplace-safety-spec-sheet",
-      "event_at": "2026-10-12T22:05:34+00:00",
-      "event_date": "2026-10-12T22:05:34+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [
-        "exhibit",
-        "trade show"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Barcelona Cybersecurity Congress 2026 Puts AI in Focus",
-      "event_title": "Barcelona Cybersecurity Congress 2026 Puts AI in Focus",
-      "url": "https://exhibitcitynews.com/barcelona-cybersecurity-congress-2026",
-      "source_url": "https://exhibitcitynews.com/barcelona-cybersecurity-congress-2026",
-      "event_at": "2026-10-12T22:01:43+00:00",
-      "event_date": "2026-10-12T22:01:43+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "congress"
-      ],
-      "exhibition": [
-        "exhibit",
-        "expo"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "The Brief: Food Vaults and Sleep Exchanges",
-      "event_title": "The Brief: Food Vaults and Sleep Exchanges",
-      "url": "https://www.eventmarketer.com/article/brief-lurpak-food-vault-yotel-sleep-exchange",
-      "source_url": "https://www.eventmarketer.com/article/brief-lurpak-food-vault-yotel-sleep-exchange",
-      "event_at": "2026-10-12T13:44:32+00:00",
-      "event_date": "2026-10-12T13:44:32+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Experiential Marketing Trend of the Week: Let’s Be Honest",
-      "event_title": "Experiential Marketing Trend of the Week: Let’s Be Honest",
-      "url": "https://www.eventmarketer.com/article/experiential-marketing-trend-of-the-week-lets-be-honest",
-      "source_url": "https://www.eventmarketer.com/article/experiential-marketing-trend-of-the-week-lets-be-honest",
-      "event_at": "2026-10-12T04:00:33+00:00",
-      "event_date": "2026-10-12T04:00:33+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Exhibit City News",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "New Tools, Familiar Freight Problem",
-      "event_title": "New Tools, Familiar Freight Problem",
-      "url": "https://exhibitcitynews.com/new-tools-familiar-freight-problem",
-      "source_url": "https://exhibitcitynews.com/new-tools-familiar-freight-problem",
-      "event_at": "2026-10-12T01:05:51+00:00",
-      "event_date": "2026-10-12T01:05:51+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Exhibit City News",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "exhibitor",
-      "conference": [],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Exhibit Design: 6 Experiential Ideas from Groceryshop 2026",
-      "event_title": "Exhibit Design: 6 Experiential Ideas from Groceryshop 2026",
-      "url": "https://www.eventmarketer.com/article/exhibit-design-6-experiential-ideas-from-groceryshop-2026",
-      "source_url": "https://www.eventmarketer.com/article/exhibit-design-6-experiential-ideas-from-groceryshop-2026",
-      "event_at": "2026-10-09T08:00:28+00:00",
-      "event_date": "2026-10-09T08:00:28+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [
-        "convention"
-      ],
-      "exhibition": [
-        "exhibit"
-      ],
-      "festival": [],
-      "performance": [],
-      "meetup": [
-        "meetup"
-      ],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Event Marketer",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "4 Experiential Trends Spotted at the 10th Annual ComplexCon",
-      "event_title": "4 Experiential Trends Spotted at the 10th Annual ComplexCon",
-      "url": "https://www.eventmarketer.com/article/4-experiential-trends-spotted-at-the-10th-annual-complexcon",
-      "source_url": "https://www.eventmarketer.com/article/4-experiential-trends-spotted-at-the-10th-annual-complexcon",
-      "event_at": "2026-10-09T07:00:15+00:00",
-      "event_date": "2026-10-09T07:00:15+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Event Marketer",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "House of Blues Las Vegas: Seating, Layout & Concert Experience",
-      "event_title": "House of Blues Las Vegas: Seating, Layout & Concert Experience",
-      "url": "https://blog.ticketmaster.com/venue-faq-house-of-blues-las-vegas-nv",
-      "source_url": "https://blog.ticketmaster.com/venue-faq-house-of-blues-las-vegas-nv",
-      "event_at": "2026-10-08T22:16:47+00:00",
-      "event_date": "2026-10-08T22:16:47+00:00",
-      "ticket_open_date": "2026-10-08T22:16:47+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "concert",
-        "live music"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Skift Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "5 Ways to Turn Attendees and Speakers Into Promoters",
-      "event_title": "5 Ways to Turn Attendees and Speakers Into Promoters",
-      "url": "https://meetings.skift.com/2026/10/08/5-ways-to-turn-attendees-and-speaker-into-promoters",
-      "source_url": "https://meetings.skift.com/2026/10/08/5-ways-to-turn-attendees-and-speaker-into-promoters",
-      "event_at": "2026-10-08T08:36:02+00:00",
-      "event_date": "2026-10-08T08:36:02+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Skift Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "speaker",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Def Leppard Setlists: What to Expect From Their 2027 Tour",
-      "event_title": "Def Leppard Setlists: What to Expect From Their 2027 Tour",
-      "url": "https://blog.ticketmaster.com/get-ready-def-leppard-setlist",
-      "source_url": "https://blog.ticketmaster.com/get-ready-def-leppard-setlist",
-      "event_at": "2026-10-07T22:30:27+00:00",
-      "event_date": "2026-10-07T22:30:27+00:00",
-      "ticket_open_date": "2026-10-07T22:30:27+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "tour"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Broadway Ticket Deals: Current Discounts on Broadway Shows in NYC",
-      "event_title": "Broadway Ticket Deals: Current Discounts on Broadway Shows in NYC",
-      "url": "https://blog.ticketmaster.com/broadway-ticket-deals",
-      "source_url": "https://blog.ticketmaster.com/broadway-ticket-deals",
-      "event_at": "2026-10-07T22:22:01+00:00",
-      "event_date": "2026-10-07T22:22:01+00:00",
-      "ticket_open_date": "2026-10-07T22:22:01+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "theater"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Goo Goo Dolls Setlists: What to Expect From Their 2027 Tour",
-      "event_title": "Goo Goo Dolls Setlists: What to Expect From Their 2027 Tour",
-      "url": "https://blog.ticketmaster.com/goo-goo-dolls-setlist",
-      "source_url": "https://blog.ticketmaster.com/goo-goo-dolls-setlist",
-      "event_at": "2026-10-07T22:12:44+00:00",
-      "event_date": "2026-10-07T22:12:44+00:00",
-      "ticket_open_date": "2026-10-07T22:12:44+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "tour"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "A Few Good Shows: Best of Broadway in October 2026",
-      "event_title": "A Few Good Shows: Best of Broadway in October 2026",
-      "url": "https://blog.ticketmaster.com/broadway-shows-october",
-      "source_url": "https://blog.ticketmaster.com/broadway-shows-october",
-      "event_at": "2026-10-07T22:12:43+00:00",
-      "event_date": "2026-10-07T22:12:43+00:00",
-      "ticket_open_date": "2026-10-07T22:12:43+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Ticketmaster Blog",
-      "event_model": "ticket_availability",
-      "title": "Step Inside PH Live at Planet Hollywood: A Guide to the Theater Experience",
-      "event_title": "Step Inside PH Live at Planet Hollywood: A Guide to the Theater Experience",
-      "url": "https://blog.ticketmaster.com/venue-faq-ph-live-at-planet-hollywood-las-vegas-nv",
-      "source_url": "https://blog.ticketmaster.com/venue-faq-ph-live-at-planet-hollywood-las-vegas-nv",
-      "event_at": "2026-10-06T23:23:57+00:00",
-      "event_date": "2026-10-06T23:23:57+00:00",
-      "ticket_open_date": "2026-10-06T23:23:57+00:00",
-      "venue_id": "",
-      "venue_name": "Ticketmaster Blog",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [
-        "theater"
-      ],
-      "meetup": [],
-      "source_signal": [
-        "ticket_availability"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "Biggest-ever Chicago Hotel Strike Looms",
-      "event_title": "Biggest-ever Chicago Hotel Strike Looms",
-      "url": "https://www.smartmeetings.com/news/184862/biggest-ever-chicago-hotel-strike-looms",
-      "source_url": "https://www.smartmeetings.com/news/184862/biggest-ever-chicago-hotel-strike-looms",
-      "event_at": "2026-09-25T08:42:23+00:00",
-      "event_date": "2026-09-25T08:42:23+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "source": "Smart Meetings",
-      "event_model": "exhibitor_sponsor_signal",
-      "title": "CMP Fellow Spotlight: Get to Know Christine Faiman",
-      "event_title": "CMP Fellow Spotlight: Get to Know Christine Faiman",
-      "url": "https://www.smartmeetings.com/tips-tools/184845/cmp-fellow-spotlight-get-to-know-christine-faiman",
-      "source_url": "https://www.smartmeetings.com/tips-tools/184845/cmp-fellow-spotlight-get-to-know-christine-faiman",
-      "event_at": "2026-09-24T12:16:48+00:00",
-      "event_date": "2026-09-24T12:16:48+00:00",
-      "ticket_open_date": null,
-      "venue_id": "",
-      "venue_name": "Smart Meetings",
-      "city": "",
-      "country": "",
-      "online_flag": null,
-      "event_occurrence_id": "",
-      "availability_status": "",
-      "organization_name": "",
-      "signal_type": "",
-      "conference": [],
-      "exhibition": [],
-      "festival": [],
-      "performance": [],
-      "meetup": [],
-      "source_signal": [
-        "event_industry"
-      ],
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
     }
   ],
   "daily_review_items": [
@@ -6756,7 +6582,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.08.19\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t예술의전당 토요콘서트 - 프리뷰 베토벤(11월)",
-      "event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-08-19-11:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6766,7 +6592,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.08.25\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t조성현 바흐 플루트 소나타 전곡 리사이틀",
-      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-08-25:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6776,7 +6602,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t왕쯔통 피아노 리사이틀",
-      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-01:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6786,7 +6612,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.01\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t이지혜 x 김다솔: Beethoven II",
-      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-01-x-beethoven-ii:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6796,7 +6622,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.09\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t알렉상드르 캉토로프 피아노 리사이틀",
-      "event_occurrence_id": "2026-09-09:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-09:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6806,17 +6632,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.09.15\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t라흐마니노프 in 뉴욕",
-      "event_occurrence_id": "2026-09-15-in:seoul-arts-center:2026-10-22:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026.10.21\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t현대자동차그룹과 함께하는 백건우와 영 프렌즈",
-      "event_occurrence_id": "2026-10-21:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-09-15-in:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6826,7 +6642,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026.10.27\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t바리톤 양준모 독창회 <삶 그리고 영혼의 노래>",
-      "event_occurrence_id": "2026-10-27:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-10-27:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6835,8 +6651,8 @@
       "reason": "missing_required_fields",
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
-      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
-      "event_occurrence_id": "7-differently-dali-10-30-11-15:seoul-arts-center:2026-10-22:seoul",
+      "title": "2026.11.03\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t2026 예술의전당 & 국립발레단 <호두까기인형>",
+      "event_occurrence_id": "2026-11-03-2026:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6846,7 +6662,17 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "IBK기업은행챔버홀 \n                          \n                          \n                           베토벤 교향곡 x 두 대의 피아노 #3\n                          \n                          \n                            12.23(수) 19:30",
-      "event_occurrence_id": "ibk-x-3-12-23-19-30:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "ibk-x-3-12-23-19-30:seoul-arts-center:2026-10-23:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "한가람미술관 제7전시실 \n                          \n                          \n                           달리·Differently·Dali\n                          \n                          \n                            10.30(금)~11.15(일)",
+      "event_occurrence_id": "7-differently-dali-10-30-11-15:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6856,27 +6682,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "리사이틀홀 \n                          \n                          \n                           제27회 예술의전당 음악영재 콘서트\n                          \n                          \n                            11.07(토) 14:00",
-      "event_occurrence_id": "27-11-07-14-00:seoul-arts-center:2026-10-22:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
-      "event_occurrence_id": "2026-10-29-19-30:seoul-arts-center:2026-10-22:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
-      "event_occurrence_id": "i-i-2027-01-19-19-30:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "27-11-07-14-00:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6886,17 +6692,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "2026 예술의전당 토월정통연극 <유리동물원>\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 예술의전당 토월정통연극 <유리동물원>\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.10.17(토)~11.22(일)",
-      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-10-22:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
-      "event_occurrence_id": "2026-2026-2026-10-24-17-00:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "2026-2026-cj-2026-10-17-11-22:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6906,7 +6702,27 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "임동혁 X 오케스트라 디 오리지널 < 리부트: 라흐마니노프 >\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t    \n\t                            \t    임동혁 X 오케스트라 디 오리지널 \n< 리부트: 라흐마니노프 >\n\t                            \t\n\t                            \t\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.10(화) 19:30",
-      "event_occurrence_id": "x-x-2026-11-10-19-30:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "x-x-2026-11-10-19-30:seoul-arts-center:2026-10-23:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t파트리샤 코파친스카야 & 솔 가베타 듀오 콘서트\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.29(목) 19:30",
+      "event_occurrence_id": "2026-10-29-19-30:seoul-arts-center:2026-10-23:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "리처드 용재 오닐 〈바흐 소사이어티〉\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t리처드 용재 오닐 〈바흐 소사이어티〉\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.12.23(수) 19:30",
+      "event_occurrence_id": "2026-12-23-19-30:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6916,7 +6732,7 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "메리고라운드\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t메리고라운드\n\t                            \n\t                       \n                            \n                            CJ 토월극장\n                            2026.11.26(목)~11.29(일)",
-      "event_occurrence_id": "cj-2026-11-26-11-29:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "cj-2026-11-26-11-29:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6926,7 +6742,27 @@
       "event_model": "ticket_availability",
       "source": "예술의전당 공연",
       "title": "한국·벨기에 수교 125주년 기념음악회\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t한국·벨기에 수교 125주년 기념음악회\n\t                            \n\t                       \n                            \n                            IBK기업은행챔버홀\n                            2026.12.08(화) 19:30",
-      "event_occurrence_id": "125-125-ibk-2026-12-08-19-30:seoul-arts-center:2026-10-22:seoul",
+      "event_occurrence_id": "125-125-ibk-2026-12-08-19-30:seoul-arts-center:2026-10-23:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t2026 서울시향 얍 판 츠베덴의 모차르트 ‘레퀴엠’ ②\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.10.24(토) 17:00",
+      "event_occurrence_id": "2026-2026-2026-10-24-17-00:seoul-arts-center:2026-10-23:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "양인모의 베토벤 바이올린 소나타 전곡 I\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t양인모의 베토벤 바이올린 소나타 전곡 I\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2027.01.19(화) 19:30",
+      "event_occurrence_id": "i-i-2027-01-19-19-30:seoul-arts-center:2026-10-23:seoul",
       "required_field_gaps": [
         "availability_status"
       ]
@@ -6947,6 +6783,194 @@
       "event_model": "ticket_availability",
       "source": "인터파크 이벤트",
       "title": "올 겨울에도 놀자. 계산적으로. | 글로벌 여가 플랫폼 | 야놀자 공식 사이트"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Skift Meetings",
+      "title": "Bigger Meeting Budgets, Tighter Scrutiny: What Planners Expect in 2027",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "IAEE Blog",
+      "title": "Make Your Booth Unforgettable",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "예술의전당 공연",
+      "title": "2026.10.21\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t현대자동차그룹과 함께하는 백건우와 영 프렌즈",
+      "event_occurrence_id": "2026-10-21:seoul-arts-center:2026-10-22:seoul",
+      "required_field_gaps": [
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside: Amerant Bank Arena – Home of the Florida Panthers",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside: Amerant Bank Arena – Home of the Florida Panthers"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "How to Buy Last-Minute Tickets on Ticketmaster: Concerts, Games & More",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "How to Buy Last-Minute Tickets on Ticketmaster: Concerts, Games & More"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside Lunt-Fontanne Theatre, The Holiday Home of Blue Man Group",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside Lunt-Fontanne Theatre, The Holiday Home of Blue Man Group"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "H&X Technologies Showcases 3-D LED Displays at Las Vegas Open House",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "Excel London Reports 60 Percent Growth in U.S. Events",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside Crypto.com Arena – Home of the Lakers, Kings, Sparks",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Step Inside Crypto.com Arena – Home of the Lakers, Kings, Sparks"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Jonas Brothers Setlist: What to Expect From Burning Up Tour All Over Again",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Jonas Brothers Setlist: What to Expect From Burning Up Tour All Over Again"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Lionel Richie Setlist: What to Expect at King of Hearts Las Vegas Residency",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "availability_status"
+      ]
+    },
+    {
+      "reason": "missing_event_occurrence_id",
+      "event_model": "ticket_availability",
+      "source": "Ticketmaster Blog",
+      "title": "Lionel Richie Setlist: What to Expect at King of Hearts Las Vegas Residency"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "exhibitor_sponsor_signal",
+      "source": "Exhibit City News",
+      "title": "ECN Magazine Archive Preserves Tradeshow Industry History",
+      "event_occurrence_id": "",
+      "required_field_gaps": [
+        "event_occurrence_id",
+        "organization_name",
+        "signal_type"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7053,225 +7077,6 @@
       "required_field_gaps": [
         "event_occurrence_id",
         "organization_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "More Impact beyond the Numbers: Toronto’s Value Advantage for Meetings",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "2026.10.21\n\t\t\t\t\t\t\t   \t \t\n\t\t\t\t\t\t\t   \t \t첼리스타 첼로 앙상블 정기연주회 : GALA",
-      "event_occurrence_id": "2026-10-21-gala:seoul-arts-center:2026-10-21:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "예술의전당 공연",
-      "title": "차이콥스키의 낭만\n\t                       \n\t                       \n\t                            \n\t                            \t\n\t                            \t차이콥스키의 낭만\n\t                            \n\t                       \n                            \n                            콘서트홀\n                            2026.11.25(수) 19:30",
-      "event_occurrence_id": "2026-11-25-19-30:seoul-arts-center:2026-10-21:seoul",
-      "required_field_gaps": [
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibit City News",
-      "title": "CC Spotlight: San Diego Convention Center",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibit City News",
-      "title": "Heroics Aren’t a Strategy, They’re a Discount",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "NHL Stadium Series: Series History & What You Need to Know for 2027",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "NHL Stadium Series: Series History & What You Need to Know for 2027"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "NHL Heritage Classic: Series History & What to Know for 2026",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "NHL Heritage Classic: Series History & What to Know for 2026"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "Discover NHL Winter Classic: Series History & What to Know for 2026",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "Discover NHL Winter Classic: Series History & What to Know for 2026"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Exhibit City News",
-      "title": "Legends Global Mesa Convention Center Management Deal",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "Excelencia en eventos: una cadena de responsabilidad",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "Del evento al destino: ¿Cómo diseñamos el valor que dejamos?",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Event Marketer",
-      "title": "Survey Says: How Brands Turned Questions into Activations",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "PCMA Convene",
-      "title": "¿Qué tiene que ver la Copa Mundial Femenina de la FIFA 2027™ en Brasil con tu próximo evento?",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "Steal These Ideas: 10 CSR Activities and Gifts From IMEX and Beyond",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "exhibitor_sponsor_signal",
-      "source": "Skift Meetings",
-      "title": "The AI Paradox Looming Over the Meetings Industry",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "organization_name",
-        "signal_type"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
-      ]
-    },
-    {
-      "reason": "missing_event_occurrence_id",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "2026 World Series: Schedule, Tickets, Format & Fall Classic FAQs"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "ticket_availability",
-      "source": "Ticketmaster Blog",
-      "title": "Much Ado About Nothing’s Mason Alexander Park Shares Pre-Show Playlist",
-      "event_occurrence_id": "",
-      "required_field_gaps": [
-        "event_occurrence_id",
-        "availability_status"
       ]
     }
   ],
