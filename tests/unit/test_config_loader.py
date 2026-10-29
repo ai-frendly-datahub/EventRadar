@@ -27,6 +27,7 @@ sources:
       - official_event_calendar
       - venue_calendar
     notes: official event calendar
+    default_timezone: Asia/Seoul
     config:
       wait_for: .event_list
       event_model: official_event_calendar
@@ -49,6 +50,7 @@ entities: []
     assert source.producer_role == "government"
     assert source.info_purpose == ["official_event_calendar", "venue_calendar"]
     assert source.notes == "official event calendar"
+    assert source.default_timezone == "Asia/Seoul"
     assert source.config == {
         "wait_for": ".event_list",
         "event_model": "official_event_calendar",

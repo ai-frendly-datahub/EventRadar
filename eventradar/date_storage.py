@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import shutil
-from datetime import UTC, date, datetime, timedelta
+from datetime import date, timedelta
 from pathlib import Path
+
+from radar_core.dates import daily_partition_date
 
 
 def snapshot_database(
@@ -15,7 +17,7 @@ def snapshot_database(
         return None
 
     if snapshot_date is None:
-        snapshot_date = datetime.now(UTC).date()
+        snapshot_date = daily_partition_date()
 
     if snapshot_root is None:
         snapshot_root = db_path.parent / "daily"
@@ -29,7 +31,7 @@ def snapshot_database(
 
 def cleanup_date_directories(base_dir: Path, *, keep_days: int, today: date | None = None) -> int:
     if today is None:
-        today = datetime.now(UTC).date()
+        today = daily_partition_date()
 
     cutoff = today - timedelta(days=keep_days)
     removed = 0
@@ -57,7 +59,7 @@ def cleanup_date_directories(base_dir: Path, *, keep_days: int, today: date | No
 
 def cleanup_dated_reports(report_dir: Path, *, keep_days: int, today: date | None = None) -> int:
     if today is None:
-        today = datetime.now(UTC).date()
+        today = daily_partition_date()
 
     cutoff = today - timedelta(days=keep_days)
     removed = 0
@@ -69,7 +71,7 @@ def cleanup_dated_reports(report_dir: Path, *, keep_days: int, today: date | Non
         try:
             date_str = item.stem.split("_")[-1]
             if len(date_str) == 8:
-                stamp = datetime.strptime(date_str, "%Y%m%d").replace(tzinfo=UTC).date()
+                stamp = date.fromisoformat(f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}")
                 if stamp < cutoff:
                     item.unlink()
                     removed += 1
